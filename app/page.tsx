@@ -36,7 +36,7 @@ export default function Home() {
 
       {/* HERO */}
       <section className="hero">
-        <div className="bg"><img src="https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=2000&q=80" alt="Chalet à Valmorel" /></div>
+        <div className="bg"><img src="https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1600&q=68" alt="Chalet à Valmorel" fetchPriority="high" /></div>
         <div className="wrap inner">
           <div className="rv in">
             <p className="eyebrow">Expert de l&apos;habitat touristique de montagne depuis 2018</p>
@@ -126,7 +126,7 @@ export default function Home() {
       <section className="sec" id="services" style={{ background: "var(--snow)" }}>
         <div className="wrap">
           <div className="svc">
-            <div className="media rv"><img src="https://res.cloudinary.com/dxhtjrnvt/image/upload/v1782299030/cledici/equipe-montagne.jpg" alt="L'équipe Cledici Conciergerie à Valmorel" /></div>
+            <div className="media rv"><img src="https://res.cloudinary.com/dxhtjrnvt/image/upload/f_auto,q_auto,w_1000/v1782299030/cledici/equipe-montagne.jpg" alt="L'équipe Cledici Conciergerie à Valmorel" loading="lazy" /></div>
             <div className="rv">
               <p className="eyebrow">Une gestion complète, de A à Z</p>
               <h2 style={{ fontSize: "clamp(26px,3.2vw,38px)", fontWeight: 800, lineHeight: 1.15, marginTop: 12 }}>Tout ce qui fait la réussite de votre location en montagne.</h2>

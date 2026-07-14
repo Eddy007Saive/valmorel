@@ -25,6 +25,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="fr" className={montserrat.variable}>
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="" />
+        <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="" />
+      </head>
       <body>
         <RevealInit />
         {children}
