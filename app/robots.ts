@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       // On autorise explicitement les robots IA (référencement GEO).
       { userAgent: ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-Web", "PerplexityBot", "Google-Extended", "Applebot-Extended", "CCBot"], allow: "/" },
     ],
-    sitemap: "https://cledici.fr/sitemap.xml",
-    host: "https://cledici.fr",
+    sitemap: "https://valmorel.cledici.fr/sitemap.xml",
+    host: "https://valmorel.cledici.fr",
   };
 }

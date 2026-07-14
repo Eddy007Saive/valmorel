@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { CITIES } from "./lib/cities";
 import { ARTICLES } from "./lib/articles";
 
-const BASE = "https://cledici.fr";
+const BASE = "https://valmorel.cledici.fr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = ["", "/securite-reglementation", "/nos-interventions", "/blog"];

@@ -37,7 +37,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       priceRange: "€€€",
       areaServed: { "@type": "City", name: c.name },
       address: { "@type": "PostalAddress", addressLocality: c.name, addressRegion: "Savoie", addressCountry: "FR" },
-      url: `https://cledici.fr/conciergerie/${c.slug}`,
+      url: `https://valmorel.cledici.fr/conciergerie/${c.slug}`,
     },
     {
       "@context": "https://schema.org",
@@ -48,9 +48,9 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Accueil", item: "https://cledici.fr" },
-        { "@type": "ListItem", position: 2, name: "Nos interventions", item: "https://cledici.fr/nos-interventions" },
-        { "@type": "ListItem", position: 3, name: c.name, item: `https://cledici.fr/conciergerie/${c.slug}` },
+        { "@type": "ListItem", position: 1, name: "Accueil", item: "https://valmorel.cledici.fr" },
+        { "@type": "ListItem", position: 2, name: "Nos interventions", item: "https://valmorel.cledici.fr/nos-interventions" },
+        { "@type": "ListItem", position: 3, name: c.name, item: `https://valmorel.cledici.fr/conciergerie/${c.slug}` },
       ],
     },
   ];

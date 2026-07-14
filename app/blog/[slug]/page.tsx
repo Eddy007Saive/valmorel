@@ -35,7 +35,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     datePublished: a.date,
     author: { "@type": "Organization", name: "Cledici Conciergerie" },
     publisher: { "@type": "Organization", name: "Cledici Conciergerie" },
-    mainEntityOfPage: `https://cledici.fr/blog/${a.slug}`,
+    mainEntityOfPage: `https://valmorel.cledici.fr/blog/${a.slug}`,
   };
 
   // FAQPage : on extrait les couples <h3>question</h3><p>réponse</p> du contenu.

@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cledici.fr"),
+  metadataBase: new URL("https://valmorel.cledici.fr"),
   title: {
     default: "Cledici Conciergerie — Conciergerie Airbnb à Valmorel",
     template: "%s — Cledici Conciergerie",
