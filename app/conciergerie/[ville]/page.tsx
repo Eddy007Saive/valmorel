@@ -103,7 +103,8 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
           <p className="rv rv-2" style={{ marginTop: 16, fontSize: 16, lineHeight: 1.7, color: "var(--muted)" }}>
             Comme partout à Valmorel et dans la vallée, la location d&apos;un meublé de tourisme suppose une déclaration en mairie et une taxe de séjour qui dépend du classement du bien.
           </p>
-          <table className="data-table rv rv-3">
+          <div className="table-wrap rv rv-3">
+          <table className="data-table">
             <thead><tr><th>Obligation</th><th>Détail</th></tr></thead>
             <tbody>
               <tr><td>Déclaration en mairie</td><td>Cerfa 14004*04 ou service Declaloc → récépissé</td></tr>
@@ -112,6 +113,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
               <tr><td>Abattement fiscal (micro-BIC)</td><td>71 % si classé, 50 % si non classé</td></tr>
             </tbody>
           </table>
+          </div>
           <p style={{ marginTop: 18 }}>
             <Link href="/securite-reglementation" style={{ color: "var(--green)", fontWeight: 600, textDecoration: "underline", textUnderlineOffset: 3 }}>
               Voir le guide complet : sécurité &amp; réglementation à Valmorel →

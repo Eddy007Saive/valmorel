@@ -215,6 +215,9 @@ a{color:inherit;text-decoration:none}
 .data-table{width:100%;border-collapse:collapse;margin-top:22px;font-size:14.5px}
 .data-table th,.data-table td{border:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top}
 .data-table th{background:var(--snow);font-weight:700}
+/* Conteneur scrollable pour tableaux larges (évite le débordement horizontal sur mobile) */
+.table-wrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:22px 0}
+.table-wrap>table{margin:0}
 .prose h2{font-size:clamp(24px,2.6vw,32px);font-weight:800;margin:38px 0 12px}
 .prose h3{font-size:20px;font-weight:700;margin:26px 0 8px}
 .prose p{font-size:16px;line-height:1.75;color:var(--ink);margin:12px 0}
@@ -235,6 +238,14 @@ a{color:inherit;text-decoration:none}
   .mobile-menu a:not(.btn){padding:14px 4px;font-size:15.5px;font-weight:600;color:var(--ink);border-bottom:1px solid var(--line)}
   .mobile-menu .btn{margin-top:14px;justify-content:center;padding:14px}
   .hero .inner,.svc,.zone .box,.final .inner{grid-template-columns:1fr;gap:36px}
+  /* Hero mobile : bloc texte centré (le formulaire reste aligné à gauche) */
+  .hero .inner>div{text-align:center;display:flex;flex-direction:column;align-items:center}
+  .hero h1,.hero .sub{margin-left:auto;margin-right:auto}
+  .hero .plats{width:100%}
+  .hero .plats .row{justify-content:center}
+  .hero .trust-mini{justify-content:center;flex-wrap:wrap}
+  .hero::after{background:linear-gradient(180deg,rgba(10,40,36,.72),rgba(10,40,36,.82))}
+  .table-wrap>table{min-width:520px}
   .benes{grid-template-columns:1fr 1fr}.band .row,.steps,.avis .grid{grid-template-columns:1fr}
   .band .it{border-right:none;border-bottom:1px solid rgba(255,255,255,.14)}
   .sec{padding:64px 0}

@@ -62,6 +62,7 @@ export default function ReglementationPage() {
 
             <h2>2. Faire classer votre meublé (fortement recommandé)</h2>
             <p>Le classement en meublé de tourisme (de 1 à 5 étoiles) est réalisé par l&apos;<strong>Office de Tourisme de Valmorel</strong> (accrédité AFNOR). Il est <strong>valable 5 ans</strong> et coûte à partir de <strong>120 €</strong>. Il change tout pour la rentabilité :</p>
+            <div className="table-wrap">
             <table className="data-table">
               <thead><tr><th>Avantage</th><th>Meublé non classé</th><th>Meublé classé</th></tr></thead>
               <tbody>
@@ -71,9 +72,11 @@ export default function ReglementationPage() {
                 <tr><td>Éligibilité chèques ANCV</td><td>—</td><td>Oui</td></tr>
               </tbody>
             </table>
+            </div>
 
             <h2>3. La taxe de séjour à Valmorel, selon le classement du bien</h2>
             <p>À Valmorel, la taxe de séjour est perçue au réel par la <strong>Communauté de Communes des Vallées d&apos;Aigueblanche (CCVA)</strong>, par personne et par nuit, avec une <strong>majoration départementale de 10 %</strong> (Savoie) qui s&apos;ajoute aux montants ci-dessous.</p>
+            <div className="table-wrap">
             <table className="data-table">
               <thead><tr><th>Classement du bien</th><th>Taxe de séjour (par personne / nuit)</th></tr></thead>
               <tbody>
@@ -81,6 +84,7 @@ export default function ReglementationPage() {
                 <tr><td>Meublé classé (1★ à 5★)</td><td>Tarif <strong>fixe</strong>, croissant avec le nombre d&apos;étoiles, fixé par la CCVA (barème communal)</td></tr>
               </tbody>
             </table>
+            </div>
             <p style={{ fontSize: 13, color: "var(--muted)" }}>Majoration départementale de 10 % (Savoie) en sus. Barème communal détaillé : plateforme CCVA (ccvasavoie.taxesejour.fr). Cledici collecte et reverse la taxe de séjour pour vous.</p>
 
             <h2>4. Votre bien assuré, pas seulement géré</h2>
