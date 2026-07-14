@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import LeadForm from "./components/LeadForm";
 
 const PARTNERS = ["Airbnb", "Booking.com", "Le Collectionist", "Marriott", "Plumguide", "HomeToGo", "Abritel", "Beds24", "Stripe", "HostProtect", "GoodTime BNB"];
 const OCC = [
@@ -11,23 +12,6 @@ const OCC = [
   { m: "Sep", bar: 96, fill: 58, base: 38 }, { m: "Oct", bar: 80, fill: 54, base: 26 },
   { m: "Nov", bar: 83, fill: 51, base: 32 }, { m: "Déc", bar: 150, fill: 22, base: 128 },
 ];
-
-function LeadForm({ title, hint, pfx, anchor }: { title: string; hint: string; pfx: string; anchor?: boolean }) {
-  return (
-    <div className="lead rv" {...(anchor ? { id: "contact" } : {})}>
-      <h2>{title}</h2>
-      <p className="hint">{hint}</p>
-      <label htmlFor={`${pfx}-type`}>Type de bien</label>
-      <select id={`${pfx}-type`} aria-label="Type de bien" defaultValue="Appartement"><option>Appartement</option><option>Chalet</option><option>Studio</option><option>Autre</option></select>
-      <label htmlFor={`${pfx}-email`}>Adresse e-mail</label>
-      <input id={`${pfx}-email`} type="email" aria-label="Adresse e-mail" placeholder="vous@email.fr" />
-      <label htmlFor={`${pfx}-tel`}>Téléphone</label>
-      <input id={`${pfx}-tel`} type="tel" aria-label="Téléphone" placeholder="06 00 00 00 00" />
-      <button className="btn btn-green">Être recontacté</button>
-      <div className="commission">Proposition sur mesure<b>Étude gratuite de votre potentiel locatif</b></div>
-    </div>
-  );
-}
 
 /** Fond pleine largeur Unsplash, responsive (srcset) : le mobile télécharge une version légère. */
 function Bg({ id, alt, priority }: { id: string; alt: string; priority?: boolean }) {
