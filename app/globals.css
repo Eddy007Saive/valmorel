@@ -243,8 +243,8 @@ a{color:inherit;text-decoration:none}
 }
 @media(max-width:560px){
   .nav{height:72px}
-  .brand{font-size:18px}.brand small{display:none}
-  .nav .btn{padding:10px 14px;font-size:12px}
+  .brand{font-size:18px}.brand>div{white-space:nowrap}
+  .nav-right .btn{display:none} /* CTA déjà présent dans le menu hamburger */
   .hero{min-height:auto}
   .hero .inner{padding:100px 0 44px;gap:30px}
   .hero::after{background:rgba(10,40,36,.76)}
