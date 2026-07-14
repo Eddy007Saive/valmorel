@@ -50,13 +50,13 @@ export default function ReglementationPage() {
 
       <section className="sec" style={{ paddingTop: 64 }}>
         <div className="wrap" style={{ maxWidth: 860 }}>
-          <p className="eyebrow">Sécurité &amp; réglementation</p>
-          <h1 style={{ fontSize: "clamp(30px,4vw,46px)", fontWeight: 800, lineHeight: 1.12, marginTop: 12 }}>Réglementation des meublés de tourisme à Valmorel.</h1>
-          <p style={{ marginTop: 18, fontSize: "17px", lineHeight: 1.7, color: "var(--muted)", maxWidth: "60ch" }}>
+          <p className="eyebrow rv">Sécurité &amp; réglementation</p>
+          <h1 className="rv rv-1" style={{ fontSize: "clamp(30px,4vw,46px)", fontWeight: 800, lineHeight: 1.12, marginTop: 12 }}>Réglementation des meublés de tourisme à Valmorel.</h1>
+          <p className="rv rv-2" style={{ marginTop: 18, fontSize: "17px", lineHeight: 1.7, color: "var(--muted)", maxWidth: "60ch" }}>
             Déclaration, classement, taxe de séjour, assurance : tout ce qu&apos;un propriétaire doit savoir pour louer sereinement à Valmorel (commune des Avanchers-Valmorel, Savoie). Cledici prend en charge l&apos;ensemble des démarches.
           </p>
 
-          <div className="prose">
+          <div className="prose rv">
             <h2>1. Déclarer votre meublé en mairie</h2>
             <p>Toute location de meublé de tourisme doit être <strong>déclarée à la mairie des Avanchers-Valmorel</strong>, via le formulaire <strong>Cerfa n°14004*04</strong> ou le service en ligne <strong>Declaloc</strong>. La mairie délivre un <strong>récépissé</strong> qui vaut preuve de déclaration — à conserver et à mentionner sur vos annonces.</p>
 
@@ -91,7 +91,7 @@ export default function ReglementationPage() {
           </div>
 
           {/* FAQ */}
-          <div className="faq" style={{ margin: "40px 0 0" }}>
+          <div className="faq rv" style={{ margin: "40px 0 0" }}>
             {FAQ.map((f, i) => (
               <details key={i} open={i === 0}>
                 <summary>{f.q}<span className="p">+</span></summary>

@@ -23,8 +23,8 @@ export default function BlogPage() {
             <p>Réglementation, rentabilité, classement, saisonnalité : tout pour louer mieux en montagne.</p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(320px,1fr))", gap: 26, marginTop: 46 }}>
-            {posts.map((p) => (
-              <Link key={p.slug} href={`/blog/${p.slug}`} className="rv" style={{ borderRadius: 16, overflow: "hidden", border: "1px solid var(--line)", background: "#fff", display: "block" }}>
+            {posts.map((p, i) => (
+              <Link key={p.slug} href={`/blog/${p.slug}`} className={`rv rv-${i + 1}`} style={{ borderRadius: 16, overflow: "hidden", border: "1px solid var(--line)", background: "#fff", display: "block" }}>
                 <img src={p.cover} alt={p.title} style={{ width: "100%", height: 180, objectFit: "cover" }} />
                 <div style={{ padding: "20px 22px" }}>
                   <div style={{ fontSize: 11.5, fontWeight: 700, letterSpacing: ".06em", textTransform: "uppercase", color: "var(--gold)" }}>{fmtDate(p.date)}</div>

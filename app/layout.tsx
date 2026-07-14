@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   description:
     "Expert de l'habitat touristique de montagne depuis 2018. Confiez votre bien à Valmorel : rentabilité optimisée toute l'année (y compris en période creuse), accueil des voyageurs, entretien et suivi.",
   keywords: ["conciergerie Valmorel", "conciergerie Airbnb Valmorel", "gestion location Valmorel", "location saisonnière Valmorel"],
+  verification: { google: "9JwZDkYSpKho3KbBb0M75yIxpDXz1m3ndkBbWwaQspU" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

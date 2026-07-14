@@ -81,10 +81,10 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       {/* MARCHÉ PORTEUR */}
       <section className="sec">
         <div className="wrap" style={{ maxWidth: 900 }}>
-          <p className="eyebrow">Le marché de {c.name}</p>
-          <h2 style={{ fontSize: "clamp(26px,3vw,38px)", fontWeight: 800, lineHeight: 1.15, marginTop: 12 }}>Pourquoi {c.name} est un marché porteur.</h2>
-          <p style={{ marginTop: 18, fontSize: "16.5px", lineHeight: 1.75, color: "var(--ink)" }}>{c.marche}</p>
-          <ul style={{ marginTop: 20, listStyle: "none" }}>
+          <p className="eyebrow rv">Le marché de {c.name}</p>
+          <h2 className="rv rv-1" style={{ fontSize: "clamp(26px,3vw,38px)", fontWeight: 800, lineHeight: 1.15, marginTop: 12 }}>Pourquoi {c.name} est un marché porteur.</h2>
+          <p className="rv rv-2" style={{ marginTop: 18, fontSize: "16.5px", lineHeight: 1.75, color: "var(--ink)" }}>{c.marche}</p>
+          <ul className="rv rv-3" style={{ marginTop: 20, listStyle: "none" }}>
             {c.highlights.map((h) => (
               <li key={h} style={{ display: "flex", gap: 12, padding: "10px 0", borderBottom: "1px solid var(--line)" }}>
                 <span style={{ color: "var(--gold)", fontWeight: 800 }}>—</span>
@@ -98,12 +98,12 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       {/* DONNÉES SEO/IA : réglementation & taxe */}
       <section className="sec" style={{ background: "var(--snow)" }}>
         <div className="wrap" style={{ maxWidth: 900 }}>
-          <p className="eyebrow">Réglementation &amp; taxe de séjour</p>
-          <h2 style={{ fontSize: "clamp(24px,2.7vw,34px)", fontWeight: 800, lineHeight: 1.15, marginTop: 12 }}>Louer à {c.name} en toute conformité.</h2>
-          <p style={{ marginTop: 16, fontSize: 16, lineHeight: 1.7, color: "var(--muted)" }}>
+          <p className="eyebrow rv">Réglementation &amp; taxe de séjour</p>
+          <h2 className="rv rv-1" style={{ fontSize: "clamp(24px,2.7vw,34px)", fontWeight: 800, lineHeight: 1.15, marginTop: 12 }}>Louer à {c.name} en toute conformité.</h2>
+          <p className="rv rv-2" style={{ marginTop: 16, fontSize: 16, lineHeight: 1.7, color: "var(--muted)" }}>
             Comme partout à Valmorel et dans la vallée, la location d&apos;un meublé de tourisme suppose une déclaration en mairie et une taxe de séjour qui dépend du classement du bien.
           </p>
-          <table className="data-table">
+          <table className="data-table rv rv-3">
             <thead><tr><th>Obligation</th><th>Détail</th></tr></thead>
             <tbody>
               <tr><td>Déclaration en mairie</td><td>Cerfa 14004*04 ou service Declaloc → récépissé</td></tr>
@@ -124,7 +124,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       <section className="sec">
         <div className="wrap" style={{ maxWidth: 780 }}>
           <div className="sec-head center rv"><p className="eyebrow">Questions fréquentes</p><h2>Conciergerie à {c.name}</h2></div>
-          <div className="faq" style={{ margin: "34px auto 0" }}>
+          <div className="faq rv" style={{ margin: "34px auto 0" }}>
             {c.faq.map((f, i) => (
               <details key={i} open={i === 0}><summary>{f.q}<span className="p">+</span></summary><p className="a">{f.a}</p></details>
             ))}

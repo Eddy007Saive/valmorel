@@ -22,8 +22,8 @@ export default function NosInterventionsPage() {
             <p>Nous gérons les locations saisonnières sur l&apos;ensemble de la station de Valmorel et des communes reliées au Grand Domaine. Choisissez votre commune.</p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(300px,1fr))", gap: 26, marginTop: 46 }}>
-            {CITIES.map((c) => (
-              <Link key={c.slug} href={`/conciergerie/${c.slug}`} className="rv" style={{ borderRadius: 16, overflow: "hidden", border: "1px solid var(--line)", background: "#fff", display: "block" }}>
+            {CITIES.map((c, i) => (
+              <Link key={c.slug} href={`/conciergerie/${c.slug}`} className={`rv rv-${(i % 4) + 1}`} style={{ borderRadius: 16, overflow: "hidden", border: "1px solid var(--line)", background: "#fff", display: "block" }}>
                 <img src={c.image} alt={`Conciergerie à ${c.name}`} style={{ width: "100%", height: 190, objectFit: "cover" }} />
                 <div style={{ padding: "20px 22px" }}>
                   <div style={{ fontSize: 11.5, fontWeight: 700, letterSpacing: ".08em", textTransform: "uppercase", color: "var(--gold)" }}>{c.region}</div>
