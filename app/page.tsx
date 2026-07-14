@@ -12,17 +12,17 @@ const OCC = [
   { m: "Nov", bar: 83, fill: 51, base: 32 }, { m: "Déc", bar: 150, fill: 22, base: 128 },
 ];
 
-function LeadForm({ title, hint }: { title: string; hint: string }) {
+function LeadForm({ title, hint, pfx, anchor }: { title: string; hint: string; pfx: string; anchor?: boolean }) {
   return (
-    <div className="lead rv" id="contact">
+    <div className="lead rv" {...(anchor ? { id: "contact" } : {})}>
       <h2>{title}</h2>
       <p className="hint">{hint}</p>
-      <label>Type de bien</label>
-      <select defaultValue="Appartement"><option>Appartement</option><option>Chalet</option><option>Studio</option><option>Autre</option></select>
-      <label>Adresse e-mail</label>
-      <input type="email" placeholder="vous@email.fr" />
-      <label>Téléphone</label>
-      <input type="tel" placeholder="06 00 00 00 00" />
+      <label htmlFor={`${pfx}-type`}>Type de bien</label>
+      <select id={`${pfx}-type`} aria-label="Type de bien" defaultValue="Appartement"><option>Appartement</option><option>Chalet</option><option>Studio</option><option>Autre</option></select>
+      <label htmlFor={`${pfx}-email`}>Adresse e-mail</label>
+      <input id={`${pfx}-email`} type="email" aria-label="Adresse e-mail" placeholder="vous@email.fr" />
+      <label htmlFor={`${pfx}-tel`}>Téléphone</label>
+      <input id={`${pfx}-tel`} type="tel" aria-label="Téléphone" placeholder="06 00 00 00 00" />
       <button className="btn btn-green">Être recontacté</button>
       <div className="commission">Proposition sur mesure<b>Étude gratuite de votre potentiel locatif</b></div>
     </div>
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="trust-mini"><span className="st">★★★★★</span><b style={{ color: "#fff" }}>4,9 / 5</b><span>· propriétaires accompagnés depuis 2018</span></div>
           </div>
-          <LeadForm title="Propriétaire à Valmorel ? Estimez vos revenus." hint="Gratuit et sans engagement. Un expert local vous recontacte sous 24 h." />
+          <LeadForm pfx="lf-hero" anchor title="Propriétaire à Valmorel ? Estimez vos revenus." hint="Gratuit et sans engagement. Un expert local vous recontacte sous 24 h." />
         </div>
       </section>
 
@@ -263,7 +263,7 @@ export default function Home() {
             <p>Estimation gratuite et sans engagement. Un expert local vous recontacte sous 24 h.</p>
             <ul><li>Revenus optimisés sur toute la saison</li><li>Accueil &amp; ménage pris en charge</li><li>Un interlocuteur dédié, présent sur place</li></ul>
           </div>
-          <LeadForm title="Estimez vos revenus" hint="Réponse personnalisée sous 24 h." />
+          <LeadForm pfx="lf-final" title="Estimez vos revenus" hint="Réponse personnalisée sous 24 h." />
         </div></div>
       </section>
 

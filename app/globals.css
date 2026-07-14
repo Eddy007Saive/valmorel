@@ -24,7 +24,7 @@ a{color:inherit;text-decoration:none}
   .marquee .track{animation:none!important}
 }
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-size:14px;font-weight:700;padding:15px 28px;border-radius:10px;cursor:pointer;border:none;transition:.2s}
-.btn-g{background:var(--gold);color:#fff}.btn-g:hover{background:var(--gold-d)}
+.btn-g{background:var(--gold);color:var(--ink)}.btn-g:hover{filter:brightness(.93)}
 .btn-green{background:var(--green);color:#fff}.btn-green:hover{background:var(--green-d)}
 .btn-o{background:transparent;border:1.5px solid currentColor}
 
