@@ -29,6 +29,22 @@ function LeadForm({ title, hint }: { title: string; hint: string }) {
   );
 }
 
+/** Fond pleine largeur Unsplash, responsive (srcset) : le mobile télécharge une version légère. */
+function Bg({ id, alt, priority }: { id: string; alt: string; priority?: boolean }) {
+  const base = `https://images.unsplash.com/${id}?auto=format&fit=crop&q=58`;
+  return (
+    <div className="bg">
+      <img
+        src={`${base}&w=1440`}
+        srcSet={`${base}&w=640 640w, ${base}&w=1024 1024w, ${base}&w=1440 1440w, ${base}&w=1920 1920w`}
+        sizes="100vw"
+        alt={alt}
+        {...(priority ? { fetchPriority: "high" as const } : { loading: "lazy" as const })}
+      />
+    </div>
+  );
+}
+
 export default function Home() {
   return (
     <>
@@ -36,7 +52,7 @@ export default function Home() {
 
       {/* HERO */}
       <section className="hero">
-        <div className="bg"><img src="https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1600&q=68" alt="Chalet à Valmorel" fetchPriority="high" /></div>
+        <Bg id="photo-1551524559-8af4e6624178" alt="Chalet à Valmorel" priority />
         <div className="wrap inner">
           <div className="rv in">
             <p className="eyebrow">Expert de l&apos;habitat touristique de montagne depuis 2018</p>
@@ -163,7 +179,7 @@ export default function Home() {
 
       {/* EXPERTISE */}
       <section className="exp" id="expertise">
-        <div className="bg"><img src="https://images.unsplash.com/photo-1605540436563-5bca919ae766?auto=format&fit=crop&w=2000&q=80" alt="Montagne Valmorel" /></div>
+        <Bg id="photo-1605540436563-5bca919ae766" alt="Montagne Valmorel" />
         <div className="wrap"><div className="inner rv in">
           <p className="eyebrow">Notre expertise</p>
           <h2>Experts de l&apos;habitat touristique de montagne depuis 2018.</h2>
@@ -239,7 +255,7 @@ export default function Home() {
 
       {/* FINAL CTA */}
       <section className="final">
-        <div className="bg"><img src="https://images.unsplash.com/photo-1517320964276-a002fa203177?auto=format&fit=crop&w=2000&q=80" alt="" /></div>
+        <Bg id="photo-1517320964276-a002fa203177" alt="" />
         <div className="wrap"><div className="inner">
           <div className="rv">
             <p className="eyebrow" style={{ color: "#F2C879" }}>Prêt à déléguer ?</p>
