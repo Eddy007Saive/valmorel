@@ -12,6 +12,79 @@ export type Article = {
 // Contenu rédigé par ChatSEO — données réelles Valmorel / CCVA (Savoie).
 export const ARTICLES: Article[] = [
   {
+    slug: "declaration-location-meublee-avanchers-valmorel",
+    title: "Déclarer sa location meublée aux Avanchers-Valmorel : la démarche pas à pas",
+    excerpt:
+      "Avant de publier votre première annonce à Valmorel, une formalité s'impose : la déclaration en mairie. Voici comment la faire, en dix minutes, sans erreur.",
+    date: "2026-07-15",
+    cover: "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Déclaration location meublée Avanchers-Valmorel : le guide",
+    seoDescription:
+      "Déclaration location meublée Avanchers-Valmorel : Cerfa 14004*04, Declaloc, récépissé, amende encourue. Le pas-à-pas clair pour louer en toute légalité.",
+    contentHtml: `<h2>TL;DR : ce qu'il faut retenir</h2>
+<p>La <strong>déclaration location meublée Avanchers-Valmorel</strong> est une formalité gratuite et obligatoire, à faire en mairie <em>avant</em> la première mise en location, que votre bien soit classé ou non. Deux options : le formulaire Cerfa 14004*04 envoyé à la mairie, ou la téléprocédure Declaloc, plus rapide. En retour, vous recevez un récépissé avec un numéro de déclaration à afficher sur toutes vos annonces (Airbnb, Booking, Abritel...). Sans cette démarche, vous risquez une amende. Chez Cledici, on s'occupe de tout ça pour nos propriétaires, du premier dossier jusqu'au renouvellement en cas de changement.</p>
+
+<h2>Pourquoi la déclaration en mairie est obligatoire avant toute location saisonnière</h2>
+<p>Beaucoup de propriétaires débutants à Valmorel pensent qu'il suffit de meubler l'appartement et de créer une annonce en ligne. C'est une erreur qui peut coûter cher. Depuis la loi ELAN, tout logement meublé loué à une clientèle de passage - à la nuitée, à la semaine ou au mois, sans y élire domicile - doit être déclaré à la mairie de la commune où il se situe, ici <strong>Les Avanchers-Valmorel</strong>. Cette obligation existe indépendamment du classement en étoiles : un meublé non classé doit être déclaré exactement comme un meublé classé.</p>
+<p>La distinction résidence principale / résidence secondaire change en revanche la donne :</p>
+<ul>
+<li><strong>Résidence principale</strong> (occupée au moins 8 mois par an) : la déclaration n'est pas obligatoire si vous la louez moins de 120 jours par an. Au-delà, une autorisation spécifique devient nécessaire.</li>
+<li><strong>Résidence secondaire</strong> : c'est le cas le plus fréquent à Valmorel pour les propriétaires bailleurs. La déclaration est ici <strong>systématiquement obligatoire</strong>, quel que soit le nombre de semaines louées dans l'année.</li>
+</ul>
+<p>Si votre chalet ou appartement au Grand Domaine n'est pas votre résidence principale, considérez donc cette démarche comme un préalable non négociable, au même titre que la souscription d'une assurance adaptée à la location saisonnière.</p>
+
+<h2>La check-list étape par étape pour déclarer votre meublé</h2>
+<p>Voici la marche à suivre, dans l'ordre, pour ne rien oublier.</p>
+<table>
+<tr><th>Étape</th><th>Action</th><th>Détail pratique</th></tr>
+<tr><td>1</td><td>Choisir le mode de déclaration</td><td>Formulaire Cerfa 14004*04 (papier) ou téléservice Declaloc (en ligne, plus rapide)</td></tr>
+<tr><td>2</td><td>Renseigner les informations du bien</td><td>Identité du déclarant, adresse exacte, nombre de pièces, capacité d'accueil maximale, statut classé ou non classé</td></tr>
+<tr><td>3</td><td>Transmettre à la mairie</td><td>Par e-mail ou courrier à la mairie des Avanchers-Valmorel, ou directement via le téléservice Declaloc</td></tr>
+<tr><td>4</td><td>Réception du récépissé</td><td>La mairie délivre un accusé de réception avec un numéro de déclaration unique</td></tr>
+<tr><td>5</td><td>Affichage du numéro</td><td>Ce numéro doit obligatoirement figurer sur toutes vos annonces en ligne</td></tr>
+</table>
+<p>Concrètement, si vous optez pour Declaloc, le dossier se boucle en quelques minutes depuis votre ordinateur : la commune des Avanchers-Valmorel est éligible à ce téléservice, ce qui évite l'allez-retour postal. Conservez précieusement le récépissé : c'est ce numéro qu'on vous demandera en cas de contrôle, et qu'il faudra transmettre à toute conciergerie ou plateforme de réservation qui gère votre bien.</p>
+
+<h2>Que risque-t-on en cas de non-déclaration ?</h2>
+<p>Louer sans avoir déclaré son meublé n'est pas une simple négligence administrative : c'est une infraction. Le défaut de déclaration est puni d'une <strong>amende pouvant aller jusqu'à 450 €</strong> pour un particulier. Ce montant grimpe fortement si la commune impose en plus un numéro d'enregistrement et que celui-ci fait défaut, ou si le logement est loué par une société plutôt qu'un particulier.</p>
+<p>Au-delà du risque financier, une annonce sans numéro de déclaration peut aussi être signalée ou retirée par les plateformes, qui vérifient de plus en plus systématiquement cette conformité avant d'autoriser la mise en ligne. Autant régler ce point dès le départ plutôt que de découvrir le problème en pleine saison, au moment où les réservations commencent à affluer.</p>
+
+<h2>Quand faut-il refaire une déclaration ?</h2>
+<p>La déclaration n'est pas éternelle telle quelle : certains changements imposent d'en refaire une nouvelle auprès de la mairie des Avanchers-Valmorel. C'est le cas si vous constatez :</p>
+<ul>
+<li>un <strong>changement de capacité d'accueil</strong> (ajout d'un lit, transformation d'une pièce, agrandissement du logement) ;</li>
+<li>un <strong>changement d'adresse</strong> (renumérotation, changement de résidence) ;</li>
+<li>un <strong>changement de classement</strong> (passage de non classé à classé, ou changement du nombre d'étoiles obtenu) ;</li>
+<li>un changement de propriétaire ou de déclarant.</li>
+</ul>
+<p>À l'inverse, tant qu'aucune de ces situations ne survient, il n'y a pas lieu de redéposer une déclaration chaque année : le récépissé initial reste valable.</p>
+
+<h2>Ce que cette déclaration ne remplace pas</h2>
+<p>Attention à ne pas tout confondre : la déclaration en mairie est une brique parmi d'autres dans la mise en conformité de votre location. Elle ne dispense ni de la collecte de la taxe de séjour au réel, gérée par la Communauté de Communes des Vallées d'Aigueblanche (CCVA), ni de la démarche volontaire de classement en meublé de tourisme, pilotée localement par l'Office de Tourisme de Valmorel. Ce sont trois formalités distinctes, complémentaires, qui forment ensemble le socle réglementaire d'une location saisonnière en règle sur le secteur du Grand Domaine.</p>
+<p>C'est précisément cette accumulation de démarches - déclaration, taxe de séjour, classement, assurance - qui décourage souvent les propriétaires débutants. Chez Cledici, conciergerie de montagne implantée à Valmorel depuis 2018, on prend en charge l'intégralité de ce parcours administratif pour le compte de nos propriétaires : dépôt de la déclaration, suivi du récépissé, coordination avec la mairie en cas de changement, et mise en conformité vis-à-vis de la taxe de séjour et du classement. Vous n'avez rien à gérer, la paperasse est notre métier depuis huit ans sur ce territoire.</p>
+
+<h2>FAQ : les questions que se posent les propriétaires débutants</h2>
+<h3>Combien de temps faut-il pour recevoir le récépissé ?</h3>
+<p>Cela varie selon les communes, mais comptez généralement de quelques jours à deux ou trois semaines pour un envoi papier. Via le téléservice Declaloc, le récépissé peut être obtenu quasi immédiatement en ligne, ce qui en fait l'option la plus pratique pour un premier dossier.</p>
+<h3>Faut-il redéclarer son meublé chaque année ?</h3>
+<p>Non. Une fois la déclaration effectuée et le récépissé obtenu, elle reste valable tant qu'aucun changement (capacité, adresse, classement) n'intervient. Il n'y a pas de renouvellement annuel automatique à effectuer.</p>
+<h3>La déclaration est-elle payante ?</h3>
+<p>Non, cette démarche est entièrement gratuite, que ce soit via le Cerfa 14004*04 ou via Declaloc.</p>
+<h3>Dois-je déclarer mon meublé même s'il n'est pas classé ?</h3>
+<p>Oui. Le classement en étoiles est facultatif et relève d'une autre démarche via l'Office de Tourisme. La déclaration en mairie, elle, concerne tous les meublés de tourisme, classés ou non.</p>
+<h3>Le numéro de déclaration est-il le même que celui de la taxe de séjour ?</h3>
+<p>Non, ce sont deux identifiants distincts. Le numéro de déclaration provient de la mairie, tandis que la gestion de la taxe de séjour relève de la CCVA.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li>Service-public.fr - <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/R14321" target="_blank" rel="noopener">Déclaration en mairie d'un meublé de tourisme</a></li>
+<li>Formulaire officiel - <a href="https://www.formulaires.service-public.gouv.fr/gf/cerfa_14004_04.do" target="_blank" rel="noopener">Cerfa 14004*04</a></li>
+<li>Mairie des Avanchers-Valmorel - <a href="https://www.lesavanchers.fr/demarches-administratives/" target="_blank" rel="noopener">Démarches administratives</a></li>
+<li>Téléservice - <a href="https://www.declaloc.fr/" target="_blank" rel="noopener">Declaloc</a></li>
+</ul>
+<p>Vous démarrez tout juste et vous voulez éviter les erreurs de parcours ? Contactez Cledici pour une <strong>estimation gratuite et personnalisée</strong> de votre bien : on vous dira exactement où vous en êtes sur la déclaration, la taxe de séjour et le classement, et on s'occupe du reste.</p>`,
+  },
+  {
     slug: "assurance-location-saisonniere-valmorel",
     title: "Assurance location saisonnière à Valmorel : ce qui est (vraiment) couvert",
     excerpt:
