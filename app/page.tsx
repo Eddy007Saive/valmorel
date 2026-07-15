@@ -36,7 +36,14 @@ export default function Home() {
 
       {/* HERO */}
       <section className="hero">
-        <Bg id="photo-1551524559-8af4e6624178" alt="Chalet à Valmorel" priority />
+        <div className="bg">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG/1280px-Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG"
+            alt="Le domaine skiable de Valmorel et le massif de la Lauzière en hiver"
+            fetchPriority="high"
+          />
+        </div>
+        <span className="hero-credit">© Florian Pépellin · CC BY-SA 4.0</span>
         <div className="wrap inner">
           <div className="rv in">
             <p className="eyebrow">Expert de l&apos;habitat touristique de montagne depuis 2018</p>
