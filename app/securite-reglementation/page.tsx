@@ -56,7 +56,7 @@ export default function ReglementationPage() {
             Déclaration, classement, taxe de séjour, assurance : tout ce qu&apos;un propriétaire doit savoir pour louer sereinement à Valmorel (commune des Avanchers-Valmorel, Savoie). Cledici prend en charge l&apos;ensemble des démarches.
           </p>
 
-          <div className="prose rv">
+          <div className="prose">
             <h2>1. Déclarer votre meublé en mairie</h2>
             <p>Toute location de meublé de tourisme doit être <strong>déclarée à la mairie des Avanchers-Valmorel</strong>, via le formulaire <strong>Cerfa n°14004*04</strong> ou le service en ligne <strong>Declaloc</strong>. La mairie délivre un <strong>récépissé</strong> qui vaut preuve de déclaration — à conserver et à mentionner sur vos annonces.</p>
 

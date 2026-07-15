@@ -82,7 +82,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <p className="rv rv-2" style={{ marginTop: 16, fontSize: 18, lineHeight: 1.6, color: "var(--muted)" }}>{a.excerpt}</p>
           <img className="rv rv-s" src={a.cover} alt={a.title} style={{ width: "100%", height: "clamp(260px,42vh,440px)", objectFit: "cover", borderRadius: 16, margin: "28px 0 8px" }} />
 
-          <div className="prose rv" dangerouslySetInnerHTML={{ __html: html }} />
+          <div className="prose" dangerouslySetInnerHTML={{ __html: html }} />
 
           <div className="rv rv-s" style={{ marginTop: 40, background: "var(--green)", color: "#fff", borderRadius: 18, padding: "34px 32px", textAlign: "center" }}>
             <h2 style={{ fontSize: 24, fontWeight: 800, color: "#fff" }}>Prêt à déléguer votre bien à Valmorel ?</h2>
