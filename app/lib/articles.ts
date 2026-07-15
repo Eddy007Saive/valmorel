@@ -12,6 +12,94 @@ export type Article = {
 // Contenu rédigé par ChatSEO — données réelles Valmorel / CCVA (Savoie).
 export const ARTICLES: Article[] = [
   {
+    slug: "assurance-location-saisonniere-valmorel",
+    title: "Assurance location saisonnière à Valmorel : ce qui est (vraiment) couvert",
+    excerpt:
+      "Assurance habitation classique ou couverture spécifique location saisonnière ? Décryptage des garanties réelles (dégradations, nuisibles, perte d'exploitation, annulation) pour les propriétaires bailleurs à Valmorel.",
+    date: "2026-07-15",
+    cover: "https://images.unsplash.com/photo-1518602164578-cd0074062767?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Assurance location saisonnière Valmorel : ce qui est couvert",
+    seoDescription:
+      "Assurance habitation vs location meublée à Valmorel : dégradations, nuisibles, perte d'exploitation, annulation. Ce qui est vraiment couvert, expliqué simplement.",
+    contentHtml: `<h2>TL;DR : suis-je vraiment couvert si je loue mon bien ?</h2>
+<p>Oui, à condition d'avoir la bonne assurance - et ce n'est presque jamais celle que vous croyez. Votre assurance habitation classique de propriétaire ne suffit pas à couvrir une location saisonnière à Valmorel : elle n'a pas été conçue pour ça. Une couverture spécifique location saisonnière, en revanche, protège concrètement votre bien contre les dégradations locatives (jusqu'à 50 000 € par an dans les contrats des biens gérés en conciergerie), les dégâts liés aux nuisibles (10 000 €), la perte d'exploitation si le logement devient temporairement inhabitable (5 000 €), et intègre une assurance annulation qui vous protège si un voyageur se désiste. C'est justement pour lever cette peur des dégradations, des impayés ou des sinistres pendant votre absence que déléguer à une conciergerie assurée change tout.</p>
+
+<h2>Assurance habitation classique vs assurance location saisonnière : la confusion qui coûte cher</h2>
+<p>C'est l'erreur la plus fréquente chez les propriétaires de Valmorel et du Grand Domaine : penser que leur contrat multirisque habitation « propriétaire non occupant » (PNO) couvre automatiquement la location meublée de tourisme. Ce n'est pas le cas.</p>
+<p>Un contrat PNO classique est pensé pour un logement vide ou occupé par un locataire à l'année, pas pour des dizaines de séjours de quelques nuits avec des voyageurs différents chaque semaine. Il ne couvre généralement pas :</p>
+<ul>
+<li>Les dégradations causées par un locataire de passage (mobilier cassé, taches, brûlures sur un canapé, etc.)</li>
+<li>La perte de loyers si le bien devient inhabitable après un sinistre (dégât des eaux, panne de chauffage)</li>
+<li>Les désistements de dernière minute qui vous font perdre une réservation</li>
+<li>Les dégâts liés à des nuisibles (rongeurs, insectes) qui apparaissent souvent dans les logements de montagne peu chauffés hors saison</li>
+</ul>
+<p>Résultat : si vous ne déclarez pas votre activité de location meublée à votre assureur, vous risquez purement et simplement la nullité du contrat en cas de sinistre. C'est une obligation contractuelle, même si aucune loi n'impose une assurance spécifique en dehors de la copropriété (où la RC propriétaire est obligatoire depuis la loi ALUR).</p>
+<p>Une assurance location saisonnière, elle, est bâtie autour du risque réel de l'exploitation touristique : rotation rapide des voyageurs, usage intensif du mobilier et des équipements, saisonnalité des séjours, exposition en station de montagne. C'est ce type de couverture - souvent intégrée au contrat des biens gérés en conciergerie - qui vous met réellement à l'abri.</p>
+
+<h2>Ce que couvre concrètement l'assurance des biens gérés</h2>
+<p>Quand un bien est confié à une conciergerie assurée, la couverture ne se limite pas à une vague « garantie dommages ». Elle est chiffrée, plafonnée et pensée pour les trois scénarios qui inquiètent le plus les propriétaires : la casse, les nuisibles, et l'immobilisation forcée du logement.</p>
+<table>
+<tr>
+<th>Type de garantie</th>
+<th>Plafond</th>
+<th>Ce que ça couvre concrètement</th>
+</tr>
+<tr>
+<td>Dégradations locatives</td>
+<td>Jusqu'à 50 000 € par an</td>
+<td>Mobilier cassé ou abîmé, taches et brûlures sur textiles, électroménager endommagé, dégâts causés par un voyageur pendant son séjour</td>
+</tr>
+<tr>
+<td>Dégâts liés aux nuisibles</td>
+<td>10 000 €</td>
+<td>Interventions et réparations en cas de rongeurs, insectes ou autres nuisibles constatés dans le logement, fréquent dans les résidences de montagne peu occupées entre deux saisons</td>
+</tr>
+<tr>
+<td>Perte d'exploitation</td>
+<td>5 000 €</td>
+<td>Compensation du manque à gagner si le bien devient temporairement inhabitable (sinistre, panne majeure) et doit être fermé à la location le temps des réparations</td>
+</tr>
+</table>
+<p>Ces montants ne sont pas symboliques : un canapé d'angle et une literie de qualité à refaire dans un appartement du Grand Domaine, ça grimpe vite. Et une semaine de location perdue en pleine vacances de février, sur un bien qui tourne bien, représente souvent plusieurs centaines d'euros de manque à gagner. Avoir ces plafonds posés noir sur blanc, c'est ce qui transforme l'angoisse du « et si ça se passe mal » en un simple point de contrat qu'on peut vérifier.</p>
+
+<h2>L'assurance annulation : votre protection contre les désistements de voyageurs</h2>
+<p>Un autre scénario qui fait hésiter beaucoup de propriétaires : le voyageur qui réserve, puis annule à trois jours de l'arrivée. Dans une station comme Valmorel, où une bonne partie du chiffre d'affaires se joue sur les vacances scolaires et les semaines de neige garantie, un désistement mal géré peut représenter une perte sèche.</p>
+<p>L'assurance annulation intégrée à la gestion locative sert précisément à ça : elle protège le propriétaire contre la perte de revenu liée à un désistement, en fonction des conditions prévues au contrat de réservation. Concrètement, cela veut dire que vous n'êtes plus seul face à un client qui se rétracte : la conciergerie applique les conditions d'annulation, gère la relation avec le voyageur, et le cas échéant active la couverture prévue pour limiter votre perte.</p>
+<p>C'est un point souvent oublié quand on compare une location gérée par soi-même à une gestion déléguée : la protection ne concerne pas que les murs, elle concerne aussi votre chiffre d'affaires.</p>
+
+<h2>Pourquoi déléguer à une conciergerie assurée change la donne</h2>
+<p>La peur qui bloque le plus de propriétaires à Valmorel n'est pas financière au sens strict - c'est la peur de l'imprévu qu'on gère seul, à distance, sans avoir les bons réflexes ni les bons contacts. Un locataire qui casse une vitre un dimanche soir, un dégât des eaux découvert après le départ des voyageurs, un désistement la veille des vacances de Toussaint : seul, chaque incident devient une source de stress et de temps perdu.</p>
+<p>Confier son bien à une conciergerie assurée comme Cledici, présente sur Valmorel et le Grand Domaine depuis 2018, change concrètement la situation :</p>
+<ul>
+<li><strong>Un interlocuteur unique</strong> gère l'état des lieux, le constat des dégâts et la déclaration de sinistre à votre place</li>
+<li><strong>Une couverture déjà en place</strong> sur les dégradations, les nuisibles et la perte d'exploitation, sans démarche administrative de votre côté à chaque incident</li>
+<li><strong>Une gestion professionnelle des annulations</strong>, qui limite l'impact d'un désistement sur votre planning et vos revenus</li>
+<li><strong>Une présence locale</strong> qui permet d'intervenir rapidement en cas de problème, plutôt que de découvrir les dégâts des semaines plus tard</li>
+</ul>
+<p>Ce n'est pas une question de déléguer par confort : c'est une question de transformer une source d'inquiétude en un point de contrat clair, suivi par quelqu'un qui connaît le bien, la station et les voyageurs qui y séjournent.</p>
+
+<h2>Questions fréquentes des propriétaires</h2>
+<h3>Que se passe-t-il si un locataire dégrade mon bien pendant son séjour ?</h3>
+<p>Un état des lieux d'entrée et de sortie permet de constater les dégâts. Dans le cadre d'une gestion assurée, la dégradation est couverte jusqu'au plafond prévu au contrat (par exemple jusqu'à 50 000 € par an pour l'ensemble des dégradations locatives), et c'est la conciergerie qui pilote la déclaration et le remboursement.</p>
+<h3>Suis-je couvert en cas d'impayé de la part d'un voyageur ?</h3>
+<p>Dans une gestion professionnelle, le paiement est généralement sécurisé en amont du séjour (via une plateforme ou un dépôt de garantie), ce qui limite fortement le risque d'impayé par rapport à une location gérée en direct sans encaissement anticipé.</p>
+<h3>Mon assurance habitation personnelle suffit-elle pour louer mon appartement en meublé de tourisme ?</h3>
+<p>Non, dans la grande majorité des cas. Un contrat multirisque habitation classique ou même une PNO standard n'est pas conçu pour l'activité de location saisonnière. Il faut déclarer cette activité à votre assureur ou souscrire une couverture spécifique, sous peine de nullité du contrat en cas de sinistre.</p>
+<h3>Que couvre l'assurance en cas de nuisibles dans mon logement de montagne ?</h3>
+<p>Les logements peu chauffés en inter-saison sont plus exposés aux rongeurs et insectes. Une couverture dédiée peut prendre en charge jusqu'à 10 000 € de dégâts liés à ce type de nuisibles, incluant intervention et réparations.</p>
+<h3>Qui gère le sinistre si je ne suis pas sur place ?</h3>
+<p>C'est tout l'intérêt d'une conciergerie locale : elle constate les dégâts, prend les photos, déclare le sinistre et suit le dossier avec l'assureur, sans que vous ayez à faire l'aller-retour jusqu'à Valmorel.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li><a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F2721" target="_blank" rel="noopener noreferrer">Service-public.fr - Location meublée de tourisme : ce qu'il faut savoir</a></li>
+<li><a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F2045" target="_blank" rel="noopener noreferrer">Service-public.fr - Assurance habitation : ce qu'il faut savoir</a></li>
+<li><a href="https://www.macif.fr/assurance/particuliers/assurance-habitation-et-vie-quotidienne/assurance-villegiature-location-saisonniere" target="_blank" rel="noopener noreferrer">Macif - Assurance villégiature et location saisonnière</a></li>
+</ul>
+
+<p>Vous hésitez encore à louer votre bien à Valmorel par peur des dégradations, des impayés ou d'un sinistre en votre absence ? Demandez une estimation gratuite et personnalisée à Cledici Conciergerie : nous évaluons votre bien, votre potentiel locatif et le niveau de couverture adapté à votre situation, sans engagement.</p>`,
+  },
+  {
     slug: "taxe-de-sejour-valmorel-proprietaire-guide-2026",
     title: "Réglementation et taxe de séjour à Valmorel : le guide propriétaire 2026",
     excerpt:
