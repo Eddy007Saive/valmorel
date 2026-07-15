@@ -12,6 +12,210 @@ export type Article = {
 // Contenu rédigé par ChatSEO — données réelles Valmorel / CCVA (Savoie).
 export const ARTICLES: Article[] = [
   {
+    slug: "confier-chalet-conciergerie-valmorel",
+    title: "Confier son chalet à une conciergerie à Valmorel : ce qui change vraiment pour vous",
+    excerpt:
+      "Entre gestion à distance et délégation à une conciergerie de montagne, le quotidien d'un propriétaire à Valmorel n'a rien à voir. Voici ce qui change concrètement, chiffres et protection à l'appui.",
+    date: "2026-07-15",
+    cover: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Conciergerie location Valmorel : ce qui change pour vous",
+    seoDescription:
+      "Gérer seul ou déléguer ? Découvrez ce que change vraiment une conciergerie location Valmorel : quotidien, protection du bien, rentabilité. Estimation gratuite.",
+    contentHtml: `<p><strong>TL;DR</strong> - Gérer seul un chalet ou un appartement à Valmorel depuis Paris, Lyon ou Genève, c'est jongler avec les plateformes, répondre aux voyageurs à minuit, trouver une femme de ménage disponible un dimanche de relève, et gérer l'imprévu (fuite d'eau, panne de chauffage) sans être sur place. Une <strong>conciergerie location Valmorel</strong> reprend tout ce quotidien : annonces, tarification, accueil, ménage hôtelier, maintenance, hivernage, et protection du bien jusqu'à 50 000 € de dégradations locatives par an. Résultat : moins de stress, plus de nuitées vendues, et un bien réellement occupé même hors saison de ski.</p>
+
+<h2>Gérer seul un meublé de tourisme en montagne : les vraies difficultés au quotidien</h2>
+<p>Sur le papier, louer son chalet à Valmorel semble simple : une annonce, quelques photos, et les réservations arrivent. Dans les faits, un propriétaire qui gère seul à distance se heurte vite à des contraintes très concrètes.</p>
+<ul>
+<li><strong>L'annonce</strong> : il faut la créer, la mettre à jour sur plusieurs plateformes, répondre aux messages en quelques heures pour garder un bon classement algorithmique.</li>
+<li><strong>La tarification</strong> : les prix bougent selon les vacances scolaires, l'ouverture des pistes du Grand Domaine, la météo - un tarif figé toute la saison fait perdre des revenus en haute période et vide le calendrier en inter-saison.</li>
+<li><strong>L'accueil</strong> : remettre les clés à 300 km de chez soi un samedi de relève, gérer un train en retard ou un voyageur bloqué par la neige, ce n'est pas gérable à distance sans relais local.</li>
+<li><strong>Le ménage et le linge</strong> : entre deux séjours de sept jours en pleine semaine de février, il faut un prestataire fiable, disponible en horaires serrés, avec du linge hôtelier propre et repassé.</li>
+<li><strong>Les imprévus</strong> : une chaudière qui tombe en panne un vendredi soir, un dégât des eaux, une annulation de dernière minute - sans personne sur place, chaque incident devient une crise à gérer par téléphone.</li>
+<li><strong>L'hivernage</strong> : purger les circuits, vérifier les fermetures, anticiper le gel entre deux locations - un oubli peut coûter cher en dégâts matériels.</li>
+</ul>
+<p>Pris séparément, chaque point semble gérable. Cumulés sur toute une saison, ils grignotent le temps libre du propriétaire et, souvent, sa rentabilité.</p>
+
+<h2>Tout ce que couvre une conciergerie de montagne complète</h2>
+<p>Déléguer à une conciergerie location Valmorel, ce n'est pas seulement « faire le ménage ». C'est reprendre l'intégralité de la chaîne de gestion locative, du premier clic sur l'annonce jusqu'à l'hivernage du bien.</p>
+<h3>Annonce et diffusion multi-plateformes</h3>
+<p>Création d'une annonce professionnelle (photos, descriptif, équipements), diffusion synchronisée sur Airbnb, Booking.com et Abritel, et gestion des messageries pour ne rater aucune demande.</p>
+<h3>Tarification dynamique selon la saisonnalité du Grand Domaine</h3>
+<p>Les prix s'ajustent selon les vacances scolaires, les événements de la station, le remplissage constaté et la concurrence locale - un ajustement quasi quotidien qu'un propriétaire isolé ne peut pas suivre seul.</p>
+<h3>Accueil et check-in / check-out</h3>
+<p>Remise des clés, présentation du logement, boîte à clés sécurisée ou accueil physique, état des lieux à chaque départ : le voyageur est pris en charge sans que le propriétaire ait à se déplacer.</p>
+<h3>Ménage et linge hôtelier professionnel</h3>
+<p>Ménage complet entre chaque séjour, linge de lit et de toilette de qualité hôtelière, contrôle qualité systématique avant chaque arrivée.</p>
+<h3>Maintenance et petits travaux</h3>
+<p>Interventions rapides sur les pannes courantes (chauffage, électroménager, plomberie), suivi des équipements et petites réparations sans attendre le prochain séjour du propriétaire sur place.</p>
+<h3>Hivernage du bien</h3>
+<p>Purge des installations, vérifications avant fermeture, protection contre le gel entre deux locations ou en fin de saison.</p>
+<h3>Gestion des imprévus</h3>
+<p>Dégâts constatés, annulations, pannes de dernière minute : la conciergerie gère l'incident sur place et informe le propriétaire, sans que celui-ci ait à intervenir dans l'urgence.</p>
+<h3>Optimisation de la rentabilité toute l'année</h3>
+<p>Au-delà de la saison de ski, une conciergerie complète travaille aussi le remplissage en été et en inter-saison (randonnée, VTT, séjours nature), pour que le bien génère des revenus sur une période plus large que les seules semaines de neige.</p>
+
+<h2>Gérer seul vs déléguer à une conciergerie : le comparatif</h2>
+<table>
+<tr><th>Tâche / enjeu</th><th>En gérant seul à distance</th><th>En déléguant à une conciergerie</th></tr>
+<tr><td>Annonce et plateformes</td><td>Mise à jour manuelle sur chaque site, risque d'incohérence de calendrier</td><td>Diffusion synchronisée Airbnb, Booking, Abritel</td></tr>
+<tr><td>Tarification</td><td>Prix souvent figé, ajusté au mieux une fois par saison</td><td>Ajustement dynamique selon la demande et le calendrier du Grand Domaine</td></tr>
+<tr><td>Accueil voyageurs</td><td>Déplacement nécessaire ou accueil délégué à un proche</td><td>Check-in / check-out géré localement, disponible aux horaires de relève</td></tr>
+<tr><td>Ménage et linge</td><td>Recherche d'un prestataire fiable à chaque changement</td><td>Équipe dédiée, linge hôtelier, contrôle qualité systématique</td></tr>
+<tr><td>Imprévus (panne, dégât)</td><td>Gestion à distance, délais d'intervention allongés</td><td>Intervention rapide sur place, propriétaire tenu informé</td></tr>
+<tr><td>Hivernage</td><td>À anticiper soi-même, risque d'oubli</td><td>Pris en charge dans le suivi du bien</td></tr>
+<tr><td>Occupation hors saison de ski</td><td>Souvent vacante l'été et en inter-saison</td><td>Stratégie de remplissage sur toute l'année</td></tr>
+<tr><td>Temps consacré par le propriétaire</td><td>Plusieurs heures par semaine en haute saison</td><td>Suivi à distance, décisions clés seulement</td></tr>
+</table>
+
+<h2>La protection du bien lorsqu'il est géré par une conciergerie</h2>
+<p>Confier son chalet ne veut pas dire perdre la maîtrise de sa protection - au contraire. Un bien géré par une conciergerie de montagne bénéficie généralement d'une couverture dédiée à la location saisonnière, en complément de l'assurance habitation ou propriétaire non occupant (PNO) du propriétaire :</p>
+<ul>
+<li><strong>Jusqu'à 50 000 € par an</strong> pour les dégradations locatives constatées pendant les séjours ;</li>
+<li><strong>Jusqu'à 10 000 €</strong> pour les nuisibles ;</li>
+<li><strong>Jusqu'à 5 000 €</strong> au titre de la perte d'exploitation en cas d'incident rendant le bien impropre à la location ;</li>
+<li><strong>Une assurance annulation</strong>, qui limite l'impact financier d'un désistement de dernière minute.</li>
+</ul>
+<p>Cette protection s'ajoute à un état des lieux rigoureux réalisé à chaque relève, et à un dépôt de garantie systématique, deux pratiques recommandées par l'ANIL pour sécuriser une location saisonnière. C'est aussi ce que rappelle France Assureurs : mieux vaut déclarer explicitement l'activité de location à son assureur et vérifier la portée de la garantie responsabilité civile propriétaire.</p>
+
+<h2>Pourquoi une présence locale à Valmorel depuis 2018 change la donne</h2>
+<p>Une conciergerie nationale peut gérer une annonce depuis un centre d'appels à des centaines de kilomètres. Une conciergerie implantée à Valmorel et sur Le Grand Domaine depuis 2018, c'est une équipe qui connaît le bien, la copropriété, les accès en cas de neige, et les artisans locaux disponibles en pleine saison.</p>
+<p>Concrètement, cette présence locale se traduit par :</p>
+<ul>
+<li>une <strong>réactivité en quelques heures</strong> face à une panne ou un imprévu, sans délai de trajet ;</li>
+<li>une <strong>connaissance fine du territoire</strong> : calendrier des vacances scolaires, événements de la station, spécificités de chaque résidence du Grand Domaine ;</li>
+<li>un <strong>réseau d'artisans et de prestataires</strong> déjà rodé, disponible même en pic de saison ;</li>
+<li>une <strong>relation de confiance</strong> construite dans la durée avec les copropriétés et les syndics locaux.</li>
+</ul>
+<p>C'est cette ancienneté sur le terrain qui permet d'anticiper plutôt que de subir : un chasse-neige qui bloque l'accès, une coupure de courant, un voyageur en difficulté - chaque situation est traitée par une équipe qui connaît déjà la station, pas par un interlocuteur qui découvre l'adresse le jour même.</p>
+
+<h2>FAQ : les craintes des propriétaires qui hésitent à déléguer</h2>
+<h3>Est-ce que je perds le contrôle de mon bien en le confiant à une conciergerie ?</h3>
+<p>Non. Le propriétaire reste décisionnaire sur les grandes orientations (tarifs planchers, périodes bloquées, travaux importants). La conciergerie gère l'opérationnel quotidien, mais un reporting régulier permet de garder une vision claire sur les réservations et l'état du bien.</p>
+<h3>Comment être sûr que le ménage sera fait sérieusement ?</h3>
+<p>Une conciergerie professionnelle applique un contrôle qualité systématique avant chaque arrivée, avec du linge hôtelier et une check-list de vérification. C'est justement l'un des points où la gestion en solo montre ses limites, faute de disponibilité constante d'un prestataire fiable.</p>
+<h3>Est-ce que je peux encore profiter de mon chalet quand je le veux ?</h3>
+<p>Oui. Déléguer la gestion locative n'empêche pas de se réserver des séjours personnels : il suffit de bloquer les dates à l'avance dans le calendrier partagé avec la conciergerie.</p>
+<h3>Que se passe-t-il en cas de dégradation ou de sinistre pendant un séjour ?</h3>
+<p>Le bien géré par la conciergerie bénéficie d'une couverture dédiée (dégradations locatives, nuisibles, perte d'exploitation), en complément de l'assurance du propriétaire. L'état des lieux réalisé à chaque relève permet de documenter précisément tout incident.</p>
+<h3>Est-ce que je vais toucher moins de revenus en déléguant ?</h3>
+<p>Le taux d'occupation et la tarification dynamique compensent généralement le temps et les compétences que demanderait une gestion en solo, notamment sur les périodes creuses souvent laissées vacantes par les propriétaires isolés.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li><a href="https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/les-meubles-de-tourisme" target="_blank" rel="noopener">Entreprises.gouv.fr - Réglementation des meublés de tourisme</a></li>
+<li><a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F21105" target="_blank" rel="noopener">Service-Public.fr - Location saisonnière : droits et obligations</a></li>
+<li><a href="https://www.anil.org/parole-expert-logement-location-vacances-degradations-responsabilites/" target="_blank" rel="noopener">ANIL - Location de vacances : dégradations et responsabilités</a></li>
+<li><a href="https://www.franceassureurs.fr/lassurance-protege-finance-et-emploie/lassurance-protege/lassurance-en-pratique-pour-les-particuliers/location-de-vacances-et-assurance/" target="_blank" rel="noopener">France Assureurs - Location de vacances et assurance</a></li>
+</ul>
+
+<p>Vous hésitez encore entre gérer seul votre chalet à Valmorel ou déléguer sa gestion ? Demandez une <strong>estimation gratuite et personnalisée</strong> auprès de Cledici Conciergerie : nous étudions votre bien, votre localisation sur Le Grand Domaine et vos objectifs, sans engagement.</p>
+`,
+  },
+  {
+    slug: "micro-bic-regime-reel-meuble-valmorel",
+    title: "Micro-BIC ou régime réel pour un meublé à Valmorel : quel choix fiscal ?",
+    excerpt:
+      "Micro-BIC ou régime réel : deux façons de déclarer les revenus d'une location meublée à Valmorel, avec des conséquences fiscales très différentes selon vos charges. On fait le point, chiffres 2026 à l'appui.",
+    date: "2026-07-15",
+    cover: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Micro-BIC ou régime réel à Valmorel : quel choix fiscal ?",
+    seoDescription:
+      "Micro-BIC ou régime réel pour votre location meublée à Valmorel ? Abattements, charges déductibles, seuils 2026 : le comparatif pour bien choisir.",
+    contentHtml: `<p><strong>TL;DR</strong> - Pour un meublé de tourisme à Valmorel, le choix entre micro-BIC et régime réel dépend surtout du niveau de vos charges. Le micro-BIC applique un abattement forfaitaire (50 % si le bien est classé, 30 % s'il ne l'est pas, depuis les revenus 2025) sans aucun justificatif à produire. Le régime réel, lui, permet de déduire les charges réelles - intérêts d'emprunt, travaux, assurance, frais de gestion - et d'amortir le bien et le mobilier, ce qui peut effacer l'impôt pendant plusieurs années si vous avez un crédit en cours ou des travaux lourds. Cet article est informatif : chaque situation étant particulière, validez toujours votre choix avec un comptable ou un expert-comptable avant de trancher.</p>
+
+<h2>Le micro-BIC pour une location meublée de tourisme : simplicité et abattement forfaitaire</h2>
+
+<p>Le micro-BIC (bénéfices industriels et commerciaux) est le régime fiscal par défaut dès que vous mettez en location un meublé de tourisme, tant que vos recettes annuelles restent sous certains seuils. C'est le régime le plus simple : vous reportez votre chiffre d'affaires locatif sur votre déclaration de revenus (formulaire 2042 C PRO), et l'administration applique automatiquement un abattement forfaitaire censé couvrir vos charges. Pas de comptabilité à tenir, pas de bilan, pas de justificatif à conserver pour le calcul de l'impôt.</p>
+
+<p>Depuis l'entrée en vigueur de la loi n° 2024-1039 du 19 novembre 2024 (dite « loi Le Meur »), applicable aux revenus perçus à partir de 2025 et donc à votre déclaration 2026, les règles ont changé :</p>
+
+<ul>
+<li><strong>Meublé de tourisme classé</strong> : abattement de <strong>50 %</strong>, dans la limite de <strong>77 700 €</strong> de recettes annuelles.</li>
+<li><strong>Meublé de tourisme non classé</strong> : abattement de <strong>30 %</strong>, dans la limite de <strong>15 000 €</strong> de recettes annuelles.</li>
+</ul>
+
+<p>À titre de repère historique, l'abattement des meublés classés était auparavant de 71 %, avec un seuil bien plus haut (188 700 €). Ce taux a disparu pour les revenus 2025 et suivants - un point à connaître si vous avez lu des articles antérieurs à la réforme.</p>
+
+<p>Si vos recettes dépassent le seuil applicable pendant deux années consécutives, le passage au régime réel devient <strong>obligatoire</strong> l'année suivante. En dessous du seuil, vous pouvez tout de même opter volontairement pour le réel si vous y avez intérêt.</p>
+
+<h2>Le régime réel : déduire les charges réelles et amortir votre bien</h2>
+
+<p>Le régime réel (simplifié ou normal selon le niveau de recettes) fonctionne à l'inverse du micro-BIC : au lieu d'un abattement forfaitaire, vous déduisez le montant exact de vos charges, poste par poste. Concrètement, peuvent être déduits chaque année :</p>
+
+<ul>
+<li>les <strong>intérêts d'emprunt</strong> liés à l'achat du bien ;</li>
+<li>les <strong>travaux</strong> d'entretien, de réparation ou d'amélioration ;</li>
+<li>les <strong>frais de gestion</strong> et de conciergerie ;</li>
+<li>les <strong>primes d'assurance</strong> (propriétaire non occupant, garantie loyers impayés, etc.) ;</li>
+<li>la <strong>taxe foncière</strong> et les charges de copropriété non récupérables ;</li>
+<li>les frais de comptabilité et d'adhésion à un centre de gestion agréé.</li>
+</ul>
+
+<p>Le régime réel offre aussi un levier que le micro-BIC n'a pas : <strong>l'amortissement comptable</strong>. Le bien immobilier (hors terrain), le mobilier et les équipements se déprécient sur plusieurs années dans votre comptabilité, ce qui vient réduire, voire annuler, le bénéfice imposable - sans même sortir un euro de trésorerie supplémentaire. C'est souvent ce mécanisme qui rend le réel très avantageux pour un chalet ou un appartement encore en cours de remboursement à Valmorel.</p>
+
+<p>La contrepartie : une comptabilité plus rigoureuse (déclaration 2031, bilan, compte de résultat), généralement suivie avec l'aide d'un expert-comptable ou d'un centre de gestion agréé.</p>
+
+<h2>Micro-BIC vs régime réel : le comparatif</h2>
+
+<table>
+<tr><th>Critère</th><th>Micro-BIC</th><th>Régime réel</th></tr>
+<tr><td>Déduction des charges</td><td>Abattement forfaitaire (50 % ou 30 %)</td><td>Charges réelles justifiées, une à une</td></tr>
+<tr><td>Amortissement du bien</td><td>Non</td><td>Oui, sur le bien et le mobilier</td></tr>
+<tr><td>Seuils de recettes 2026</td><td>77 700 € (classé) / 15 000 € (non classé)</td><td>Obligatoire au-delà, ou sur option en dessous</td></tr>
+<tr><td>Simplicité déclarative</td><td>Très simple, une ligne sur la 2042 C PRO</td><td>Comptabilité complète, déclaration 2031</td></tr>
+<tr><td>Accompagnement conseillé</td><td>Facultatif</td><td>Expert-comptable ou CGA fortement recommandé</td></tr>
+<tr><td>Avantageux si…</td><td>Charges réelles inférieures à l'abattement forfaitaire</td><td>Charges réelles + amortissement supérieurs à l'abattement</td></tr>
+</table>
+
+<h2>Comment savoir lequel choisir selon votre situation</h2>
+
+<p>Il n'existe pas de réponse universelle : tout dépend de vos charges réelles, de la présence ou non d'un crédit, et de vos projets de travaux. Deux profils types reviennent souvent chez les propriétaires de Valmorel.</p>
+
+<h3>Profil 1 : propriétaire sans crédit, peu de charges</h3>
+
+<p>Le bien est payé, il n'y a pas ou peu de travaux prévus, et les charges annuelles (copropriété, assurance, entretien) restent modestes. Dans ce cas, l'abattement forfaitaire du micro-BIC - 50 % pour un meublé classé - couvre souvent largement les charges réelles. C'est le régime le plus simple à gérer, sans comptabilité à tenir.</p>
+
+<h3>Profil 2 : propriétaire avec crédit en cours et travaux</h3>
+
+<p>Le bien a été acheté récemment, le crédit immobilier génère des intérêts significatifs, et des travaux de rénovation (cuisine, salle de bain, isolation) sont en cours ou prévus. Ici, la somme des intérêts d'emprunt, des travaux et de l'amortissement dépasse fréquemment l'abattement forfaitaire du micro-BIC. Le régime réel devient alors nettement plus intéressant, quitte à accepter une gestion administrative plus lourde.</p>
+
+<p>Entre ces deux extrêmes, beaucoup de situations intermédiaires existent : un chalet ancien avec peu de charges mais un mobilier à renouveler, une SCI, un bien détenu à plusieurs... C'est précisément pour ces cas que l'avis d'un professionnel du chiffre fait la différence.</p>
+
+<h2>Le lien avec le classement en meublé de tourisme</h2>
+
+<p>Le taux d'abattement du micro-BIC dépend directement du classement de votre meublé : 50 % si votre bien est classé meublé de tourisme, 30 % s'il ne l'est pas. Ce différentiel peut suffire à faire pencher la balance en faveur du micro-BIC pour un bien classé avec peu de charges, alors qu'un bien non classé, avec un abattement plus faible, aura statistiquement plus souvent intérêt à basculer vers le réel. Nous détaillons la démarche et les critères du classement dans notre article dédié au meublé classé ou non classé à Valmorel.</p>
+
+<h2>Foire aux questions</h2>
+
+<h3>Peut-on changer de régime fiscal chaque année ?</h3>
+<p>L'option pour le régime réel est en principe valable un an et se renouvelle tacitement. Un retour au micro-BIC est possible mais encadré par des délais précis à respecter auprès du service des impôts des entreprises. Mieux vaut anticiper ce choix avec votre comptable plutôt que de changer au dernier moment.</p>
+
+<h3>Faut-il obligatoirement un comptable au régime réel ?</h3>
+<p>Ce n'est pas une obligation légale stricte, mais c'est vivement recommandé : la comptabilité au réel (bilan, amortissements, déclaration 2031) est technique, et une erreur peut coûter cher en cas de contrôle. Beaucoup de loueurs passent par un expert-comptable ou un centre de gestion agréé.</p>
+
+<h3>Le micro-BIC est-il toujours plus simple, mais moins avantageux ?</h3>
+<p>Pas forcément. Si vos charges réelles sont faibles, l'abattement forfaitaire peut être plus généreux que ce que vous auriez pu déduire au réel. La simplicité ne rime pas automatiquement avec un impôt plus élevé : tout dépend de votre situation précise.</p>
+
+<h3>Que se passe-t-il si je dépasse le seuil du micro-BIC en cours d'année ?</h3>
+<p>Un simple dépassement ponctuel ne fait pas basculer automatiquement au régime réel. C'est le dépassement pendant deux années civiles consécutives qui rend le passage au réel obligatoire l'année suivante.</p>
+
+<h3>Le choix du régime a-t-il un impact sur la taxe de séjour ou le classement ?</h3>
+<p>Non, le régime fiscal (micro-BIC ou réel) et le classement du meublé sont deux démarches distinctes, même si le taux d'abattement du micro-BIC dépend du classement. La taxe de séjour, elle, obéit à ses propres règles, indépendantes de votre régime d'imposition.</p>
+
+<p><strong>Important :</strong> cet article a une vocée purement informative et pédagogique. Il ne constitue en aucun cas un conseil fiscal personnalisé. Chaque situation patrimoniale étant unique (montage juridique, montant du crédit, autres revenus fonciers…), il est indispensable de valider votre choix de régime avec un comptable ou un expert-comptable avant toute décision ou changement d'option.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li><a href="https://www.impots.gouv.fr/particulier/les-regimes-dimposition" target="_blank" rel="noopener">impots.gouv.fr - Les régimes d'imposition des locations meublées</a></li>
+<li><a href="https://www.impots.gouv.fr/particulier/questions/je-suis-proprietaire-dune-location-meublee-de-tourisme-quel-est-le-nouveau" target="_blank" rel="noopener">impots.gouv.fr - Nouveau régime micro-BIC des meublés de tourisme</a></li>
+<li><a href="https://www.service-public.fr/particuliers/vosdroits/F32744" target="_blank" rel="noopener">service-public.fr - Location meublée : régime fiscal</a></li>
+<li><a href="https://entreprendre.service-public.fr/vosdroits/F32919" target="_blank" rel="noopener">service-public.fr - Option pour le régime réel d'imposition</a></li>
+</ul>
+
+<p>Vous hésitez encore entre micro-BIC et régime réel pour votre bien à Valmorel, ou vous voulez simplement estimer le potentiel locatif réel de votre chalet ou appartement ? L'équipe Cledici Conciergerie, présente sur Valmorel et Le Grand Domaine depuis 2018, vous propose une <strong>estimation gratuite et personnalisée</strong> de votre bien, pour vous aider à y voir clair avant d'en parler à votre comptable.</p>
+`,
+  },
+  {
     slug: "declaration-location-meublee-avanchers-valmorel",
     title: "Déclarer sa location meublée aux Avanchers-Valmorel : la démarche pas à pas",
     excerpt:
@@ -267,7 +471,7 @@ export const ARTICLES: Article[] = [
     contentHtml: `<p><strong>TL;DR</strong> - Le classement meublé de tourisme n'est pas qu'un label esthétique : c'est un levier fiscal et locatif concret pour les propriétaires bailleurs à Valmorel. En résumé :</p>
 <ul>
 <li>Le classement est une démarche <strong>volontaire</strong>, valable <strong>5 ans</strong>, à demander auprès de l'Office de Tourisme de Valmorel, à partir de <strong>120 €</strong>.</li>
-<li>Sur le plan fiscal, l'abattement micro-BIC atteint <strong>71 % pour un meublé classé</strong> contre <strong>50 % pour un non classé</strong> - un écart qui pèse directement sur votre revenu imposable.</li>
+<li>Sur le plan fiscal, depuis la loi Le Meur (revenus 2025), l'abattement micro-BIC atteint <strong>50 % pour un meublé classé</strong> contre <strong>30 % pour un non classé</strong> - un écart qui pèse directement sur votre revenu imposable.</li>
 <li>La taxe de séjour se calcule différemment selon le statut : tarif fixe par catégorie d'étoiles pour un classé, contre un pourcentage de la nuitée (plafonné) pour un non classé.</li>
 <li>Un bien classé est aussi perçu comme plus fiable par les locataires, ce qui joue sur le taux d'occupation en station.</li>
 </ul>
@@ -299,7 +503,7 @@ export const ARTICLES: Article[] = [
 <p>Voici, sous forme de tableau, les trois différences qui pèsent le plus lourd sur vos revenus locatifs à Valmorel.</p>
 <table>
 <tr><th>Critère</th><th>Meublé classé</th><th>Meublé non classé</th></tr>
-<tr><td>Abattement fiscal micro-BIC</td><td>71 % du chiffre d'affaires</td><td>50 % du chiffre d'affaires</td></tr>
+<tr><td>Abattement fiscal micro-BIC (revenus 2025)</td><td>50 % du chiffre d'affaires</td><td>30 % du chiffre d'affaires</td></tr>
 <tr><td>Taxe de séjour</td><td>Tarif fixe par nuit et par personne, selon la catégorie d'étoiles (barème CCVA)</td><td>5 % du prix de la nuitée par personne, plafonné à 4,60 €, + majoration départementale de 10 %</td></tr>
 <tr><td>Attractivité locative</td><td>Gage de confiance visible sur les annonces, meilleur positionnement sur les plateformes</td><td>Moins de repère qualité pour le voyageur, avis clients comme seule référence</td></tr>
 <tr><td>Validité</td><td>5 ans, renouvelable</td><td>Sans limite de durée (mais sans les avantages ci-dessus)</td></tr>
@@ -310,10 +514,10 @@ export const ARTICLES: Article[] = [
 <h2>Exemple chiffré : l'impact de l'abattement sur votre revenu imposable</h2>
 <p>Prenons un exemple pédagogique, avec des montants ronds, pour un appartement de station générant <strong>20 000 € de revenus locatifs bruts</strong> sur l'année.</p>
 <ul>
-<li><strong>Meublé classé</strong> (abattement 71 %) : base imposable = 20 000 € × 29 % = <strong>5 800 €</strong></li>
-<li><strong>Meublé non classé</strong> (abattement 50 %) : base imposable = 20 000 € × 50 % = <strong>10 000 €</strong></li>
+<li><strong>Meublé classé</strong> (abattement 50 %) : base imposable = 20 000 € × 50 % = <strong>10 000 €</strong></li>
+<li><strong>Meublé non classé</strong> (abattement 30 %) : base imposable = 20 000 € × 70 % = <strong>14 000 €</strong></li>
 </ul>
-<p>L'écart de base imposable est donc de <strong>4 200 €</strong>. Avec une tranche marginale d'imposition de 30 % et des prélèvements sociaux de 17,2 % (soit 47,2 % au total), cela représente environ <strong>1 980 € d'impôt en plus chaque année</strong> pour le propriétaire non classé, sur ce seul exemple.</p>
+<p>L'écart de base imposable est donc de <strong>4 000 €</strong>. Avec une tranche marginale d'imposition de 30 % et des prélèvements sociaux de 17,2 % (soit 47,2 % au total), cela représente environ <strong>1 890 € d'impôt en plus chaque année</strong> pour le propriétaire non classé, sur ce seul exemple.</p>
 <p>Bien sûr, ce calcul est simplifié : il ne tient pas compte des charges réelles déductibles au régime réel, ni de votre situation fiscale personnelle. Mais il illustre bien pourquoi tant de propriétaires à Valmorel choisissent de faire classer leur bien dès leur première mise en location.</p>
 
 <h2>FAQ</h2>

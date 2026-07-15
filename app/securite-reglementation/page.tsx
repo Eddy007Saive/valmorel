@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const FAQ = [
   { q: "Faut-il déclarer son meublé de tourisme à Valmorel ?", a: "Oui. Toute location de meublé de tourisme doit être déclarée à la mairie des Avanchers-Valmorel (formulaire Cerfa n°14004*04 ou service en ligne Declaloc). La mairie délivre un récépissé qui vaut preuve de déclaration." },
   { q: "Quelle taxe de séjour pour un meublé non classé à Valmorel ?", a: "Pour un hébergement non classé, la taxe de séjour est de 5 % du prix de la nuitée par personne, plafonnée à 4,60 €, à laquelle s'ajoute la majoration départementale de 10 % (Savoie)." },
-  { q: "Pourquoi faire classer son meublé à Valmorel ?", a: "Le classement (valable 5 ans) donne droit à un abattement fiscal de 71 % au lieu de 50 %, à une taxe de séjour à tarif fixe (souvent plus avantageuse), à la commercialisation via l'Office de Tourisme et à l'éligibilité ANCV." },
+  { q: "Pourquoi faire classer son meublé à Valmorel ?", a: "Depuis la réforme (loi Le Meur, revenus 2025), le classement (valable 5 ans) donne droit à un abattement micro-BIC de 50 % au lieu de 30 %, à une taxe de séjour à tarif fixe (souvent plus avantageuse), à la commercialisation via l'Office de Tourisme et à l'éligibilité ANCV." },
   { q: "Cledici s'occupe-t-il des démarches ?", a: "Oui. Déclaration en mairie, dossier de classement, taxe de séjour et mise en conformité : nous prenons en charge l'ensemble des démarches pour votre bien à Valmorel." },
 ];
 
@@ -66,7 +66,7 @@ export default function ReglementationPage() {
             <table className="data-table">
               <thead><tr><th>Avantage</th><th>Meublé non classé</th><th>Meublé classé</th></tr></thead>
               <tbody>
-                <tr><td>Abattement fiscal (micro-BIC)</td><td>50 %</td><td><strong>71 %</strong></td></tr>
+                <tr><td>Abattement fiscal (micro-BIC, revenus 2025)</td><td>30 %</td><td><strong>50 %</strong></td></tr>
                 <tr><td>Taxe de séjour</td><td>5 % de la nuitée (proportionnel)</td><td>Tarif fixe par étoile (souvent plus avantageux)</td></tr>
                 <tr><td>Commercialisation Office de Tourisme</td><td>—</td><td>Oui</td></tr>
                 <tr><td>Éligibilité chèques ANCV</td><td>—</td><td>Oui</td></tr>
