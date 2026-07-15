@@ -225,7 +225,14 @@ export default function Home() {
                 <span>Le Grand Domaine</span>
               </div>
             </div>
-            <div className="map rv"><img src="https://images.unsplash.com/photo-1610476905310-cdc6d6e9a6a3?auto=format&fit=crop&w=900&q=80" alt="Station de Valmorel" /></div>
+            <div className="map rv">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Station_de_Valmorel_enneig%C3%A9e_vue_des_pistes_%28janvier_2022%29.JPG/1280px-Station_de_Valmorel_enneig%C3%A9e_vue_des_pistes_%28janvier_2022%29.JPG"
+                alt="La station de Valmorel enneigée vue des pistes"
+                loading="lazy"
+              />
+              <span className="credit">© Florian Pépellin · CC BY-SA 4.0</span>
+            </div>
           </div>
         </div>
       </section>
