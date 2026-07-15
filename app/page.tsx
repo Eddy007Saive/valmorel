@@ -46,10 +46,16 @@ export default function Home() {
               <div className="lab">Diffusé sur</div>
               <div className="row"><span>Airbnb</span><span>Booking.com</span><span>Abritel</span><span>Leboncoin</span><span>HomeToGo</span><span>Expedia</span></div>
             </div>
+            {/* CTA mobile (le formulaire inline est masqué sur mobile) */}
+            <div className="hero-cta">
+              <a href="#estimer" className="btn btn-g">Estimer mes revenus</a>
+              <a href="#services" className="btn btn-o" style={{ color: "#fff" }}>Découvrir nos services</a>
+            </div>
             <div className="trust-mini"><span className="st">★★★★★</span><b style={{ color: "#fff" }}>4,9 / 5</b><span>· propriétaires accompagnés depuis 2018</span></div>
           </div>
           <LeadForm pfx="lf-hero" anchor title="Propriétaire à Valmorel ? Estimez vos revenus." hint="Gratuit et sans engagement. Un expert local vous recontacte sous 24 h." />
         </div>
+        <div className="scrollcue" aria-hidden="true">⌄</div>
       </section>
 
       {/* PARTENAIRES */}
@@ -238,7 +244,7 @@ export default function Home() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="final">
+      <section className="final" id="estimer">
         <Bg id="photo-1517320964276-a002fa203177" alt="" />
         <div className="wrap"><div className="inner">
           <div className="rv">
