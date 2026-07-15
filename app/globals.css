@@ -72,7 +72,7 @@ a{color:inherit;text-decoration:none}
 .drawer .tel{margin-top:16px;color:rgba(255,255,255,.7);font-size:12.5px;text-align:center}
 
 /* hero */
-.hero{position:relative;min-height:760px;display:flex;align-items:center;overflow:hidden}
+.hero{position:relative;min-height:760px;display:flex;align-items:center;overflow:hidden;background:var(--green-d)}
 .hero .bg{position:absolute;inset:0;z-index:0}.hero .bg img{width:100%;height:100%;object-fit:cover}
 .hero::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(100deg,rgba(10,40,36,.86) 0%,rgba(10,40,36,.62) 42%,rgba(10,40,36,.30) 100%)}
 .hero .inner{position:relative;z-index:2;width:100%;padding:120px 0 60px;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
@@ -145,7 +145,7 @@ a{color:inherit;text-decoration:none}
 .svc li p{font-size:14px;color:var(--muted);margin-top:3px;line-height:1.55}
 
 /* expertise band */
-.exp{position:relative;overflow:hidden}
+.exp{position:relative;overflow:hidden;background:var(--green-d)}
 .exp .bg{position:absolute;inset:0;z-index:0}.exp .bg img{width:100%;height:100%;object-fit:cover}
 .exp::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(10,40,36,.92),rgba(10,40,36,.55))}
 .exp .inner{position:relative;z-index:2;max-width:620px;color:#fff;padding:100px 0}
@@ -190,7 +190,7 @@ a{color:inherit;text-decoration:none}
 .faq p.a{margin-top:12px;font-size:15px;line-height:1.7;color:var(--muted)}
 
 /* final cta */
-.final{position:relative;overflow:hidden}
+.final{position:relative;overflow:hidden;background:var(--green-d)}
 .final .bg{position:absolute;inset:0;z-index:0}.final .bg img{width:100%;height:100%;object-fit:cover}
 .final::after{content:"";position:absolute;inset:0;z-index:1;background:rgba(10,40,36,.85)}
 .final .inner{position:relative;z-index:2;display:grid;grid-template-columns:1fr .9fr;gap:56px;align-items:center;padding:90px 0}
