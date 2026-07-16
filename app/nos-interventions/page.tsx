@@ -3,10 +3,11 @@ import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { CITIES } from "../lib/cities";
+import { ZONE_CONTENT } from "../lib/cityContent";
 
 export const metadata: Metadata = {
-  title: "Nos interventions — Conciergerie à Valmorel & Le Grand Domaine",
-  description: "Cledici intervient à Valmorel, Doucy, Saint-François-Longchamp et Les Avanchers. Conciergerie Airbnb et location saisonnière dans tout Le Grand Domaine.",
+  title: "Gestion locative montagne — Valmorel & Le Grand Domaine",
+  description: "Gestion locative montagne : confiez votre résidence secondaire à Valmorel, Doucy, Saint-François-Longchamp ou Les Avanchers. Revenus toute l'année, bien assuré, expertise locale depuis 2018.",
   alternates: { canonical: "/nos-interventions" },
 };
 
@@ -33,7 +34,8 @@ export default function NosInterventionsPage() {
               </Link>
             ))}
           </div>
-          <p style={{ marginTop: 40 }}><Link href="/#contact" className="btn btn-green">Estimer les revenus de mon bien</Link></p>
+          <div className="prose" style={{ maxWidth: 900, margin: "60px auto 0" }} dangerouslySetInnerHTML={{ __html: ZONE_CONTENT }} />
+          <p style={{ marginTop: 40, textAlign: "center" }}><Link href="/#contact" className="btn btn-green">Estimer les revenus de mon bien</Link></p>
         </div>
       </section>
       <Footer />

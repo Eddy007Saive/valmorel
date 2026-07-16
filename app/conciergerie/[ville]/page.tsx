@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { CITIES, getCity } from "../../lib/cities";
+import { CITY_CONTENT } from "../../lib/cityContent";
 
 export function generateStaticParams() {
   return CITIES.map((c) => ({ ville: c.slug }));
@@ -94,6 +95,15 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
           </ul>
         </div>
       </section>
+
+      {/* GESTION LOCATIVE : contenu éditorial propre à la commune */}
+      {CITY_CONTENT[c.slug] && (
+        <section className="sec" style={{ paddingTop: 0 }}>
+          <div className="wrap" style={{ maxWidth: 900 }}>
+            <div className="prose" dangerouslySetInnerHTML={{ __html: CITY_CONTENT[c.slug] }} />
+          </div>
+        </section>
+      )}
 
       {/* DONNÉES SEO/IA : réglementation & taxe */}
       <section className="sec" style={{ background: "var(--snow)" }}>
