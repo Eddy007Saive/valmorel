@@ -12,6 +12,63 @@ export type Article = {
 // Contenu rédigé par ChatSEO — données réelles Valmorel / CCVA (Savoie).
 export const ARTICLES: Article[] = [
   {
+    slug: "gestion-locative-montagne",
+    title: "Gestion locative montagne : confiez votre résidence secondaire à un expert du Grand Domaine",
+    excerpt:
+      "Résidence secondaire à Valmorel ou dans le Grand Domaine ? Gestion locative complète, tarification dynamique et revenus toute l'année — le guide, et l'accès à nos pages par commune.",
+    date: "2026-07-16",
+    cover: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Gestion locative montagne : résidence secondaire au Grand Domaine",
+    seoDescription:
+      "Gestion locative montagne : confiez votre résidence secondaire à Valmorel et au Grand Domaine. Revenus toute l'année, bien assuré, expertise locale depuis 2018.",
+    contentHtml: `<p>Une <strong>gestion locative montagne</strong> bien faite, ce n'est pas louer trois semaines en février et laisser le bien dormir le reste de l'année. C'est activer la demande sur les 12 mois, ajuster les prix nuit après nuit, et s'occuper de tout - de l'annonce jusqu'au dernier ménage.</p>
+<p>Depuis 2018, on gère des chalets, appartements et studios sur Valmorel et Le Grand Domaine. La promesse est simple : des <strong>revenus toute l'année</strong>, une <strong>tarification dynamique</strong> qui suit vraiment les saisons, et une expertise de terrain qu'aucun logiciel ne remplace.</p>
+<p>Cette page fait le tour de ce qu'on propose. Pour une estimation précise selon votre commune, direction les pages dédiées à <strong>Valmorel, Doucy, Saint-François-Longchamp et Les Avanchers</strong>, listées plus bas.</p>
+<h2>Notre promesse : des revenus toute l'année, pas seulement l'hiver</h2>
+<p>La plupart des propriétaires de <strong>résidence secondaire en montagne</strong> ne rentabilisent que l'hiver. Logique : c'est la saison qui fait le plus de bruit. Sauf que sur une année, ce sont les périodes creuses - printemps, été, automne - qui font vraiment la différence sur le rendement net.</p>
+<p>Concrètement, on travaille sur deux fronts :</p>
+<ul>
+<li><strong>En haute saison</strong>, la tarification dynamique cale chaque nuitée sur les vacances scolaires, les ponts et les pics de demande. On ne sous-vend jamais une semaine de février.</li>
+<li><strong>En basse et inter-saison</strong>, on active des leviers spécifiques à la montagne l'été : randonnée, VTT, trail, télétravail à la montagne, courts séjours. Un bien qui dort dix mois par an, ce n'est jamais une fatalité - c'est un manque d'activation commerciale.</li>
+</ul>
+<p>Résultat recherché : un taux d'occupation lissé sur l'année, pas un pic isolé en février suivi d'un grand vide.</p>
+<h2>Une gestion locative complète, de A à Z</h2>
+<p>On ne fait pas de la simple diffusion d'annonce. La <strong>gestion locative résidence secondaire montagne</strong> qu'on propose couvre l'intégralité de ce qui fait tourner une location - sans que vous ayez à intervenir.</p>
+<h3>Accueil des voyageurs &amp; check-in</h3>
+<p>Remise des clés, état des lieux, conseils sur la station : nos équipes sont sur place, à toute heure. Un voyageur qui arrive à 22 h un vendredi de vacances scolaires doit trouver quelqu'un pour l'accueillir, pas un mail automatique.</p>
+<h3>Ménage &amp; linge hôtelier</h3>
+<p>Un logement impeccable à chaque arrivée, ce n'est pas négociable en montagne où les rotations s'enchaînent le samedi. On fournit et on entretient le linge, on gère le ménage entre chaque séjour, avec les standards d'un linge hôtelier.</p>
+<h3>Tarification dynamique</h3>
+<p>Les prix ne sont jamais figés. Ils bougent selon les vacances scolaires, les événements de la station, le remplissage en temps réel et la concurrence locale. C'est ce qui permet de capter le plein potentiel d'une semaine de Noël sans pour autant brader un week-end d'octobre.</p>
+<h3>Gestion administrative et fiscale</h3>
+<p>Déclaration du meublé en mairie (Cerfa 14004*04 ou service Declaloc), collecte de la taxe de séjour, suivi du classement du bien pour l'abattement micro-BIC : cette partie-là décourage beaucoup de propriétaires qui gèrent seuls. On s'en occupe intégralement, dossier par dossier.</p>
+<h3>Maintenance &amp; hivernage</h3>
+<p>Petits travaux, suivi du bien hors saison, vigilance sur le hors-gel et la neige : un logement en altitude vieillit vite s'il n'est pas suivi été comme hiver. On surveille votre bien même quand personne n'y dort.</p>
+<h3>Diffusion multi-plateformes</h3>
+<p>Annonce optimisée et diffusée sur <strong>Airbnb, Booking.com, Abritel, Leboncoin, HomeToGo et Expedia</strong> - avec photos professionnelles, pour maximiser la visibilité sans multiplier les interlocuteurs.</p>
+<h2>Pourquoi nous plutôt qu'une agence généraliste ?</h2>
+<p>Une agence nationale gère votre bien à distance, avec un standard téléphonique et des process identiques partout en France. En montagne, ça se paie cash : un voyageur bloqué par la neige un samedi soir, une chaudière qui lâche en pleine semaine de vacances, une nuitée mal calée sur un pont de mai - ce sont des détails que seule une équipe présente sur place gère vite et bien.</p>
+<p>Ce qui nous différencie concrètement :</p>
+<ul>
+<li><strong>Une présence locale réelle</strong>, pas un centre d'appels : on connaît Le Grand Domaine, ses saisons, ses pics de fréquentation.</li>
+<li><strong>Une tarification qui suit le marché local</strong>, pas une grille nationale plaquée sur un chalet savoyard.</li>
+<li><strong>Un bien assuré par notre propre couverture</strong> : jusqu'à 50 000 € de dégradations, 10 000 € de nuisibles, 5 000 € de perte d'exploitation, plus une assurance annulation.</li>
+<li><strong>Aucun tarif standard</strong> : on audite votre bien, on vous dit précisément son potentiel locatif annuel, puis on va chercher ce potentiel - pas une moyenne théorique.</li>
+<li><strong>Une seule équipe, un seul contact</strong>, du check-in à la déclaration fiscale.</li>
+</ul>
+<h2>Notre gestion locative près de chez vous</h2>
+<p>On intervient sur l'ensemble du Grand Domaine, avec une connaissance fine de chaque marché local. Chaque commune a ses spécificités - clientèle, saisonnalité, réglementation communale - d'où des pages dédiées pour affiner votre estimation :</p>
+<ul>
+<li><a href="/conciergerie/valmorel"><strong>Gestion locative Valmorel</strong></a> - le cœur du Grand Domaine, station-village piétonne et familiale, forte demande hiver et été.</li>
+<li><a href="/conciergerie/doucy"><strong>Gestion locative Doucy</strong></a> - Doucy-Combelouvière, village authentique relié aux pistes, complémentaire de Valmorel.</li>
+<li><a href="/conciergerie/saint-francois-longchamp"><strong>Gestion locative Saint-François-Longchamp</strong></a> - au pied du col de la Madeleine, marché à double saison ski et vélo.</li>
+<li><a href="/conciergerie/les-avanchers"><strong>Gestion locative Les Avanchers</strong></a> - commune historique de Valmorel, entre pistes et hameaux de caractère.</li>
+</ul>
+<p>Chacune de ces pages détaille les spécificités du marché local, la réglementation communale et un formulaire d'estimation adapté à votre commune.</p>
+<h2>Passez à l'action</h2>
+<p>Que votre bien se trouve à Valmorel, Doucy, Saint-François-Longchamp ou Les Avanchers, la démarche est la même : un audit gratuit, une estimation claire de vos revenus nets, et une gestion locative qui tourne sans vous, saison après saison.</p>`,
+  },
+  {
     slug: "gestion-locative-valmorel",
     title: "Gestion locative Valmorel : des revenus toute l'année, pas seulement l'hiver",
     excerpt:
