@@ -64,7 +64,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       <Header />
 
       {/* HERO façon landing */}
-      <section className="hero" style={{ minHeight: 620 }}>
+      <section className="hero kb" style={{ minHeight: 620 }}>
         <div className="bg"><img src={c.image} alt={`Conciergerie à ${c.name}`} /></div>
         <div className="wrap inner" style={{ gridTemplateColumns: "1fr" }}>
           <div className="rv in" style={{ maxWidth: 760 }}>
