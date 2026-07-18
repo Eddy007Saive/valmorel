@@ -55,8 +55,10 @@ export async function POST(req: Request) {
 
   // 2) Email de notification (si configuré)
   const RESEND_KEY = process.env.RESEND_API_KEY;
-  const TO = process.env.LEAD_TO_EMAIL;
-  const FROM = process.env.LEAD_FROM_EMAIL || "Cledici <onboarding@resend.dev>";
+  const TO = process.env.RESEND_RECIPIENT_EMAIL;
+  const senderEmail = process.env.RESEND_SENDER_EMAIL;
+  const senderName = process.env.RESEND_SENDER_NAME || "Site Cledici";
+  const FROM = senderEmail ? `${senderName} <${senderEmail}>` : "Cledici <onboarding@resend.dev>";
   if (RESEND_KEY && TO) {
     try {
       const resend = new Resend(RESEND_KEY);
