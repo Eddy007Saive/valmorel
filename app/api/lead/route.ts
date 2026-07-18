@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { createClient } from "@supabase/supabase-js";
 import { Resend } from "resend";
+import { getDb } from "../../lib/mongo";
 
 export const runtime = "nodejs";
 
@@ -34,20 +34,24 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Indiquez un email ou un téléphone valide." }, { status: 422 });
   }
 
-  const lead = { site: "cledici", property_type: propertyType, email, phone, source };
+  const lead = {
+    site: "cledici",
+    propertyType,
+    email,
+    phone,
+    source,
+    createdAt: new Date(),
+  };
   let stored = false;
   let mailed = false;
   const errors: string[] = [];
 
-  // 1) Stockage Supabase (si configuré)
-  const SB_URL = process.env.SUPABASE_URL;
-  const SB_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
-  if (SB_URL && SB_KEY) {
+  // 1) Stockage MongoDB (si configuré)
+  if (process.env.MONGO_URL) {
     try {
-      const supabase = createClient(SB_URL, SB_KEY, { auth: { persistSession: false } });
-      const { error } = await supabase.from("leads").insert(lead);
-      if (error) errors.push("db:" + error.message);
-      else stored = true;
+      const db = await getDb();
+      await db.collection("leads").insertOne(lead);
+      stored = true;
     } catch (e) {
       errors.push("db:" + (e as Error).message);
     }
