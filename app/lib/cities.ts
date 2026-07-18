@@ -54,7 +54,7 @@ export const CITIES: City[] = [
     slug: "saint-francois-longchamp",
     name: "Saint-François-Longchamp",
     region: "Le Grand Domaine · Savoie",
-    image: "https://images.unsplash.com/photo-1610476905310-cdc6d6e9a6a3?auto=format&fit=crop&w=1600&q=80",
+    image: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1600&q=80",
     intro:
       "Vous louez un bien à Saint-François-Longchamp ? Cledici gère votre location et optimise votre rentabilité sur l'ensemble de la saison.",
     marche:
