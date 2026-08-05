@@ -205,6 +205,8 @@ a{color:inherit;text-decoration:none}
 .final::after{content:"";position:absolute;inset:0;z-index:1;background:rgba(10,40,36,.85)}
 .final .inner{position:relative;z-index:2;display:grid;grid-template-columns:1fr .9fr;gap:56px;align-items:center;padding:90px 0}
 .final h2{color:#fff;font-size:clamp(28px,3.6vw,44px);font-weight:800;line-height:1.12}
+/* Le formulaire (carte blanche) ne doit pas hériter du h2 blanc de la section sombre */
+.final .lead h2{color:var(--ink);font-size:21px;line-height:1.25}
 .final p{color:rgba(255,255,255,.85);margin-top:18px;font-size:16.5px;line-height:1.7}
 .final ul{list-style:none;margin-top:22px}
 .final li{color:#fff;font-size:15px;padding:7px 0;display:flex;gap:11px;align-items:center}
