@@ -735,6 +735,123 @@ export const ARTICLES: Article[] = [
 <li><a href="https://www.valmorel.com/activites-ete/randonnees-trail/randonnees/" target="_blank" rel="noopener">Randonnées à Valmorel - Office de tourisme de Valmorel</a></li>
 </ul>`,
   },
+  {
+    slug: "hivernage-chalet-valmorel-guide-anticipation",
+    title: "Hivernage et entretien entre deux saisons : ce que tout propriétaire à Valmorel doit anticiper",
+    excerpt:
+      "Entre deux saisons, un chalet laissé sans surveillance à Valmorel court des risques bien réels : gel des canalisations, humidité stagnante, incidents électriques. Ce guide pratique vous donne les mécaniques à maîtriser avant de fermer la porte.",
+    date: "2026-08-05",
+    cover: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Hivernage chalet Valmorel : guide d'anticipation",
+    seoDescription:
+      "Gel, humidité, sécurité électrique : le guide pratique d'hivernage chalet Valmorel pour tout propriétaire non-résident du Grand Domaine.",
+    contentHtml: `<p><strong>TL;DR :</strong> l'inter-saison est la période la plus risquée pour un chalet inoccupé en altitude à Valmorel : gel des canalisations, humidité stagnante et incidents électriques peuvent survenir sans témoin. Purger les circuits exposés, maintenir le chauffage en mode hors-gel et laisser la VMC allumée sont les gestes non négociables avant de fermer la porte. Une présence locale régulière - gestionnaire ou tiers de confiance - reste le filet de sécurité le plus efficace.</p>
+
+<p>Vous avez un chalet à Valmorel, à Doucy-Combelouvière ou du côté de Saint-François-Longchamp. La saison se termine, vous fermez la porte, vous rentrez en ville. Et pendant les semaines - parfois les mois - qui suivent, votre bien est seul face aux caprices du climat d'altitude. C'est précisément là que les dégâts arrivent.</p>
+<p>Ce guide ne vend pas de rêve. Il pose les mécaniques concrètes à connaître pour que votre résidence secondaire survive à l'inter-saison sans mauvaise surprise.</p>
+
+<h2>Pourquoi l'inter-saison est le moment le plus risqué pour votre bien</h2>
+<p>En pleine saison hivernale, le chalet est chauffé, occupé, surveillé. En été, les températures clémentes limitent les risques. C'est entre les deux que tout se joue.</p>
+<p>En montagne, l'inter-saison - printemps tardif et automne précoce - cumule les pires conditions : des nuits qui repassent sous zéro alors que vous avez déjà coupé le chauffage, une humidité résiduelle que personne ne ventile, et une installation électrique sous tension sans qu'aucun œil humain ne surveille.</p>
+<p>À Valmorel et dans les villages du Grand Domaine, les altitudes varient entre 1 300 m environ au village et 2 550 m sur les crêtes. Même à 1 300 m, une nuit de gel en avril ou en octobre n'est pas une anomalie - c'est la norme. Le problème : beaucoup de propriétaires non-résidents raisonnent avec un calendrier de ville, pas un calendrier de montagne.</p>
+<p><strong>La différence fondamentale avec une location urbaine :</strong> en ville, une fuite ou un disjoncteur sauté se règle en quelques heures. À Doucy-Combelouvière ou aux Avanchers, hors saison, les artisans sont moins disponibles, les accès peuvent être compliqués, et chaque heure compte quand l'eau coule dans une pièce vide.</p>
+
+<h2>Le gel : premier ennemi des canalisations en altitude</h2>
+<p>Le gel des canalisations, ce n'est pas un risque théorique. C'est le sinistre le plus fréquent dans les résidences secondaires de montagne inoccupées. Une canalisation qui gèle ne se contente pas de bloquer l'eau - elle se fissure, parfois éclate, et le dégât des eaux qui s'ensuit peut ruiner des semaines de travaux.</p>
+<p>Le mécanisme est simple : l'eau, en gelant, augmente de volume. Les tuyaux exposés - combles non chauffés, vide sanitaire, garage, extérieur - n'ont aucune résistance face à cette pression. À partir de −5 °C maintenu plusieurs heures, une section mal isolée suffit à provoquer la rupture.</p>
+
+<h3>Ce qu'il faut purger avant de partir</h3>
+<p>La règle de base : tout circuit qui ne sera pas maintenu en température doit être vidangé.</p>
+<ul>
+<li>Les robinets et tuyaux extérieurs - arrosage, terrasse, fontaine - sont les premiers à purger. Fermez la vanne d'alimentation, ouvrez le robinet pour évacuer l'eau résiduelle.</li>
+<li>Le chauffe-eau électrique peut être coupé et vidangé si le logement n'est pas maintenu hors-gel. Coupez l'alimentation électrique, puis ouvrez le robinet de vidange jusqu'à vidange complète.</li>
+<li>Les points bas du réseau - là où l'eau stagne naturellement - doivent être purgés via les robinets de purge prévus à cet effet.</li>
+<li>Les tuyaux en combles ou en vide sanitaire non chauffés : si vous ne pouvez pas les isoler correctement, la mise hors eau complète est la seule option sûre.</li>
+</ul>
+<p>Pour les circuits de chauffage central (radiateurs), la logique est différente : ce circuit est indépendant de l'eau courante et contient un antigel. Faites vérifier la teneur en antigel par un professionnel avant la fermeture - c'est un geste simple qui évite des dégâts coûteux.</p>
+
+<h3>Ce qu'il ne faut surtout pas couper</h3>
+<p>Contre-intuitivement, certains équipements doivent rester en marche même en votre absence.</p>
+<p>Le chauffage en mode hors-gel - généralement réglé autour de 7 à 8 °C - est non négociable si vous n'avez pas procédé à une mise hors eau complète. C'est lui qui empêche les canalisations intérieures de geler et qui protège la structure du bâti contre les chocs thermiques répétés.</p>
+<p>La VMC (ventilation mécanique contrôlée), si votre chalet en est équipé, doit rester allumée. Beaucoup de propriétaires la coupent pour « économiser » - c'est une erreur qui favorise l'humidité stagnante et les moisissures. Une VMC consomme peu ; les dégâts qu'elle prévient coûtent beaucoup.</p>
+<p>Si votre installation est ancienne et ne dispose pas de mode hors-gel programmable, c'est le moment d'investir dans un thermostat connecté. Plusieurs modèles permettent un pilotage à distance et envoient des alertes en cas de chute de température anormale.</p>
+
+<h2>Humidité et ventilation : le piège silencieux</h2>
+<p>Le gel fait des dégâts spectaculaires. L'humidité, elle, agit en silence - et ses conséquences sont tout aussi dévastatrices sur le long terme.</p>
+<p>Un chalet fermé sans ventilation accumule l'humidité résiduelle : celle des murs, des textiles, du bois. En montagne, les variations de température entre le jour et la nuit amplifient le phénomène de condensation. Résultat : moisissures sur les murs, odeurs de renfermé tenaces, dégradation des boiseries - un problème particulièrement sensible dans les chalets traditionnels de Valmorel ou des Avanchers, souvent construits avec beaucoup de bois apparent.</p>
+<p><strong>Les gestes à faire avant de fermer :</strong></p>
+<ul>
+<li>Aérez longuement le logement - portes et fenêtres grandes ouvertes - juste avant de partir.</li>
+<li>Laissez les portes intérieures et les portes de placards entrouvertes pour que l'air circule librement.</li>
+<li>Décollez légèrement les meubles des murs extérieurs pour éviter les zones de condensation localisée.</li>
+<li>Videz les poubelles, nettoyez les siphons, ne laissez aucun textile humide.</li>
+<li>Si votre chalet n'a pas de VMC, envisagez un déshumidificateur électrique programmable pour les périodes d'absence prolongée.</li>
+</ul>
+<p>La différence avec une location urbaine est ici aussi marquée : en ville, les logements sont généralement mieux isolés et les variations hygrométriques moins brutales. En montagne, le bois travaille, les joints vieillissent plus vite, et l'humidité trouve toujours un chemin. Anticiper, c'est préserver la valeur patrimoniale de votre bien.</p>
+
+<h2>Sécurisation électrique et gaz entre deux occupations</h2>
+<p>Un chalet vide n'est pas un chalet à l'arrêt total. C'est une installation sous tension, avec des circuits qui vieillissent, des appareils en veille, et des risques qui s'accumulent sans témoin.</p>
+<p><strong>Pour l'électricité :</strong></p>
+<ul>
+<li>Coupez les disjoncteurs des équipements inutiles : four, lave-vaisselle, télévision, chaîne hi-fi, chargeurs en veille. Inutile de les laisser sous tension.</li>
+<li>Débranchez les appareils sensibles aux surtensions - les orages de printemps et d'automne en montagne peuvent être violents.</li>
+<li>Conservez l'alimentation du chauffage hors-gel, de la VMC, et si vous en avez un, du système d'alarme ou de surveillance à distance.</li>
+<li>Si votre installation date de plus de 15 ans, un contrôle par un électricien avant la fermeture est une précaution raisonnable.</li>
+</ul>
+<p><strong>Pour le gaz :</strong></p>
+<ul>
+<li>Fermez systématiquement l'arrivée de gaz principale avant une absence prolongée. C'est le geste de base, non négociable.</li>
+<li>Si votre chaudière gaz assure le hors-gel, vous devez choisir : soit maintenir l'arrivée de gaz ouverte avec une chaudière programmée, soit opter pour un chauffage électrique de secours et couper le gaz. Les deux options sont valides - l'important est de ne pas laisser une installation gaz ouverte sans surveillance si elle n'est pas strictement nécessaire.</li>
+<li>Faites vérifier l'étanchéité des raccords et l'état du détendeur avant chaque fermeture de saison, surtout si le chalet est ancien.</li>
+</ul>
+<p>En montagne, la domotique prend ici tout son sens. Un capteur de température connecté, une alarme incendie reliée à votre téléphone, ou un système de coupure automatique en cas d'anomalie - ce sont des investissements qui se rentabilisent au premier incident évité.</p>
+
+<h2>La check-list du propriétaire avant fermeture</h2>
+<p>Voici les actions à réaliser systématiquement avant de quitter votre bien pour une absence de plus de quelques jours. Adaptez-la à votre installation spécifique - chaque chalet est différent.</p>
+<table>
+<tr><th>Action</th><th>Pourquoi c'est critique</th></tr>
+<tr><td>Purger les robinets et tuyaux extérieurs</td><td>Une section d'eau résiduelle suffit à faire éclater un tuyau en cas de gel nocturne</td></tr>
+<tr><td>Régler le chauffage en mode hors-gel</td><td>Protège les canalisations intérieures et évite les chocs thermiques sur le bâti</td></tr>
+<tr><td>Laisser la VMC allumée</td><td>Évite l'accumulation d'humidité, les moisissures et les odeurs de renfermé</td></tr>
+<tr><td>Couper l'arrivée de gaz principale</td><td>Élimine le risque de fuite non détectée pendant une absence prolongée</td></tr>
+<tr><td>Couper les disjoncteurs inutiles</td><td>Réduit le risque d'incident électrique et la consommation inutile</td></tr>
+<tr><td>Couper et vidanger le chauffe-eau électrique</td><td>Évite la consommation à vide et le risque de gel si le hors-gel n'est pas maintenu</td></tr>
+<tr><td>Aérer longuement avant fermeture, laisser les portes intérieures entrouvertes</td><td>Limite l'humidité résiduelle et favorise la circulation d'air pendant l'absence</td></tr>
+<tr><td>Vérifier la teneur en antigel du circuit de chauffage central</td><td>Un circuit de radiateurs sans antigel suffisant peut geler même en mode hors-gel</td></tr>
+<tr><td>Fermer volets et vérifier portes et fenêtres</td><td>Protection contre les intempéries, le vent et les intrusions</td></tr>
+<tr><td>Prévoir une visite de contrôle par un tiers de confiance</td><td>Aucune check-list ne remplace un œil humain sur place en cas d'anomalie</td></tr>
+</table>
+
+<h2>Ce que change une gestion locative locale pour l'inter-saison</h2>
+<p>On peut tout faire soi-même - à condition d'habiter à 20 minutes du chalet. Ce n'est pas le cas de la plupart des propriétaires du Grand Domaine, qui vivent à Lyon, Paris, Genève ou Bordeaux.</p>
+<p>La distance, c'est le vrai problème de l'inter-saison. Une fuite détectée en 10 minutes par quelqu'un sur place devient un sinistre majeur si elle n'est découverte qu'à votre prochain passage, trois semaines plus tard.</p>
+<p>C'est là qu'une gestion locative locale change concrètement la donne - pas par magie, mais par présence physique.</p>
+<p><strong>Ce qu'une équipe locale fait différemment :</strong></p>
+<ul>
+<li>Des passages réguliers entre les saisons - pas seulement à l'ouverture et à la fermeture, mais aussi pendant les semaines creuses - permettent de détecter une anomalie avant qu'elle ne devienne un dégât.</li>
+<li>Un réseau d'artisans locaux - plombiers, électriciens, chauffagistes - joignables rapidement, qui connaissent les spécificités des installations en altitude et les contraintes d'accès en inter-saison.</li>
+<li>Un suivi de l'état du bien entre deux locations : vérification du chauffage hors-gel, contrôle visuel après un épisode de gel ou de tempête, signalement de tout problème avant votre retour.</li>
+<li>La coordination des interventions sans que vous ayez à gérer les appels, les devis et les plannings depuis votre domicile principal.</li>
+</ul>
+<p>Pour un propriétaire non-résident à Valmorel, aux Avanchers ou à Saint-François-Longchamp, déléguer la surveillance inter-saison à une équipe implantée localement, c'est transformer une source d'inquiétude en tranquillité d'esprit - et souvent, éviter des frais de remise en état bien supérieurs au coût de la gestion.</p>
+<p>La montagne a ses règles. Mieux vaut les déléguer à quelqu'un qui les connaît de l'intérieur.</p>
+
+<h2>Foire aux questions</h2>
+<h3>Faut-il couper l'eau complètement quand on ferme son chalet à Valmorel pour l'inter-saison ?</h3>
+<p>Pas nécessairement - et en montagne, la réponse dépend de votre installation. Si votre chalet est maintenu en mode hors-gel (chauffage réglé entre 7 et 8 °C), les canalisations intérieures sont protégées et une coupure totale n'est pas obligatoire. En revanche, les circuits extérieurs et les tuyaux en zones non chauffées doivent systématiquement être purgés. Si vous coupez le chauffage complètement, la mise hors eau totale devient indispensable. En cas de doute, consultez un plombier local qui connaît les spécificités de votre installation.</p>
+<h3>Peut-on laisser son chalet sans chauffage pendant l'inter-saison en altitude ?</h3>
+<p>C'est techniquement possible à condition d'avoir procédé à une mise hors eau complète et rigoureuse de tous les circuits. Mais c'est une opération qui demande de la méthode : purge de tous les points bas, vidange du chauffe-eau, vérification qu'aucune eau résiduelle ne reste dans les tuyaux. Le bâti lui-même souffre des chocs thermiques répétés - joints, boiseries, enduits - quand la température intérieure descend très bas. Le mode hors-gel reste la solution la plus protectrice pour le bien dans sa globalité.</p>
+<h3>Quelle est la différence entre hivernage et simple fermeture saisonnière ?</h3>
+<p>La fermeture saisonnière, c'est éteindre les lumières et fermer la porte. L'hivernage, c'est préparer activement le bien à résister à une longue absence - purge des circuits exposés, réglage du hors-gel, sécurisation électrique et gaz, vérification de la ventilation. En montagne, à Valmorel comme dans les autres villages du Grand Domaine, la fermeture sans hivernage est un pari risqué : les conditions climatiques d'altitude ne pardonnent pas les oublis.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li><a href="https://www.maif.fr/conseils-prevention/la-vie-quotidienne/maison/proteger-ses-canalisations-contre-le-froid" target="_blank" rel="noopener">MAIF - Protéger ses canalisations contre le froid</a></li>
+<li><a href="https://ma-maison-eco-confort.atlantic.fr/maison-secondaire-que-faire-en-cas-dabsence-prolongee/" target="_blank" rel="noopener">Atlantic / Bien Chez Moi - Maison secondaire : que faire en cas d'absence prolongée ?</a></li>
+<li><a href="https://www.generali.fr/actu/protection-gel-canalisations/" target="_blank" rel="noopener">Generali - Protection contre le gel des canalisations</a></li>
+<li><a href="https://www.agrialpro.fr/blog/post/a-quelle-temperature-les-tuyaux-gelent" target="_blank" rel="noopener">Agrialpro - À quelle température les tuyaux gèlent ?</a></li>
+</ul>`,
+  },
 ];
 
 export const getArticle = (slug: string) => ARTICLES.find((a) => a.slug === slug);
