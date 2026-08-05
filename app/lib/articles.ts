@@ -1176,6 +1176,274 @@ export const ARTICLES: Article[] = [
 <li><a href="https://www.impots.gouv.fr/professionnel/les-bic" target="_blank" rel="noopener">Impots.gouv.fr - BIC : bénéfices industriels et commerciaux</a></li>
 </ul>`,
   },
+  {
+    slug: "investir-doucy-combelouviere-location-saisonniere",
+    title: "Investir à Doucy-Combelouvière pour louer : atouts, marché et points de vigilance",
+    excerpt:
+      "Doucy-Combelouvière, village-station du Grand Domaine, attire des investisseurs qui cherchent à louer en saisonnière sans les prix des grandes stations. Ce guide fait le point sur les vrais atouts, les biens qui performent et les obligations à ne pas négliger.",
+    date: "2026-08-05",
+    cover: "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Investir à Doucy-Combelouvière : guide location saisonnière",
+    seoDescription:
+      "Investir à Doucy-Combelouvière pour louer : domaine skiable, double saison, biens qui se louent, obligations légales et gestion locative. Guide complet et pragmatique.",
+    contentHtml: `<p><strong>TL;DR :</strong> Doucy-Combelouvière est un village-station à environ 1 270 m d'altitude, intégré au Grand Domaine (près de 165 km de pistes), relié par le télésiège de Combelouvière. La double saison (ski l'hiver, randonnée et VTT l'été) élargit la fenêtre locative au-delà des seules semaines de février. Les biens les plus demandés : studios et T2 bien situés, proches des remontées, avec équipements de qualité. Avant d'acheter : vérifiez le règlement de copropriété, déclarez en mairie, inscrivez-vous au guichet des formalités - et anticipez le statut LMNP.</p>
+
+<h2>Doucy-Combelouvière : un village-station discret au cœur du Grand Domaine</h2>
+<p>Doucy-Combelouvière n'est pas une station-usine. C'est un village de Savoie, posé à environ <strong>1 270 m d'altitude</strong> sur les hauteurs de La Léchère-les-Bains, en Tarentaise - ensoleillé, en lisière de forêt, avec une vue dégagée sur la vallée et le massif de la Lauzière.</p>
+<p>Ce qui change tout pour un investisseur : Doucy est <strong>directement intégrée au Grand Domaine</strong>, le domaine skiable partagé avec Valmorel et Saint-François-Longchamp. L'accès aux pistes se fait par le <strong>télésiège de Combelouvière</strong>, qui monte vers le cœur du domaine. Pas de navette obligatoire, pas de voiture pour skier - c'est précisément ce que les locataires recherchent.</p>
+<p>La station a volontairement conservé une échelle humaine. On est loin de l'animation permanente des très grandes stations. C'est un atout pour les familles avec enfants en bas âge et pour les couples qui fuient la foule - et donc un argument de différenciation dans vos annonces.</p>
+
+<h2>Ce qui fait l'attractivité locative de Doucy</h2>
+<h3>Le domaine skiable Le Grand Domaine</h3>
+<p>Le Grand Domaine, ce sont près de <strong>165 km de pistes</strong> répartis entre Valmorel, Doucy, Celliers et Saint-François-Longchamp, avec un dénivelé de 1 400 m à 2 550 m - et une majorité de pistes bleues et vertes, ce qui explique la forte proportion de familles et de skieurs intermédiaires dans la clientèle.</p>
+<p>Pour un investisseur, ce n'est pas anodin. Un domaine de cette taille attire une clientèle régulière, fidèle, qui revient d'une saison à l'autre. Ce n'est pas le profil de la station confidentielle qui dépend d'un seul forfait ou d'un seul télésiège.</p>
+<p>La liaison avec Saint-François-Longchamp ouvre aussi la porte à une clientèle qui choisit Doucy comme base d'hébergement pour skier sur l'ensemble du domaine - un argument commercial concret à valoriser dans vos annonces.</p>
+
+<h3>La double saison : hiver et été</h3>
+<p>L'été, Doucy change de visage - mais reste attractive. La station propose des <strong>itinéraires de randonnée pédestre</strong> balisés autour de la crête de Combelouvière, des boucles en forêt, et des parcours VTT accessibles depuis le village. Le parcours <em>Enduro Doucy</em> part du sommet du télésiège de Combelouvière et rejoint Valmorel. À cela s'ajoutent la piscine en plein air, le parapente, et la proximité immédiate des alpages. L'office de tourisme de Valmorel programme des animations estivales - ce qui maintient un flux de visiteurs entre juin et septembre.</p>
+<p>Concrètement : vous n'êtes pas condamné à louer uniquement en hiver. Une gestion locative bien menée peut couvrir <strong>deux saisons distinctes</strong>, ce qui change radicalement l'équation économique d'un investissement en montagne.</p>
+
+<h3>Un village à taille humaine - atout ou contrainte ?</h3>
+<p>Soyons directs : Doucy n'a pas la densité de services de Valmorel-centre. Pas de grande galerie marchande, une offre de restaurants limitée à quelques adresses. C'est une contrainte réelle pour les locataires qui attendent une station animée en soirée.</p>
+<p>Mais c'est aussi ce qui fait la valeur du lieu pour une cible précise : <strong>les familles avec jeunes enfants</strong>, les retraités actifs, les groupes d'amis qui veulent skier sans la cohue. Cette cible loue souvent plus longtemps, prend soin du logement et revient. Elle est moins volatile que la clientèle de passage des grandes stations.</p>
+<p>À vous de positionner votre bien en conséquence - et d'adapter votre communication à ce profil de locataire.</p>
+
+<h2>Quels biens se louent le mieux à Doucy ?</h2>
+<p>L'expérience du terrain est claire sur ce point. <strong>Les studios et les T2</strong> bien équipés, avec un accès facile aux remontées mécaniques, sont les formats les plus demandés. Ils correspondent au budget moyen des familles et des couples qui réservent en ligne, et ils s'optimisent plus facilement entre deux séjours.</p>
+<p>Les critères qui font la différence :</p>
+<ul>
+<li><strong>Proximité immédiate du télésiège de Combelouvière</strong> - le ski aux pieds, ou à défaut un accès à pied en moins de 5 minutes, est un filtre de recherche systématique sur les plateformes.</li>
+<li><strong>Un parking ou un local à skis</strong> - les locataires viennent en voiture avec du matériel. L'absence de rangement est un frein à la réservation.</li>
+<li><strong>Une cuisine équipée fonctionnelle</strong> - les familles cuisinent. Un four, un lave-vaisselle, une cafetière correcte : ce sont des détails qui apparaissent dans les avis et influencent le classement sur Airbnb ou Booking.</li>
+<li><strong>Un espace extérieur ou une vue dégagée</strong> - balcon ou terrasse avec vue sur les pistes ou la forêt : c'est un argument photo qui fait la différence à la réservation.</li>
+<li><strong>La capacité d'accueil</strong> - un T2 qui dort 4 à 6 personnes (canapé-lit ou mezzanine) se loue mieux qu'un T2 strict 2 personnes en montagne.</li>
+</ul>
+<p>Les chalets individuels peuvent aussi très bien fonctionner, mais ils demandent un investissement initial plus élevé, des charges d'entretien plus importantes, et une gestion plus lourde entre deux séjours. Ils s'adressent à une clientèle de groupes ou de familles nombreuses - un segment porteur, mais plus exigeant à satisfaire.</p>
+<p><strong>Ce qui ne se loue pas bien :</strong> les biens éloignés des remontées sans voiture, les logements mal isolés thermiquement (DPE F ou G - un point qui devient aussi une contrainte légale), et les appartements sans rénovation depuis plus de 15 ans avec du mobilier daté.</p>
+
+<h2>Les points de vigilance avant d'acheter</h2>
+<p>Investir à Doucy-Combelouvière pour louer, c'est une décision qui se prépare. Voici les points à vérifier systématiquement, avant même de signer le compromis.</p>
+<table>
+<tr><th>Point de vigilance</th><th>Ce qu'il faut vérifier</th></tr>
+<tr><td>Règlement de copropriété</td><td>Depuis la loi Le Meur (novembre 2024), le règlement doit mentionner explicitement si les meublés de tourisme sont autorisés. Pour les règlements antérieurs, vérifier l'absence de clause d'habitation exclusivement bourgeoise. Une assemblée générale peut voter l'interdiction.</td></tr>
+<tr><td>Charges de copropriété</td><td>Demander les 3 derniers procès-verbaux d'AG et les appels de charges. Les résidences de tourisme avec services (piscine, réception) ont des charges élevées qui pèsent sur la rentabilité.</td></tr>
+<tr><td>DPE et performance énergétique</td><td>Un logement classé F ou G est déjà une contrainte locative et le deviendra davantage. Viser au minimum un DPE D pour sécuriser l'avenir du bien.</td></tr>
+<tr><td>Classement meublé de tourisme</td><td>Facultatif mais fiscalement avantageux : un meublé classé bénéficie d'un abattement de 50 % en micro-BIC (contre 30 % pour un non classé, revenus 2025). Le classement est valable 5 ans et s'obtient auprès d'un organisme agréé Atout France.</td></tr>
+<tr><td>Déclaration en mairie</td><td>Obligatoire pour toute résidence secondaire mise en location saisonnière. Selon la commune, déclaration simple (formulaire Cerfa 14004) ou déclaration avec enregistrement et numéro. L'absence de déclaration expose à une amende.</td></tr>
+<tr><td>Taxe de séjour</td><td>À collecter auprès des locataires et à reverser à la commune. Les plateformes (Airbnb, Booking) la collectent directement dans la plupart des cas, mais vérifiez selon votre mode de commercialisation.</td></tr>
+<tr><td>Statut fiscal LMNP</td><td>Les revenus locatifs sont imposés en BIC. Choisir entre micro-BIC et régime réel (amortissement du bien et du mobilier) selon le niveau de charges. Consulter un expert-comptable spécialisé avant la première déclaration.</td></tr>
+</table>
+
+<h2>Déclarer et gérer votre bien : les étapes clés</h2>
+<p>On résume ici le parcours administratif dans l'ordre chronologique - parce que les erreurs de séquence coûtent du temps et parfois de l'argent.</p>
+<p><strong>1. Vérifier le règlement de copropriété</strong> avant la signature du compromis. C'est non négociable. Si la location saisonnière est interdite, le projet s'arrête là.</p>
+<p><strong>2. Déclarer le meublé en mairie.</strong> Pour une résidence secondaire, la déclaration est obligatoire - soit déclaration simple via le formulaire Cerfa n°14004, soit déclaration avec enregistrement selon les règles de la commune. Renseignez-vous directement auprès de la mairie de La Léchère (commune de rattachement de Doucy).</p>
+<p><strong>3. S'inscrire au guichet des formalités des entreprises</strong> (formalites.entreprises.gouv.fr) pour obtenir un numéro SIRET. Cette démarche est gratuite et indispensable pour déclarer vos revenus locatifs en BIC.</p>
+<p><strong>4. Choisir votre régime fiscal.</strong> Micro-BIC ou régime réel - la décision se prend idéalement avant la première déclaration, avec un comptable. Le régime réel permet d'amortir le bien et le mobilier, ce qui peut réduire significativement la base imposable pendant plusieurs années.</p>
+<p><strong>5. Demander le classement en étoiles</strong> si vous visez l'abattement fiscal majoré en micro-BIC. La démarche est facultative et payante, mais elle se rentabilise rapidement selon vos recettes annuelles.</p>
+<p><strong>6. Faire figurer le numéro d'enregistrement</strong> sur toutes vos annonces en ligne. C'est une obligation légale dès lors que la commune a mis en place ce dispositif.</p>
+
+<h2>Confier la gestion locative à un expert local</h2>
+<p>Gérer soi-même un bien à Doucy depuis Paris ou Lyon, c'est possible - mais c'est chronophage, et les erreurs de gestion (ménage bâclé, problème technique non traité, mauvaise communication avec les locataires) se paient cash dans les avis en ligne.</p>
+<p>Un gestionnaire local connaît le marché, les plateformes qui fonctionnent sur ce secteur, les tarifs de saison, et les prestataires de confiance pour l'entretien. Il gère les entrées et sorties, collecte les cautions, suit les réservations - et vous libère de la charge mentale.</p>
+<p>Pour Doucy-Combelouvière, <strong>Cledici propose une estimation gratuite de votre potentiel locatif</strong> et une prise en charge complète de la gestion. Pas d'engagement immédiat : on commence par regarder ensemble ce que votre bien peut générer, concrètement, sur les deux saisons. Découvrez notre <a href="/conciergerie/doucy">conciergerie à Doucy-Combelouvière</a>.</p>
+
+<h2>Foire aux questions</h2>
+<h3>Faut-il obligatoirement déclarer son appartement à Doucy avant de le louer en saisonnière ?</h3>
+<p>Oui - dès lors qu'il s'agit d'une résidence secondaire, la déclaration en mairie est obligatoire avant toute mise en location. Selon les règles appliquées par la commune, il s'agit soit d'une déclaration simple (formulaire Cerfa n°14004), soit d'une déclaration avec enregistrement donnant lieu à un numéro à faire figurer sur toutes vos annonces. L'absence de déclaration expose à une amende.</p>
+<h3>Le classement en meublé de tourisme est-il vraiment utile pour un investissement à Doucy ?</h3>
+<p>C'est facultatif, mais souvent rentable. Un meublé classé (de 1 à 5 étoiles, valable 5 ans) bénéficie en micro-BIC d'un abattement de <strong>50 %</strong> sur les recettes (revenus 2025), contre 30 % pour un meublé non classé. Sur un bien qui génère des revenus locatifs significatifs, la différence fiscale est réelle. Le classement améliore aussi la visibilité commerciale et rassure les locataires sur le niveau de confort.</p>
+<h3>Doucy fonctionne-t-elle uniquement en saison hivernale pour la location ?</h3>
+<p>Non - et c'est l'un des vrais arguments en faveur de Doucy par rapport à des stations purement hivernales. L'été, la station propose des itinéraires de randonnée, des parcours VTT (dont l'Enduro Doucy depuis le sommet du télésiège), une piscine en plein air et des animations familiales. La saison estivale reste moins dense que l'hiver, mais elle permet d'occuper le bien sur des semaines supplémentaires et de lisser les revenus sur l'année.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li><a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F2043" target="_blank" rel="noopener">Service-public.fr - Faire de sa résidence secondaire un meublé de tourisme</a></li>
+<li><a href="https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006158462/" target="_blank" rel="noopener">Légifrance - Code du tourisme, articles L324-1 à L324-2-1</a></li>
+<li><a href="https://www.formulaires.service-public.gouv.fr/gf/cerfa_14004_04.do" target="_blank" rel="noopener">Formulaire Cerfa n°14004 - Déclaration en mairie d'un meublé de tourisme</a></li>
+<li><a href="https://www.valmorel.com/villages-et-stations/doucy/" target="_blank" rel="noopener">Valmorel.com - Présentation officielle de la station de Doucy</a></li>
+<li><a href="https://skipass.valmorel.com/fr/le-grand-domaine" target="_blank" rel="noopener">Skipass Valmorel - Le Grand Domaine</a></li>
+</ul>`,
+  },
+  {
+    slug: "investir-saint-francois-longchamp-location-saisonniere",
+    title: "Investir à Saint-François-Longchamp pour louer : double saison, profil des biens et points de vigilance",
+    excerpt:
+      "Saint-François-Longchamp cumule un grand domaine skiable et un été actif autour du col de la Madeleine - deux saisons exploitables pour un investisseur. Ce guide détaille les biens qui se louent, les obligations légales et les pièges à éviter avant d'acheter.",
+    date: "2026-08-05",
+    cover: "https://images.unsplash.com/photo-1483664852095-d6cc6870702d?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Investir Saint-François-Longchamp : guide location saisonnière",
+    seoDescription:
+      "Investir à Saint-François-Longchamp pour louer : double saison hiver/été, profil des biens, points de vigilance juridiques et fiscaux. Guide complet.",
+    contentHtml: `<p><strong>TL;DR :</strong> Saint-François-Longchamp s'étend sur plusieurs niveaux d'altitude, avec deux villages distincts - SFL 1300 et SFL 1650 - reliés au Grand Domaine (près de 165 km de pistes avec Valmorel et Doucy). L'été est une vraie saison grâce au col de la Madeleine (1 993 m), classique du Tour de France, qui attire cyclistes et randonneurs de juin à septembre. Les biens les plus demandés : studios et 2-pièces en résidence de tourisme, puis appartements familiaux et chalets. Avant d'acheter : vérifiez le règlement de copropriété, la déclaration en mairie (Cerfa 14004), le classement meublé de tourisme et le DPE - la loi Le Meur (novembre 2024) a durci les règles.</p>
+
+<p>Investir à Saint-François-Longchamp, c'est parier sur une station qui joue dans deux registres à la fois. L'hiver, elle s'appuie sur un grand domaine skiable interconnecté. L'été, elle mise sur le cyclisme et la randonnée - et ça marche. Mais acheter pour louer en montagne ne s'improvise pas. Voici ce qu'on sait, et ce qu'il faut vérifier avant de signer.</p>
+
+<h2>Saint-François-Longchamp : une station à double identité</h2>
+<p>SFL n'est pas une station monolithique. C'est une commune de Maurienne, en Savoie, qui regroupe deux entités distinctes, à des altitudes différentes, avec des ambiances différentes. Comprendre cette géographie, c'est déjà comprendre le marché locatif.</p>
+
+<h3>SFL 1300 et SFL 1650 : deux villages, un seul domaine</h3>
+<p><strong>SFL 1300</strong> - le village de Longchamp - est le bourg historique, à l'entrée de la station. Plus résidentiel, plus calme, il attire des familles qui cherchent un cadre authentique sans être au cœur de l'animation. Les biens y sont souvent plus anciens, parfois moins bien équipés pour la location.</p>
+<p><strong>SFL 1650</strong> - Saint-François - est le cœur de station. C'est là que se concentrent les remontées mécaniques, les commerces, les résidences de tourisme et la majorité des locations saisonnières. Pour un investisseur, c'est le secteur le plus liquide - les locataires veulent être au pied des pistes, pas 350 mètres de dénivelé en dessous.</p>
+<p>L'amplitude d'altitude de la station garantit un enneigement solide sur les pistes hautes, un argument commercial réel pour la location hivernale.</p>
+
+<h3>Le Grand Domaine : la liaison qui change tout</h3>
+<p>Saint-François-Longchamp est intégrée au <strong>Grand Domaine</strong>, domaine skiable partagé avec Valmorel, Doucy et Celliers - près de <strong>165 km de pistes</strong> au total, reliées skis aux pieds. C'est l'argument numéro un pour justifier un prix de location élevé en haute saison.</p>
+<p>La liaison passe par le col de la Madeleine côté ski. En pratique, un locataire qui séjourne à SFL peut skier sur Valmorel sans prendre sa voiture. Pour un investisseur, ça élargit considérablement le bassin de clientèle : les skieurs qui veulent explorer un grand domaine sans se cantonner à une seule station.</p>
+<p>Ce type de domaine interconnecté est aussi un filet de sécurité commercial. Si les conditions sont mauvaises d'un côté, on peut skier de l'autre. Les locataires le savent, et ils le valorisent.</p>
+
+<h2>L'atout été : le col de la Madeleine et la saison cycliste</h2>
+<p>Beaucoup d'investisseurs en station de montagne ne pensent qu'à l'hiver. C'est une erreur à Saint-François-Longchamp.</p>
+<p>La station est littéralement <strong>sur la route du col de la Madeleine</strong> - 1 993 m d'altitude, versant Maurienne. Ce col est l'un des grands classiques du cyclisme alpin, franchi de nombreuses fois par le Tour de France. Chaque été, des milliers de cyclistes viennent tenter l'ascension - et ils cherchent un hébergement à la station, pas en fond de vallée.</p>
+<p>Au-delà du vélo, SFL propose <strong>des randonnées balisées vers les lacs de montagne</strong>, un télésiège ouvert en été, un centre de balnéothérapie, de la luge sur rails et du VTT sur des sentiers dédiés.</p>
+<p>Résultat : la saison estivale génère une demande locative réelle, de juin à mi-septembre. Un bien bien géré ne reste pas vide six mois par an. C'est la différence entre une station à saison unique et une station à <strong>double saison exploitable</strong>.</p>
+
+<h2>Quels biens se louent le mieux à Saint-François-Longchamp ?</h2>
+<p>Tous les biens ne se valent pas en location saisonnière. Voici ce qu'on observe sur ce marché.</p>
+<p><strong>Les studios et 2-pièces en résidence de tourisme</strong> sont les formats les plus demandés. Couples, petits groupes d'amis, familles avec un enfant - c'est le cœur de la clientèle de station. Ces biens se louent à la semaine en hiver, parfois au week-end ou à la nuitée en été. Ils sont aussi les plus faciles à gérer à distance.</p>
+<p><strong>Les appartements familiaux (3 et 4 pièces)</strong> s'adressent à des familles avec enfants ou à des groupes. La demande est forte en vacances scolaires - Noël, février, Pâques. Hors vacances, ils sont plus difficiles à remplir. Le ticket d'entrée est plus élevé, mais le loyer hebdomadaire aussi.</p>
+<p><strong>Les chalets</strong> représentent le segment premium. Ils attirent des groupes d'amis ou des familles élargies qui veulent de l'espace et de l'intimité. Le potentiel de revenus est réel, mais les charges sont plus lourdes - entretien, ménage, chauffage - et la gestion est plus complexe. À réserver aux investisseurs qui ont déjà de l'expérience en location saisonnière ou qui confient tout à une conciergerie.</p>
+<p><strong>Les biens en résidence de tourisme gérée</strong> offrent une structure de gestion intégrée. C'est rassurant pour un premier investissement, mais lisez attentivement le bail commercial : les conditions de reprise, les charges et la répartition des revenus varient fortement d'un opérateur à l'autre.</p>
+
+<h2>Les points de vigilance avant d'acheter</h2>
+<p>Acheter à la montagne pour louer, c'est simple en apparence. En pratique, plusieurs points peuvent bloquer ou compliquer l'exploitation. Voici les vérifications à faire avant de signer le compromis.</p>
+<table>
+<tr><th>Point de vigilance</th><th>Ce qu'il faut vérifier</th></tr>
+<tr><td>Règlement de copropriété</td><td>Vérifier que la destination de l'immeuble autorise la location saisonnière. Depuis la loi Le Meur (novembre 2024), les copropriétés peuvent voter l'interdiction des meublés de tourisme en AG. Demandez l'historique des AG récentes.</td></tr>
+<tr><td>Déclaration en mairie</td><td>Tout meublé de tourisme (résidence secondaire) doit être déclaré via le Cerfa n° 14004 auprès de la mairie de Saint-François-Longchamp. Vérifiez si la commune exige un numéro d'enregistrement en plus.</td></tr>
+<tr><td>Classement meublé de tourisme</td><td>Le classement (1 à 5 étoiles) est facultatif mais stratégique : il améliore la visibilité, justifie un loyer plus élevé et ouvre droit à l'abattement micro-BIC de 50 % (contre 30 % non classé, revenus 2025).</td></tr>
+<tr><td>DPE et loi Le Meur</td><td>Depuis le 21 novembre 2024, les nouveaux meublés soumis à autorisation de changement d'usage doivent afficher au moins un DPE E. Objectif DPE A-D pour tous les meublés de tourisme d'ici 2034.</td></tr>
+<tr><td>Charges de résidence</td><td>Dans les résidences de tourisme, les charges peuvent être élevées - piscine, spa, accueil, entretien des parties communes. Demandez le dernier appel de charges et le budget prévisionnel avant d'acheter.</td></tr>
+<tr><td>Bail commercial (résidence gérée)</td><td>Si le bien est exploité par un opérateur, lisez le bail commercial en détail : durée, conditions de résiliation, loyer garanti ou variable, obligations de travaux à la charge du propriétaire.</td></tr>
+<tr><td>Régime fiscal LMNP</td><td>La location meublée non professionnelle (LMNP) est le régime le plus courant. Choisissez entre micro-BIC (abattement forfaitaire) et régime réel (charges réelles et amortissements) selon votre situation.</td></tr>
+</table>
+
+<h2>Déclarer et gérer votre bien : les étapes clés</h2>
+<p>Une fois l'achat acté, la mise en location suit un ordre précis. Ne pas respecter les étapes expose à des amendes.</p>
+<p><strong>1. Déclarez en mairie.</strong> Remplissez le Cerfa n° 14004 et transmettez-le à la mairie de Saint-François-Longchamp. Cette déclaration est obligatoire pour toute résidence secondaire mise en location saisonnière.</p>
+<p><strong>2. Faites réaliser un DPE.</strong> Indispensable pour louer légalement - et pour anticiper les échéances de la loi Le Meur. Si le bien est classé F ou G, prévoyez des travaux de rénovation énergétique avant la mise en location.</p>
+<p><strong>3. Optez ou non pour le classement meublé de tourisme.</strong> Le classement est délivré par un organisme accrédité Atout France, sur visite et grille de critères. Un bien classé bénéficie d'un abattement micro-BIC de 50 % (revenus 2025) - contre 30 % pour un meublé non classé.</p>
+<p><strong>4. Choisissez votre régime fiscal.</strong> Micro-BIC ou régime réel : la décision dépend du montant de vos charges réelles (intérêts d'emprunt, travaux, amortissements). Un expert-comptable spécialisé en LMNP peut faire ce calcul rapidement.</p>
+<p><strong>5. Organisez la gestion opérationnelle.</strong> Ménage, remise des clés, état des lieux, gestion des avis - en station de montagne, la logistique est intense en haute saison. Soit vous gérez vous-même si vous êtes sur place, soit vous confiez à une conciergerie locale qui connaît le terrain.</p>
+
+<h2>Confier la gestion locative à un expert local</h2>
+<p>Gérer un meublé de tourisme à distance, c'est possible - mais c'est chronophage et risqué si on ne connaît pas les spécificités d'une station alpine. Les rotations sont rapides, les attentes des locataires sont élevées, et un problème technique en pleine saison hiver peut coûter cher en avis négatifs.</p>
+<p>Un expert local connaît les périodes de forte demande, les tarifs du marché, les prestataires de ménage fiables et les règles propres à la commune. Il peut aussi vous aider à positionner votre bien sur les bonnes plateformes - Airbnb, Booking, Abritel - avec des photos et des descriptions adaptées à la clientèle de montagne.</p>
+<p><strong>Cledici propose une estimation gratuite de vos revenus locatifs potentiels</strong> à Saint-François-Longchamp, sans engagement. C'est le point de départ logique avant de finaliser votre décision d'achat - ou avant de changer de mode de gestion si vous possédez déjà un bien. Pour en savoir plus sur notre accompagnement, consultez notre page dédiée : <a href="/conciergerie/saint-francois-longchamp">conciergerie Saint-François-Longchamp</a>.</p>
+
+<h2>Foire aux questions</h2>
+<h3>Peut-on louer un appartement en résidence de tourisme à Saint-François-Longchamp sans passer par l'opérateur de la résidence ?</h3>
+<p>Ça dépend du bail commercial signé lors de l'achat. Dans beaucoup de résidences gérées, le propriétaire est lié à l'exploitant par un bail commercial qui lui impose de confier la gestion à cet opérateur pendant toute la durée du contrat (souvent 9 à 11 ans). Hors de ce cadre - bien en copropriété classique sans bail commercial - vous êtes libre de choisir votre mode de gestion. Lisez le bail avant d'acheter, pas après.</p>
+<h3>La double saison hiver/été est-elle vraiment exploitable pour la location saisonnière à SFL ?</h3>
+<p>Oui - à condition de bien positionner le bien. L'hiver reste la saison forte, avec des semaines très demandées de décembre à mars. L'été génère une demande réelle de juin à mi-septembre, portée par le col de la Madeleine, le VTT et la randonnée. Entre les deux, les inter-saisons (novembre, avril-mai) sont creuses. Un bien bien géré et bien tarifé peut être occupé une grande partie de l'année - mais ne vous attendez pas à 12 mois pleins.</p>
+<h3>Quelles sont les obligations fiscales d'un propriétaire bailleur en meublé de tourisme à Saint-François-Longchamp ?</h3>
+<p>Vous relevez du régime des <strong>loueurs en meublé non professionnels (LMNP)</strong> si vos recettes locatives restent inférieures à 23 000 € par an ou représentent moins de 50 % des revenus du foyer. Deux régimes fiscaux s'appliquent : le <strong>micro-BIC</strong> (abattement forfaitaire de 30 %, ou 50 % pour un meublé classé, revenus 2025) et le <strong>régime réel</strong> (déduction des charges réelles et amortissement du bien). Vous devez aussi vous immatriculer via le guichet des formalités des entreprises pour obtenir un SIRET et déclarer vos revenus locatifs en BIC.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li><a href="https://www.saintfrancoislongchamp.com/" target="_blank" rel="noopener">Site officiel de Saint-François-Longchamp - station, domaine skiable, activités été</a></li>
+<li><a href="https://skipass.valmorel.com/fr/le-grand-domaine" target="_blank" rel="noopener">Le Grand Domaine - domaine skiable interconnecté</a></li>
+<li><a href="https://www.service-public.fr/particuliers/vosdroits/F2315" target="_blank" rel="noopener">Service-Public.fr - Meublé de tourisme : déclaration et réglementation</a></li>
+<li><a href="https://www.notaires.fr/fr/article/location-les-regles-applicables-aux-meubles-de-tourisme" target="_blank" rel="noopener">Notaires de France - Règles applicables aux meublés de tourisme</a></li>
+<li><a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711" target="_blank" rel="noopener">Légifrance - Loi Le Meur (novembre 2024)</a></li>
+</ul>`,
+  },
+  {
+    slug: "investir-les-avanchers-valmorel-achat-locatif",
+    title: "Acheter aux Avanchers-Valmorel pour louer : village à l'année vs station, spécificités et opportunités",
+    excerpt:
+      "Les Avanchers-Valmorel, c'est une commune, deux ambiances et une vraie logique d'investissement locatif à comprendre avant d'acheter. Village de vallée à 1 100 m ou station à 1 400 m : le choix n'est pas anodin.",
+    date: "2026-08-05",
+    cover: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Investir Les Avanchers-Valmorel : guide achat locatif",
+    seoDescription:
+      "Investir Les Avanchers-Valmorel pour louer : village de vallée vs station-altitude, profil des biens, atouts été/hiver, points de vigilance et démarches.",
+    contentHtml: `<p><strong>TL;DR :</strong> Les Avanchers-Valmorel est une seule commune qui regroupe 13 villages de vallée (chef-lieu à 1 100 m) et la station de Valmorel (1 400 m). Investir dans le village-bas, c'est parier sur un cadre résidentiel, des biens plus spacieux et une clientèle différente de celle de la station-altitude. L'accès aux pistes depuis Les Avanchers passe par la navette ou la voiture - c'est la contrainte principale, à intégrer dans votre argumentaire locatif. Avant de louer, trois étapes non négociables : déclaration en mairie, vérification du règlement de copropriété, choix du régime fiscal.</p>
+
+<h2>Les Avanchers-Valmorel : village de vallée ou antichambre de la station ?</h2>
+<p>La confusion est fréquente. Quand on cherche un bien à Valmorel, on tombe souvent sur des annonces situées aux Avanchers - et on se demande si c'est vraiment la même chose. La réponse courte : non. La réponse utile : c'est la même <strong>commune</strong>, mais deux réalités très différentes.</p>
+<p>La commune des Avanchers-Valmorel compte 13 villages séparés par le torrent du Morel. Le chef-lieu - Les Avanchers à proprement parler - se trouve à <strong>1 100 m d'altitude</strong>. La station de Valmorel, elle, est à <strong>1 400 m</strong>. Trois cents mètres de dénivelé, c'est peu sur une carte. En pratique, c'est un changement de monde.</p>
+<p>Les Avanchers, c'est un village savoyard authentique : église baroque, hameaux dispersés entre forêts et alpages, torrent en contrebas. On est aux portes du <strong>col de la Madeleine</strong> et de la chaîne de la Lauzière. Le cadre est spectaculaire. L'ambiance est celle d'un village vivant à l'année - pas d'une station qui s'éteint hors saison.</p>
+<p>Pour un investisseur, cette distinction est fondamentale. <strong>Investir aux Avanchers-Valmorel</strong>, ce n'est pas investir en station. C'est un pari différent, avec ses propres atouts et ses propres contraintes.</p>
+
+<h2>Ce qui distingue Les Avanchers de Valmorel-station</h2>
+<p>Voici les différences concrètes, sans détour :</p>
+<table>
+<tr><th>Critère</th><th>Les Avanchers</th><th>Valmorel-station</th></tr>
+<tr><td>Altitude</td><td>1 100 m (chef-lieu)</td><td>1 400 m</td></tr>
+<tr><td>Accès aux pistes</td><td>Navette ou voiture (quelques minutes)</td><td>Ski aux pieds ou très proche</td></tr>
+<tr><td>Type de biens</td><td>Chalets, appartements spacieux, maisons de village</td><td>Appartements en résidence, studios, T2/T3</td></tr>
+<tr><td>Ambiance</td><td>Résidentielle, calme, village à l'année</td><td>Touristique, animée en saison</td></tr>
+<tr><td>Clientèle locative cible</td><td>Familles, groupes, amateurs de nature, séjours longs</td><td>Skieurs, courts séjours, clientèle station classique</td></tr>
+<tr><td>Vie à l'année</td><td>Oui - commerces, école, mairie</td><td>Limitée hors saison</td></tr>
+<tr><td>Concurrence locative</td><td>Moins dense qu'en station</td><td>Forte, marché mature</td></tr>
+</table>
+<p>Ce tableau résume l'essentiel. La location saisonnière aux Avanchers s'adresse à une clientèle qui cherche le calme et l'espace - pas forcément le ski aux pieds. C'est un positionnement à assumer dès l'achat.</p>
+
+<h2>Quels biens se louent le mieux aux Avanchers ?</h2>
+<p>On ne loue pas n'importe quoi n'importe comment. Aux Avanchers, le marché locatif saisonnier a ses préférences.</p>
+<p><strong>Les chalets et grandes maisons de village</strong> sont les produits les plus recherchés. Les familles et les groupes d'amis - qui constituent la clientèle principale de ce secteur - veulent de l'espace, une terrasse, un jardin, parfois un sauna ou une cheminée. Un chalet de 80 à 120 m² avec 3 ou 4 chambres est idéalement positionné pour des séjours d'une semaine.</p>
+<p><strong>Les appartements spacieux</strong> - T3 et T4 - fonctionnent bien aussi, à condition d'offrir une vraie surface habitable et un extérieur. Un T2 exigu sans balcon aura du mal à se différencier face à l'offre en station.</p>
+<p>Ce qui fait la différence sur ce marché :</p>
+<ul>
+<li>Une <strong>terrasse ou un jardin</strong> - indispensable en été, très apprécié en hiver</li>
+<li>Un <strong>garage ou local à skis</strong> - les locataires hivernaux en font une condition</li>
+<li>La <strong>capacité d'accueil</strong> - plus on peut loger de personnes, plus le rapport qualité/prix est attractif pour les groupes</li>
+<li>La <strong>connexion internet</strong> - les séjours longue durée (télétravail en montagne) sont en hausse</li>
+</ul>
+<p>Les biens atypiques - granges rénovées, fermes savoyardes - ont un vrai potentiel sur les plateformes de location, à condition d'être aux normes et bien équipés. Le meublé bien présenté surperforme systématiquement le bien banal.</p>
+
+<h2>L'été aux Avanchers : un atout sous-estimé</h2>
+<p>Beaucoup d'investisseurs raisonnent encore uniquement en termes de saison hivernale. C'est une erreur - surtout aux Avanchers.</p>
+<p>En été, le <strong>Grand Domaine de Valmorel</strong> se transforme : sentiers de randonnée balisés, bike park avec des parcours de VTT variés (descente, enduro, cross-country, VTT à assistance électrique), remontées mécaniques ouvertes pour accéder aux sommets. La commune est aux portes du col de la Madeleine, col mythique pour les cyclistes, franchi plusieurs fois par le Tour de France.</p>
+<p>Les Avanchers bénéficient directement de cette offre estivale. Et contrairement à la station-altitude, le village-bas présente un avantage concret en été : <strong>des températures plus douces</strong>, un cadre de vie agréable pour les séjours familiaux, une nature accessible à pied depuis le logement.</p>
+<p>La clientèle estivale est différente de la clientèle hivernale :</p>
+<ul>
+<li><strong>Randonneurs et cyclistes</strong> - souvent en couples ou en petits groupes, séjours de 5 à 10 jours</li>
+<li><strong>Familles avec enfants</strong> - qui cherchent l'air pur, l'espace et les activités nature</li>
+<li><strong>Télétravailleurs en villégiature</strong> - segment en croissance, qui privilégie les séjours longs dans des logements bien équipés</li>
+</ul>
+<p>Un bien aux Avanchers bien géré peut donc <strong>tourner sur deux saisons</strong> - hiver et été - avec une clientèle complémentaire. C'est l'argument central pour qui veut optimiser l'occupation annuelle.</p>
+
+<h2>Les points de vigilance avant d'acheter</h2>
+<p>Investir en montagne, ça ne s'improvise pas. Voici les points qui font trébucher les acheteurs non avertis.</p>
+<p><strong>La distance aux pistes.</strong> C'est la contrainte numéro un aux Avanchers. Les locataires hivernaux qui veulent skier doivent prendre la navette ou leur voiture. Ce n'est pas rédhibitoire - mais c'est à mentionner clairement dans vos annonces et à intégrer dans votre stratégie tarifaire. Un bien présenté honnêtement convertit mieux qu'un bien qui déçoit à l'arrivée.</p>
+<p><strong>Le règlement de copropriété.</strong> Si vous achetez dans un immeuble ou une résidence, lisez le règlement avant de signer. Certains règlements interdisent ou encadrent strictement la location saisonnière - notamment les locations de courte durée via des plateformes. Une clause restrictive peut ruiner votre projet locatif.</p>
+<p><strong>L'état du bien et les travaux.</strong> Les chalets anciens aux Avanchers peuvent nécessiter une rénovation importante - isolation, chauffage, mise aux normes électriques. Ces coûts doivent être anticipés, pas découverts après l'achat.</p>
+<p><strong>L'accessibilité hivernale.</strong> Vérifiez que le chemin d'accès au bien est déneigé régulièrement. Un chalet isolé magnifique en été peut devenir difficile d'accès en janvier si la route n'est pas entretenue.</p>
+<p><strong>La saisonnalité de la demande.</strong> Aux Avanchers, la demande locative est forte en hiver (décembre-avril) et en été (juillet-août). Les inter-saisons - mai-juin et septembre-novembre - sont plus creuses. Votre plan de financement doit en tenir compte.</p>
+
+<h2>Déclarer et gérer votre bien : les étapes clés</h2>
+<p>La réglementation sur la location saisonnière a évolué. Plusieurs obligations s'appliquent - et les ignorer expose à des amendes.</p>
+<p><strong>1. La déclaration en mairie.</strong> Avant de mettre votre bien en location saisonnière, vous devez le déclarer auprès de la mairie des Avanchers-Valmorel. La démarche se fait via le <strong>formulaire Cerfa n°14004</strong> ou le téléservice Declaloc. Depuis la loi Le Meur (19 novembre 2024), le dispositif d'enregistrement tend à se généraliser à toutes les locations de meublés de tourisme.</p>
+<p><strong>2. Le classement meublé de tourisme.</strong> Le classement Atout France (de 1 à 5 étoiles) est <strong>volontaire</strong>, mais fortement recommandé : il améliore la visibilité de votre annonce, rassure les locataires et donne droit à l'abattement micro-BIC de 50 % (contre 30 % non classé, revenus 2025). La visite est réalisée par un organisme évaluateur accrédité ; le classement est valable 5 ans.</p>
+<p><strong>3. Le choix du régime fiscal.</strong> Vous relevez du statut de <strong>loueur meublé non professionnel (LMNP)</strong> dans la grande majorité des cas. Deux régimes s'offrent à vous : le micro-BIC (abattement forfaitaire) ou le régime réel (déduction des charges et amortissements). Le régime réel est souvent plus avantageux pour un bien en montagne avec des charges réelles importantes - mais il nécessite une comptabilité rigoureuse.</p>
+<p><strong>4. La taxe de séjour.</strong> En tant que propriétaire loueur, vous êtes responsable de la collecte et du reversement de la <strong>taxe de séjour</strong> auprès de la commune. Les plateformes comme Airbnb ou Booking la collectent souvent directement - vérifiez le dispositif applicable à votre situation.</p>
+<p><strong>5. L'assurance.</strong> Votre assurance habitation classique ne couvre pas la location saisonnière. Souscrivez une assurance spécifique propriétaire non-occupant (PNO) avec garantie villégiature ou une assurance dédiée aux meublés de tourisme.</p>
+
+<h2>Confier la gestion locative à un expert local</h2>
+<p>Gérer un bien en location saisonnière à distance, c'est chronophage. Rédiger les annonces, gérer les réservations, organiser les ménages, accueillir les locataires, répondre aux imprévus à 22h un dimanche soir - on sous-estime systématiquement la charge de travail.</p>
+<p>Aux Avanchers-Valmorel, confier la gestion à un <strong>expert local de la conciergerie</strong> change la donne. Un prestataire qui connaît le territoire, les spécificités du village-bas, la clientèle locale et les contraintes saisonnières fera mieux qu'une agence généraliste distante.</p>
+<p>Cledici propose une <strong>conciergerie dédiée aux Avanchers-Valmorel</strong> : gestion des réservations, accueil des locataires, ménage, maintenance, optimisation tarifaire selon la saisonnalité. <strong>Vous souhaitez estimer le potentiel locatif de votre bien aux Avanchers ?</strong> Demandez une estimation gratuite et sans engagement, ou découvrez notre offre sur <a href="/conciergerie/les-avanchers">notre page dédiée aux Avanchers-Valmorel</a>.</p>
+
+<h2>Foire aux questions</h2>
+<h3>Peut-on louer un bien aux Avanchers sans être proche des pistes ?</h3>
+<p>Oui - à condition de le présenter honnêtement et de cibler la bonne clientèle. Les Avanchers attirent des locataires qui cherchent le calme, l'espace et la nature, pas forcément le ski aux pieds. En été, la distance aux pistes n'est plus un sujet. En hiver, la navette vers Valmorel-station est l'argument à mettre en avant. Un bien bien positionné sur ces critères trouve sa clientèle.</p>
+<h3>Quelle est la différence entre déclarer un meublé de tourisme et le faire classer ?</h3>
+<p>La <strong>déclaration en mairie</strong> est une obligation légale - elle signale votre activité à la commune et peut donner lieu à un numéro d'enregistrement. Le <strong>classement Atout France</strong> est une démarche volontaire qui attribue des étoiles à votre logement après visite d'un organisme accrédité. Les deux sont indépendants, mais complémentaires : la déclaration est obligatoire, le classement est un levier de valorisation et d'optimisation fiscale.</p>
+<h3>Les Avanchers sont-ils une bonne option pour un investissement locatif toute l'année ?</h3>
+<p>Le potentiel existe, mais il faut être réaliste. Les inter-saisons (mai-juin, septembre-novembre) sont plus creuses qu'en station. En revanche, l'été - grâce au Grand Domaine, au col de la Madeleine et à l'offre randonnée/VTT - génère une demande réelle. Un bien bien équipé, bien géré et bien référencé peut tourner sur deux saisons pleines. C'est le scénario à viser, pas à garantir.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li><a href="https://www.lesavanchers.fr/la-commune/" target="_blank" rel="noopener">Mairie des Avanchers-Valmorel - Présentation de la commune</a></li>
+<li><a href="https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/les-meubles-de-tourisme" target="_blank" rel="noopener">Ministère de l'Économie - Réglementation des meublés de tourisme</a></li>
+<li><a href="https://www.service-public.gouv.fr/particuliers/vosdroits/R14321" target="_blank" rel="noopener">Service-Public.fr - Déclaration d'un meublé de tourisme en mairie (Cerfa 14004)</a></li>
+<li><a href="https://www.atout-france.fr/fr/classement/meuble-de-tourisme" target="_blank" rel="noopener">Atout France - Classement des meublés de tourisme</a></li>
+<li><a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711" target="_blank" rel="noopener">Légifrance - Loi Le Meur du 19 novembre 2024 sur les meublés de tourisme</a></li>
+<li><a href="https://skipass.valmorel.com/fr/le-grand-domaine" target="_blank" rel="noopener">Valmorel - Le Grand Domaine</a></li>
+</ul>`,
+  },
 ];
 
 export const getArticle = (slug: string) => ARTICLES.find((a) => a.slug === slug);
