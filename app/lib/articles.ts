@@ -852,6 +852,330 @@ export const ARTICLES: Article[] = [
 <li><a href="https://www.agrialpro.fr/blog/post/a-quelle-temperature-les-tuyaux-gelent" target="_blank" rel="noopener">Agrialpro - À quelle température les tuyaux gèlent ?</a></li>
 </ul>`,
   },
+  {
+    slug: "contrat-location-saisonniere-valmorel",
+    title: "Contrat de location saisonnière : ce que doit contenir votre bail à Valmorel",
+    excerpt:
+      "Un contrat de location saisonnière mal rédigé, c'est un litige potentiel à chaque saison. Voici exactement ce que doit contenir votre bail à Valmorel, mention par mention.",
+    date: "2026-08-05",
+    cover: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Contrat location saisonnière Valmorel : le guide",
+    seoDescription:
+      "Mentions obligatoires, clauses essentielles, plateformes : tout ce que doit contenir votre contrat de location saisonnière à Valmorel. Guide pratique et juridique.",
+    contentHtml: `<p><strong>TL;DR :</strong> le contrat de location saisonnière doit être écrit - c'est une obligation légale (art. L324-2 du Code du tourisme). Il doit mentionner au minimum : identité des parties, adresse du bien, durée du séjour, prix et modalités de paiement, état descriptif des lieux. La durée maximale est de 90 jours consécutifs pour un même locataire, non renouvelable dans ce cadre. Et louer via Airbnb ou Booking ne vous dispense pas d'avoir votre propre contrat signé.</p>
+
+<p>Un appartement à Valmorel, une semaine de ski en février, et un locataire qui repart en laissant un casque de ski rayé et un radiateur cassé. Sans contrat solide - sans état des lieux, sans dépôt de garantie clairement stipulé - vous ne pouvez rien prouver. Et vous ne récupérez rien.</p>
+<p>Ce guide passe en revue, clause par clause, ce que doit contenir votre <strong>contrat de location saisonnière à Valmorel</strong> - que vous louiez en direct ou via une plateforme.</p>
+
+<h2>Location saisonnière vs bail classique : pourquoi le contrat est différent</h2>
+<p>La location saisonnière n'est pas soumise à la loi du 6 juillet 1989 qui régit les baux d'habitation classiques. Elle relève du <strong>Code du tourisme</strong> (articles L324-1 à L324-2-1) et, pour les professionnels de l'immobilier qui s'en chargent, de la <strong>loi Hoguet du 2 janvier 1970</strong>.</p>
+<p>Concrètement, ça change tout :</p>
+<ul>
+<li><strong>Pas de durée minimale légale</strong> - un week-end, une semaine, un mois : c'est vous qui fixez.</li>
+<li><strong>Pas de préavis réglementé</strong> - les conditions d'annulation sont celles que vous avez écrites dans le contrat.</li>
+<li><strong>Pas de droit au maintien dans les lieux</strong> - le locataire saisonnier ne peut pas s'installer durablement.</li>
+<li><strong>La loi ALUR ne s'applique pas</strong> à ce type de location - ni l'encadrement des loyers, ni le bail type obligatoire.</li>
+</ul>
+<p>En station de montagne comme Valmorel, cette souplesse est un avantage. Mais elle exige que vous rédigiez un contrat complet - la loi ne le fait pas à votre place.</p>
+
+<h2>Les mentions obligatoires du contrat</h2>
+<p>L'article L324-2 du Code du tourisme est clair : <strong>la réservation d'un meublé de tourisme doit faire l'objet d'un contrat écrit</strong>. Ce contrat doit être signé en deux exemplaires - un pour vous, un pour le locataire.</p>
+<p>Voici ce que la loi et la pratique imposent de faire figurer.</p>
+
+<h3>Identification des parties et du bien</h3>
+<p>Le contrat doit mentionner sans ambiguïté :</p>
+<ul>
+<li><strong>Nom, prénom et coordonnées complètes du bailleur</strong> (vous) - adresse postale, téléphone, e-mail.</li>
+<li><strong>Nom, prénom et coordonnées du locataire</strong> - une pièce d'identité peut être demandée en annexe.</li>
+<li><strong>Adresse exacte du bien</strong> - résidence, numéro d'appartement, étage, bâtiment. À Valmorel, précisez le hameau ou la résidence.</li>
+<li><strong>Description du logement</strong> : surface habitable, nombre de pièces, équipements disponibles (lave-linge, parking, casier à skis, accès piscine ou spa si applicable).</li>
+<li><strong>Inventaire du mobilier</strong>, idéalement en annexe signée.</li>
+</ul>
+<p>Si le bien est classé meublé de tourisme, indiquez sa catégorie (1 à 5 étoiles). Si vous avez déclaré le bien en mairie, mentionnez le numéro de déclaration.</p>
+
+<h3>Durée et dates de séjour</h3>
+<p>C'est la colonne vertébrale du contrat saisonnier. Indiquez :</p>
+<ul>
+<li><strong>La date et l'heure d'arrivée</strong> (ex. : samedi 7 février, à partir de 17h).</li>
+<li><strong>La date et l'heure de départ</strong> (ex. : samedi 14 février, avant 10h).</li>
+<li><strong>La durée totale du séjour</strong> exprimée en jours ou en nuits.</li>
+</ul>
+<p>Ces précisions évitent les malentendus sur les horaires de remise des clés - un point de friction classique en station, surtout les samedis de changement de semaine en haute saison.</p>
+
+<h3>Prix, modalités de paiement et arrhes</h3>
+<p>Le contrat doit indiquer :</p>
+<ul>
+<li><strong>Le prix total de la location</strong> - loyer + charges si elles ne sont pas incluses (eau, électricité, chauffage).</li>
+<li><strong>Le montant prévisionnel de la taxe de séjour</strong>, si elle est applicable dans la commune.</li>
+<li><strong>Les modalités de paiement</strong> : acompte à la réservation, solde à l'arrivée ou avant une date donnée.</li>
+<li><strong>La nature des sommes versées à la réservation</strong> : arrhes ou acompte - et ce n'est pas la même chose.</li>
+</ul>
+<p><strong>Arrhes vs acompte : une distinction qui coûte cher si elle est ignorée.</strong> Avec des <strong>arrhes</strong>, chaque partie peut se désengager - le locataire perd la somme versée, vous devez en restituer le double si vous annulez (art. 1590 du Code civil). Avec un <strong>acompte</strong>, le contrat est ferme : le locataire qui annule reste redevable du prix total, sauf si vous parvenez à relouer. Précisez toujours lequel vous choisissez - si le contrat ne dit rien, la somme est présumée être des arrhes (art. L214-1 du Code de la consommation).</p>
+
+<h2>Les clauses fortement recommandées</h2>
+<p>Ces clauses ne sont pas imposées par la loi, mais leur absence vous expose à des litiges que vous ne pourrez pas trancher à votre avantage.</p>
+
+<h3>Dépôt de garantie (caution)</h3>
+<p>Le dépôt de garantie n'est pas obligatoire - mais il serait imprudent de s'en passer à Valmorel, où les locataires arrivent souvent avec du matériel de ski loué, des enfants en bas âge et une semaine intense devant eux.</p>
+<p>Le contrat doit préciser :</p>
+<ul>
+<li><strong>Le montant du dépôt de garantie</strong> - fixé librement par le propriétaire, sans plafond légal en location saisonnière.</li>
+<li><strong>Les modalités de versement</strong> : chèque encaissable, virement, empreinte bancaire.</li>
+<li><strong>Le délai et les conditions de restitution</strong> - en général, à la fin du séjour ou dans les jours qui suivent, déduction faite des éventuelles dégradations constatées et justifiées.</li>
+</ul>
+<p>Pensez à mentionner explicitement que le dépôt peut couvrir les consommations d'eau, de chauffage et d'électricité si elles ne sont pas incluses dans le loyer. En montagne, la facture de chauffage sur une semaine peut être significative.</p>
+
+<h3>État des lieux</h3>
+<p>L'état des lieux n'est pas légalement obligatoire en location saisonnière - mais c'est votre seule arme en cas de litige sur des dégradations.</p>
+<p>Faites-le systématiquement, à l'entrée et à la sortie, de manière contradictoire (signé par les deux parties). En station, quelques points méritent une attention particulière :</p>
+<ul>
+<li>État du <strong>casier à skis ou local à matériel</strong> - accrocs, serrures, crochets.</li>
+<li>État du <strong>lave-linge et du sèche-linge</strong> - équipements très sollicités en semaine de ski.</li>
+<li>État des <strong>sols et moquettes</strong> - les chaussures de ski font des dégâts.</li>
+<li>Inventaire du <strong>mobilier et des équipements de cuisine</strong>.</li>
+</ul>
+<p>Photographiez tout avant l'entrée du locataire. Ces photos, datées et horodatées, valent de l'or si le dossier finit devant un juge de proximité.</p>
+
+<h3>Règlement intérieur et règlement de copropriété</h3>
+<p>Si votre bien est situé dans une résidence en copropriété - ce qui est la norme dans les stations comme Valmorel - vous avez une obligation : <strong>informer votre locataire des règles de la copropriété</strong>.</p>
+<p>Intégrez au contrat (ou en annexe) :</p>
+<ul>
+<li>Les <strong>horaires de silence</strong> et règles de comportement dans les parties communes.</li>
+<li>Les <strong>règles d'utilisation des équipements collectifs</strong> : piscine, sauna, salle de sport, parking.</li>
+<li>L'<strong>interdiction éventuelle des animaux de compagnie</strong> - si le règlement de copropriété l'interdit, votre contrat doit le refléter.</li>
+<li>Le <strong>nombre maximum d'occupants autorisé</strong> - important pour des raisons de sécurité et de respect des parties communes.</li>
+</ul>
+<p>Ne pas transmettre ces règles au locataire ne vous exonère pas de responsabilité vis-à-vis du syndicat de copropriété si un incident survient.</p>
+
+<h2>Ce que les plateformes (Airbnb, Booking) couvrent - et ce qu'elles ne couvrent pas</h2>
+<p>Airbnb et Booking ont simplifié la mise en location. Ils n'ont pas simplifié le droit.</p>
+<p><strong>Ce que la plateforme fait à votre place :</strong></p>
+<ul>
+<li>Elle collecte le paiement et reverse le loyer après le séjour.</li>
+<li>Elle gère les avis, la visibilité et une partie du service client.</li>
+<li>Elle propose des garanties maison (Airbnb AirCover, par exemple) - dont les conditions d'activation sont strictement encadrées par ses propres CGU.</li>
+</ul>
+<p><strong>Ce qu'elle ne fait pas :</strong></p>
+<ul>
+<li>Elle ne vous fournit pas un contrat de location saisonnière au sens du Code du tourisme français.</li>
+<li>La confirmation de réservation générée par la plateforme n'est pas un bail saisonnier signé - elle ne contient pas l'état descriptif des lieux, ni les clauses sur le dépôt de garantie, ni les règles de copropriété.</li>
+<li>En cas de litige devant un tribunal français, c'est votre contrat - ou son absence - qui sera examiné, pas les CGU d'une plateforme étrangère.</li>
+</ul>
+<p>La bonne pratique : <strong>faites signer un contrat séparé à chaque locataire</strong>, même ceux qui réservent via Airbnb. Un contrat PDF signé électroniquement suffit.</p>
+
+<h2>Durée maximale et renouvellement : les règles à connaître</h2>
+<p>La location saisonnière est définie par la loi Hoguet (art. 1-1) comme une location conclue pour une durée maximale et non renouvelable de <strong>90 jours consécutifs</strong>.</p>
+<p>Ce plafond est absolu pour un même locataire. Au-delà, on sort du cadre de la location saisonnière - et on entre dans celui des baux meublés classiques, avec leurs propres règles (loi du 6 juillet 1989, bail mobilité, etc.).</p>
+<p>Quelques précisions importantes :</p>
+<ul>
+<li><strong>Pas de renouvellement tacite</strong> - contrairement à un bail classique, la location saisonnière ne se reconduit pas automatiquement. Chaque séjour fait l'objet d'un nouveau contrat.</li>
+<li><strong>Pour une résidence principale</strong> mise en location, des plafonds annuels s'appliquent - certaines communes peuvent les abaisser à 90 jours par an par délibération motivée (art. L324-1-1 du Code du tourisme). Vérifiez la réglementation en vigueur auprès de la mairie des Avanchers-Valmorel.</li>
+<li><strong>Pour une résidence secondaire</strong> - cas le plus fréquent à Valmorel - la limite des 90 jours consécutifs par locataire s'applique, mais il n'y a pas de plafond annuel global de la même nature.</li>
+</ul>
+<p>En pratique : une semaine de ski en février, une semaine en avril, un mois en été - chaque séjour est un contrat distinct, et vous restez dans le cadre légal de la location saisonnière.</p>
+
+<h2>Modèle de contrat : les éléments à avoir dans votre document</h2>
+<p>Voici un tableau récapitulatif des rubriques indispensables à faire figurer dans votre contrat de location saisonnière à Valmorel.</p>
+<table>
+<tr><th>Rubrique</th><th>Ce qu'elle doit contenir</th></tr>
+<tr><td>Identification du bailleur</td><td>Nom, prénom, adresse postale, téléphone, e-mail</td></tr>
+<tr><td>Identification du locataire</td><td>Nom, prénom, adresse, téléphone, e-mail - copie pièce d'identité en annexe recommandée</td></tr>
+<tr><td>Description du bien</td><td>Adresse complète, surface habitable, nombre de pièces, équipements (casier à skis, parking, etc.)</td></tr>
+<tr><td>Inventaire du mobilier</td><td>Liste détaillée des meubles et équipements, signée en annexe</td></tr>
+<tr><td>Durée et dates du séjour</td><td>Date et heure d'arrivée, date et heure de départ, durée totale</td></tr>
+<tr><td>Prix et charges</td><td>Loyer total, charges incluses ou non, taxe de séjour prévisionnelle</td></tr>
+<tr><td>Arrhes ou acompte</td><td>Montant versé à la réservation, nature explicite, conséquences en cas d'annulation</td></tr>
+<tr><td>Modalités de paiement du solde</td><td>Date limite, moyen de paiement accepté</td></tr>
+<tr><td>Dépôt de garantie</td><td>Montant, modalités de versement, délai et conditions de restitution</td></tr>
+<tr><td>Nombre maximum d'occupants</td><td>Nombre précis, conséquences en cas de dépassement</td></tr>
+<tr><td>Animaux de compagnie</td><td>Autorisation ou interdiction explicite</td></tr>
+<tr><td>Règlement intérieur / copropriété</td><td>Référence au règlement annexé, horaires de silence, règles des parties communes</td></tr>
+<tr><td>Assurance</td><td>Attestation responsabilité civile villégiature exigée ou prise en charge par le bailleur</td></tr>
+<tr><td>Classement et déclaration</td><td>Catégorie de classement si applicable, numéro de déclaration en mairie</td></tr>
+<tr><td>Signatures</td><td>Signature des deux parties, date, mention « lu et approuvé »</td></tr>
+</table>
+
+<h2>Foire aux questions</h2>
+<h3>Le contrat de location saisonnière doit-il obligatoirement être écrit ?</h3>
+<p>Oui. L'article L324-2 du Code du tourisme impose la forme écrite pour toute réservation de meublé de tourisme. Un accord oral n'a aucune valeur probante en cas de litige - et en station de montagne, les litiges sur les dégradations ou les annulations de dernière minute sont fréquents. Deux exemplaires signés, un pour chaque partie : c'est la règle minimale.</p>
+<h3>Puis-je louer mon appartement à Valmorel plus de 90 jours à la même personne ?</h3>
+<p>Pas dans le cadre d'un bail saisonnier. La loi Hoguet fixe à 90 jours consécutifs la durée maximale d'une location saisonnière pour un même locataire, sans renouvellement possible dans ce cadre. Si vous souhaitez louer plus longtemps à la même personne, vous devez basculer sur un autre régime juridique - bail meublé classique ou bail mobilité - avec des règles très différentes, notamment en matière de préavis et de protection du locataire.</p>
+<h3>La confirmation de réservation Airbnb remplace-t-elle le contrat de location ?</h3>
+<p>Non. La confirmation Airbnb organise la relation commerciale avec la plateforme - elle ne constitue pas un bail saisonnier complet au sens du droit français. Elle ne contient pas l'état descriptif des lieux, les clauses sur le dépôt de garantie, le règlement de copropriété ou les conditions d'annulation personnalisées. En cas de litige devant un tribunal français, c'est votre contrat signé qui fait foi. Airbnb permet d'en joindre un à la réservation - utilisez cette possibilité systématiquement.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li><a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F2045" target="_blank" rel="noopener">Service-Public.fr - Location de vacances entre particuliers (meublé de tourisme)</a></li>
+<li><a href="https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006158462/" target="_blank" rel="noopener">Légifrance - Code du tourisme, articles L324-1 à L324-2-1</a></li>
+<li><a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F31187" target="_blank" rel="noopener">Service-Public.fr - Arrhes et acompte : quelle différence ?</a></li>
+<li><a href="https://www.clauses-abusives.fr/recommandation/locations-saisonnieres/" target="_blank" rel="noopener">Commission des clauses abusives - Recommandation N°94-04 sur les locations saisonnières</a></li>
+</ul>`,
+  },
+  {
+    slug: "charges-deductibles-lmnp-reel-valmorel",
+    title: "Charges déductibles en LMNP au réel : ce que vous pouvez vraiment déduire sur un meublé à Valmorel",
+    excerpt:
+      "Le régime réel LMNP permet de déduire bien plus que le forfait micro-BIC - à condition de savoir exactement quelles charges sont admises, lesquelles ne le sont pas, et comment les documenter. Ce guide pratique répond à ces trois questions pour un meublé en station de montagne.",
+    date: "2026-08-05",
+    cover: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Charges déductibles LMNP réel : guide pratique Valmorel",
+    seoDescription:
+      "Quelles charges déduire en LMNP au régime réel ? Guide pratique pour propriétaires à Valmorel : travaux, conciergerie, amortissements, pièges à éviter.",
+    contentHtml: `<p><strong>TL;DR :</strong> au régime réel, vous déduisez les charges réelles et justifiées liées à l'exploitation du bien - pas un forfait. Certaines dépenses sont déductibles immédiatement (frais de gestion, assurances, intérêts d'emprunt) ; d'autres passent en amortissement (travaux d'amélioration, mobilier, équipements). L'amortissement ne peut pas créer de déficit - il est plafonné par les loyers diminués des autres charges (art. 39 C du CGI). Et aucune déduction n'existe sans justificatif comptable : facture, relevé, contrat.</p>
+
+<h2>Régime réel LMNP : le principe de la déduction</h2>
+<p>Le loueur en meublé non professionnel (LMNP) au régime réel est imposé dans la catégorie des <strong>bénéfices industriels et commerciaux (BIC)</strong>. Ce n'est pas un régime spécifique à l'immobilier - c'est le droit commun des entreprises, appliqué à votre appartement de montagne.</p>
+<p>Le bénéfice imposable est déterminé conformément aux articles <strong>38 et 39 du Code général des impôts (CGI)</strong> : on fait la différence entre les produits (vos loyers) et les charges déductibles. Le BOFiP précise les règles dans la notice <strong>BOI-BIC-CHAMP-40-20</strong>.</p>
+<p>Pour être déductible, une charge doit remplir <strong>quatre conditions cumulatives</strong> :</p>
+<ul>
+<li>Elle est engagée dans l'<strong>intérêt de l'exploitation</strong> locative - pas pour un usage personnel.</li>
+<li>Elle est <strong>supportée par le propriétaire</strong>, pas refacturée au locataire.</li>
+<li>Elle est <strong>justifiée par une pièce comptable</strong> (facture, contrat, relevé bancaire).</li>
+<li>Elle est <strong>rattachée à l'exercice</strong> en cours - la charge doit être née pendant la période d'imposition.</li>
+</ul>
+<p>Si l'une de ces conditions manque, la charge est réintégrée par l'administration. C'est aussi simple - et aussi strict - que ça.</p>
+<p><strong>Régime réel simplifié ou normal ?</strong> La mécanique de déduction est identique. La différence porte sur les obligations déclaratives et comptables, pas sur la liste des charges admises.</p>
+
+<h2>Les charges courantes déductibles</h2>
+<p>Ce sont les dépenses récurrentes, celles que vous payez chaque année pour maintenir votre bien en location. Elles s'imputent directement sur les loyers de l'exercice.</p>
+
+<h3>Frais de gestion et conciergerie</h3>
+<p>À Valmorel comme dans toute station, déléguer la gestion à un professionnel a un coût - et ce coût est <strong>intégralement déductible</strong>.</p>
+<p>Sont concernés :</p>
+<ul>
+<li>Les <strong>honoraires d'agence ou de gestionnaire locatif</strong> (commission sur les loyers encaissés).</li>
+<li>Les <strong>frais de conciergerie</strong> : accueil des locataires, remise des clés, ménage entre deux séjours, gestion du linge.</li>
+<li>Les <strong>frais de mise en location</strong> : annonces sur les plateformes, photos professionnelles, rédaction des contrats.</li>
+<li>Les <strong>honoraires d'expert-comptable</strong> - y compris l'adhésion à un centre de gestion agréé, qui ouvre droit à une réduction d'impôt supplémentaire.</li>
+<li>Les <strong>frais de procédure</strong> en cas de litige locatif (avocat, huissier).</li>
+</ul>
+
+<h3>Assurances</h3>
+<p>Toutes les assurances directement liées à l'activité locative sont déductibles :</p>
+<ul>
+<li><strong>Assurance propriétaire non occupant (PNO)</strong> - indispensable en meublé de tourisme.</li>
+<li><strong>Assurance multirisque habitation</strong> si elle couvre le bien loué.</li>
+<li><strong>Garantie loyers impayés</strong> - déductible dès lors qu'elle protège l'activité locative.</li>
+<li><strong>Assurance emprunteur</strong> liée au prêt ayant financé le bien.</li>
+</ul>
+<p>En revanche, une assurance vie souscrite à titre personnel - même si vous la présentez comme une garantie - ne passe pas en charge LMNP.</p>
+
+<h3>Charges de copropriété</h3>
+<p>Dans une résidence de tourisme à Valmorel, les charges de copropriété sont souvent élevées : piscine, espaces communs, gardiennage, entretien des parties communes. La règle est claire :</p>
+<ul>
+<li>Les charges <strong>non récupérables sur le locataire</strong> sont déductibles (entretien des parties communes, honoraires du syndic, assurance de l'immeuble).</li>
+<li>Les charges <strong>récupérables</strong> - celles que vous refacturez au locataire - ne sont pas déductibles, car elles ne constituent pas une charge nette pour vous.</li>
+</ul>
+<p>En location saisonnière, la quasi-totalité des charges de copropriété reste à votre charge : vous ne récupérez généralement rien sur le locataire de passage. Elles sont donc <strong>déductibles en totalité</strong>.</p>
+
+<h3>Taxe foncière et CFE</h3>
+<p>La <strong>taxe foncière</strong> est déductible au titre de l'année de son paiement. Pas de subtilité ici : vous payez en octobre, vous déduisez sur l'exercice en cours.</p>
+<p>La <strong>cotisation foncière des entreprises (CFE)</strong> est également déductible. En tant que LMNP au réel, vous êtes assujetti à la CFE - sauf exonération spécifique prévue par le BOFiP pour certaines locations meublées. Vérifiez votre situation auprès de votre service des impôts des entreprises.</p>
+
+<h2>Les dépenses de travaux et d'équipement</h2>
+<p>C'est ici que le régime réel révèle tout son intérêt - et toute sa complexité. La distinction entre <strong>charge immédiate</strong> et <strong>amortissement</strong> n'est pas toujours intuitive.</p>
+
+<h3>Travaux d'entretien et de réparation</h3>
+<p>Ces travaux ont pour objet de <strong>maintenir le bien en état</strong> sans en modifier la consistance ni augmenter sa valeur. Ils sont déductibles <strong>immédiatement</strong>, l'année de leur paiement.</p>
+<p>Exemples concrets en montagne :</p>
+<ul>
+<li>Remplacement d'un joint de fenêtre ou d'un volet endommagé par la neige.</li>
+<li>Réfection d'un revêtement de sol usé (moquette, parquet rayé).</li>
+<li>Réparation d'une chaudière existante - attention : le <em>remplacement complet</em> d'une chaudière est une autre affaire (voir ci-dessous).</li>
+<li>Remise en peinture après usure normale.</li>
+<li>Débouchage de canalisations, réparation de robinetterie.</li>
+</ul>
+<p>La règle de bon sens : si la dépense remet le bien dans son état initial sans l'améliorer, c'est une charge. Si elle l'améliore ou le transforme, c'est un amortissement.</p>
+
+<h3>Travaux d'amélioration et amortissement</h3>
+<p>Les travaux qui <strong>augmentent la valeur du bien</strong>, modifient sa consistance ou prolongent significativement sa durée de vie ne sont pas déductibles immédiatement. Ils sont inscrits à l'actif du bilan et <strong>amortis sur leur durée d'utilisation</strong>.</p>
+<p>Exemples typiques pour un appartement à Valmorel :</p>
+<ul>
+<li><strong>Isolation thermique</strong> des murs ou du toit : amélioration énergétique durable, à amortir - généralement sur 10 à 20 ans selon la nature des travaux.</li>
+<li><strong>Remplacement complet d'une chaudière</strong> par un équipement neuf : c'est un équipement nouveau, pas une réparation. Il s'amortit sur sa durée de vie estimée.</li>
+<li>Création ou rénovation complète d'une cuisine équipée.</li>
+<li>Aménagement d'une salle de bain.</li>
+</ul>
+<p><strong>La limite de l'amortissement</strong> - c'est le point crucial - est fixée par l'article <strong>39 C du CGI</strong> : l'amortissement total (immeuble + meubles) ne peut pas excéder le montant des loyers acquis, diminué des autres charges. L'excédent n'est pas perdu : il est reporté sur les exercices suivants. Mais il ne peut pas créer de déficit imputable sur vos autres revenus.</p>
+<p>Le terrain sur lequel est bâti l'immeuble n'est <strong>jamais amortissable</strong>. Vous devez ventiler la valeur du bien entre terrain et construction dans votre bilan.</p>
+
+<h3>Équipements et mobilier</h3>
+<p>Un appartement meublé à Valmorel doit être équipé pour accueillir des locataires : literie, canapé, table, chaises, électroménager, vaisselle. Tout cela a un coût - et tout cela est amortissable.</p>
+<p>Les durées d'amortissement usuellement retenues en pratique :</p>
+<ul>
+<li>Électroménager : <strong>5 ans</strong></li>
+<li>Literie : <strong>6 ans</strong></li>
+<li>Meubles (canapé, table, armoires) : <strong>10 ans</strong></li>
+<li>Matériel informatique (tablette, TV connectée) : <strong>3 ans</strong></li>
+</ul>
+<p><strong>Le cas du local à skis aménagé</strong> mérite une attention particulière. Si vous installez des casiers, des séchoirs à chaussures et un système de rangement intégré, il s'agit d'un <strong>aménagement durable</strong> à inscrire à l'actif et à amortir. Une simple étagère vissée au mur peut, selon son montant, passer en charge immédiate. La frontière dépend du montant et du caractère durable de l'installation - votre expert-comptable tranche au cas par cas.</p>
+<p>Les petits équipements de faible valeur peuvent être passés en charge immédiate selon les pratiques comptables usuelles. Consultez votre comptable pour fixer le seuil retenu dans votre dossier.</p>
+
+<h2>Les charges financières</h2>
+<p>Si vous avez financé votre bien à crédit - ce qui est fréquent pour un investissement en station - les charges financières sont déductibles. Mais pas toutes, et pas n'importe comment.</p>
+<p><strong>Ce qui est déductible :</strong></p>
+<ul>
+<li>Les <strong>intérêts d'emprunt</strong> liés au prêt ayant financé l'acquisition ou les travaux du bien loué.</li>
+<li>Les <strong>frais de dossier bancaire</strong> et frais de garantie (hypothèque, caution bancaire) liés à ce prêt.</li>
+<li>L'<strong>assurance emprunteur</strong> (déjà mentionnée dans les assurances).</li>
+<li>Les <strong>frais de tenue de compte</strong> dédiés à l'activité locative.</li>
+</ul>
+<p><strong>Ce qui ne l'est pas :</strong></p>
+<ul>
+<li>Le <strong>remboursement du capital</strong> - c'est la confusion la plus fréquente. Vous ne déduisez que les intérêts, jamais les mensualités en entier.</li>
+<li>Les intérêts d'un prêt contracté pour un usage <strong>sans lien avec le bien loué</strong>.</li>
+</ul>
+<p>Exemple : vous avez emprunté 200 000 € pour acquérir votre appartement à Valmorel. La première année, votre tableau d'amortissement bancaire indique 6 000 € d'intérêts et 4 000 € de capital remboursé. Seuls les <strong>6 000 € d'intérêts</strong> sont déductibles.</p>
+
+<h2>Ce qu'on ne peut pas déduire - les pièges courants</h2>
+<p>Le régime réel est puissant. Il est aussi piégeux pour qui confond « dépense engagée » et « charge déductible ».</p>
+<p><strong>Le remboursement du capital de l'emprunt.</strong> Répété ici parce que c'est l'erreur numéro un. Le capital remboursé n'est jamais une charge - c'est un mouvement de bilan.</p>
+<p><strong>Les dépenses personnelles imputées sur l'activité.</strong> Vous avez séjourné deux semaines dans votre appartement avant de le louer ? Les charges de cette période - électricité, eau, charges de copropriété - ne sont pas déductibles pour la fraction correspondant à votre usage privé, qui génère un avantage en nature à réintégrer.</p>
+<p><strong>Les travaux de construction ou d'agrandissement.</strong> Créer une nouvelle pièce, surélever le toit, agrandir la surface habitable - ce sont des dépenses de construction, pas d'entretien. Elles s'inscrivent à l'actif et s'amortissent, mais avec des règles spécifiques.</p>
+<p><strong>La TVA récupérable.</strong> Si vous êtes assujetti à la TVA (régime para-hôtelier avec prestations de services), vous récupérez la TVA sur vos achats - et dans ce cas, vous ne déduisez que le montant <strong>hors taxe</strong>. Déduire le TTC quand on récupère la TVA, c'est une double déduction.</p>
+<p><strong>Les impôts personnels.</strong> L'impôt sur le revenu, les prélèvements sociaux, l'IFI - aucun de ces impôts n'est déductible en LMNP.</p>
+<p><strong>Les charges non rattachées à l'exercice.</strong> Une facture de travaux datée de décembre N+1 ne peut pas être déduite sur l'exercice N, même si les travaux ont commencé en N. La charge doit être née et certaine pendant la période d'imposition.</p>
+
+<h2>Comment bien documenter ses charges</h2>
+<p>La déduction n'existe que si la preuve existe. En cas de contrôle fiscal, l'administration demande les justificatifs - et l'absence de facture suffit à faire tomber la déduction.</p>
+<table>
+<tr><th>Type de charge</th><th>Justificatif recommandé</th></tr>
+<tr><td>Frais de gestion / conciergerie</td><td>Factures détaillées du prestataire, contrat de mandat</td></tr>
+<tr><td>Assurances</td><td>Avis d'échéance, quittance de prime, attestation d'assurance</td></tr>
+<tr><td>Charges de copropriété</td><td>Relevés de charges du syndic, décompte annuel</td></tr>
+<tr><td>Taxe foncière</td><td>Avis d'imposition taxe foncière (impots.gouv.fr)</td></tr>
+<tr><td>CFE</td><td>Avis de CFE (espace professionnel impots.gouv.fr)</td></tr>
+<tr><td>Travaux d'entretien / réparation</td><td>Factures d'artisan (nom, SIRET, détail des travaux, date)</td></tr>
+<tr><td>Travaux d'amélioration (amortissement)</td><td>Factures + devis + tableau d'amortissement comptable</td></tr>
+<tr><td>Mobilier et équipements</td><td>Factures avec description précise du bien</td></tr>
+<tr><td>Intérêts d'emprunt</td><td>Tableau d'amortissement bancaire, relevés de compte</td></tr>
+<tr><td>Frais de comptabilité</td><td>Factures de l'expert-comptable ou du centre de gestion</td></tr>
+</table>
+<p>Quelques règles pratiques pour ne pas se faire piéger :</p>
+<ul>
+<li><strong>Conservez tout pendant au moins 6 ans</strong> - c'est le délai de prescription fiscale général en matière de BIC.</li>
+<li>Numérisez vos factures dès réception : une facture papier décolorée après trois hivers en station ne prouve rien.</li>
+<li>Ouvrez un <strong>compte bancaire dédié</strong> à votre activité LMNP : cela simplifie le suivi et crédibilise votre comptabilité en cas de contrôle.</li>
+<li>Pour les travaux importants, demandez toujours une <strong>facture détaillée</strong> - pas un simple reçu global. L'administration doit pouvoir distinguer la part « entretien » de la part « amélioration ».</li>
+</ul>
+
+<h2>Foire aux questions</h2>
+<h3>Puis-je déduire les frais de déplacement pour me rendre à Valmorel gérer mon bien ?</h3>
+<p>En principe, oui - à condition que le déplacement soit directement lié à l'activité locative (visite de chantier, état des lieux, réunion de copropriété) et non à un usage personnel. Vous devez conserver les justificatifs : billets de train, notes d'essence, péages, ou un relevé kilométrique si vous utilisez votre véhicule personnel. En pratique, ces frais doivent rester proportionnés - une visite annuelle pour un état des lieux est défendable ; dix week-ends « de contrôle » l'est beaucoup moins.</p>
+<h3>Mon appartement est inoccupé hors saison : puis-je quand même déduire toutes les charges pendant cette période ?</h3>
+<p>Oui, dans la mesure où le bien reste disponible à la location et non affecté à un usage personnel. Les charges de copropriété, l'assurance PNO, la taxe foncière et les intérêts d'emprunt courent toute l'année et sont déductibles en totalité. En revanche, si vous occupez personnellement le bien pendant une partie de la période creuse, vous devez proratiser les charges selon la durée d'usage privé.</p>
+<h3>L'amortissement de l'immeuble peut-il me faire tomber à zéro d'impôt ?</h3>
+<p>C'est l'un des attraits majeurs du régime réel - mais il a une limite légale. L'article 39 C du CGI plafonne la déduction des amortissements (immeuble + meubles) au montant des loyers acquis, diminué des autres charges. Autrement dit, les amortissements ne peuvent pas creuser un déficit - ils peuvent au mieux ramener votre résultat à zéro. L'excédent d'amortissement non déduit est reporté sans limitation de durée sur les exercices suivants. En pratique, un propriétaire bien conseillé peut effectivement neutraliser son imposition pendant plusieurs années grâce à ce mécanisme - sans jamais enfreindre la loi.</p>
+
+<h2>Sources utiles</h2>
+<ul>
+<li><a href="https://bofip.impots.gouv.fr/bofip/3610-PGP.html/identifiant=BOI-BIC-CHAMP-40-20-20240214" target="_blank" rel="noopener">BOFiP - BOI-BIC-CHAMP-40-20 : Location meublée, régime fiscal</a></li>
+<li><a href="https://bofip.impots.gouv.fr/bofip/4527-PGP.html/identifiant=BOI-BIC-AMT-20-40-10-20-20170301" target="_blank" rel="noopener">BOFiP - BOI-BIC-AMT-20-40-10-20 : Amortissement des biens donnés en location meublée</a></li>
+<li><a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029355753/2015-01-01" target="_blank" rel="noopener">Légifrance - Article 39 C du CGI : plafonnement des amortissements en location meublée</a></li>
+<li><a href="https://www.service-public.fr/particuliers/vosdroits/F32744" target="_blank" rel="noopener">Service-public.fr - Location meublée : régime fiscal du loueur non professionnel</a></li>
+<li><a href="https://www.impots.gouv.fr/professionnel/les-bic" target="_blank" rel="noopener">Impots.gouv.fr - BIC : bénéfices industriels et commerciaux</a></li>
+</ul>`,
+  },
 ];
 
 export const getArticle = (slug: string) => ARTICLES.find((a) => a.slug === slug);
