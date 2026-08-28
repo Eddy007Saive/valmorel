@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import RevealInit from "./components/RevealInit";
 import LeadPopup from "./components/LeadPopup";
+import { getConfig, FALLBACK } from "./lib/config";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -23,7 +24,8 @@ export const metadata: Metadata = {
   verification: { google: "9JwZDkYSpKho3KbBb0M75yIxpDXz1m3ndkBbWwaQspU" },
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const cfg = await getConfig();
   return (
     <html lang="fr" className={montserrat.variable}>
       <head>
@@ -33,7 +35,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <RevealInit />
         {children}
-        <LeadPopup />
+        <LeadPopup popup={cfg.popup ?? FALLBACK.popup} />
       </body>
     </html>
   );

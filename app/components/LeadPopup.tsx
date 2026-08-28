@@ -4,26 +4,43 @@ import { useEffect, useState } from "react";
 import LeadForm from "./LeadForm";
 
 const KEY = "cledici_popup";
-const DAYS = 7; // ne pas réafficher avant N jours après vue/fermeture
+
+type PopupCfg = {
+  enabled?: boolean | string;
+  eyebrow?: string;
+  title?: string;
+  hint?: string;
+  delaySeconds?: number | string;
+  frequencyDays?: number | string;
+};
 
 /**
- * Popup lead-magnet (bas-tunnel) : apparaît ~6 s après l'arrivée, réutilise le
- * LeadForm existant (donc les leads partent déjà vers Mongo + email + CRM admin).
- * Fréquence mémorisée en localStorage. Respecte prefers-reduced-motion.
+ * Popup lead-magnet (bas-tunnel), éditable dans l'admin (cfg.popup). Apparaît
+ * après `delaySeconds`, réutilise le LeadForm existant (leads → Mongo + email +
+ * CRM admin). Fréquence en localStorage. Respecte l'état `enabled`.
  */
-export default function LeadPopup() {
+export default function LeadPopup({ popup }: { popup?: PopupCfg }) {
+  const raw = popup?.enabled;
+  const enabled = raw === undefined ? true : !(raw === false || ["non", "false", "off", "0", ""].includes(String(raw).toLowerCase()));
+  const delayMs = (Number(popup?.delaySeconds) || 6) * 1000;
+  const days = Number(popup?.frequencyDays) || 7;
+  const eyebrow = popup?.eyebrow || "Offre propriétaires";
+  const title = popup?.title || "Estimez gratuitement vos revenus à Valmorel";
+  const hint = popup?.hint || "Gratuit et sans engagement — un expert local vous recontacte sous 24 h.";
+
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
+    if (!enabled) return;
     try {
       const seen = localStorage.getItem(KEY);
-      if (seen && Date.now() - Number(seen) < DAYS * 864e5) return;
+      if (seen && Date.now() - Number(seen) < days * 864e5) return;
     } catch {
       /* localStorage indispo → on affiche quand même */
     }
-    const t = setTimeout(() => setOpen(true), 6000);
+    const t = setTimeout(() => setOpen(true), delayMs);
     return () => clearTimeout(t);
-  }, []);
+  }, [enabled, delayMs, days]);
 
   function close() {
     setOpen(false);
@@ -41,7 +58,7 @@ export default function LeadPopup() {
       onClick={close}
       role="dialog"
       aria-modal="true"
-      aria-label="Estimez vos revenus à Valmorel"
+      aria-label={title}
       style={{ position: "fixed", inset: 0, zIndex: 200, background: "rgba(15,23,32,.55)", display: "flex", alignItems: "center", justifyContent: "center", padding: 16 }}
     >
       {/* Le LeadForm porte la classe .rv (révélée au scroll) → on force sa visibilité dans le popup */}
@@ -60,12 +77,8 @@ export default function LeadPopup() {
           ×
         </button>
         <div style={{ padding: "24px 24px 26px" }}>
-          <p style={{ fontSize: 11.5, fontWeight: 800, letterSpacing: ".14em", textTransform: "uppercase", color: "var(--gold)" }}>Offre propriétaires</p>
-          <LeadForm
-            pfx="lf-popup"
-            title="Estimez gratuitement vos revenus à Valmorel"
-            hint="Gratuit et sans engagement — un expert local vous recontacte sous 24 h."
-          />
+          <p style={{ fontSize: 11.5, fontWeight: 800, letterSpacing: ".14em", textTransform: "uppercase", color: "var(--gold)" }}>{eyebrow}</p>
+          <LeadForm pfx="lf-popup" title={title} hint={hint} />
         </div>
       </div>
     </div>

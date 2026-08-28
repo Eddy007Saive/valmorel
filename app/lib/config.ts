@@ -42,12 +42,21 @@ export type SiteCfg = {
   interventions?: { eyebrow?: string; title?: string; intro?: string; cta?: string };
   reglementation?: { eyebrow?: string; title?: string; intro?: string; cta?: string; disclaimer?: string; faq?: { q: string; a: string }[] };
   cities?: CityCfg[];
+  popup?: { enabled?: boolean | string; eyebrow?: string; title?: string; hint?: string; delaySeconds?: number | string; frequencyDays?: number | string };
   contact?: { email?: string; phone?: string; address?: string };
 };
 
 /** Contenu par défaut = état actuel du site (fallback si l'API est down). */
-export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "interventions" | "reglementation" | "cities">> = {
+export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "interventions" | "reglementation" | "cities" | "popup">> = {
   cities: LOCAL_CITIES,
+  popup: {
+    enabled: true,
+    eyebrow: "Offre propriétaires",
+    title: "Estimez gratuitement vos revenus à Valmorel",
+    hint: "Gratuit et sans engagement — un expert local vous recontacte sous 24 h.",
+    delaySeconds: 6,
+    frequencyDays: 7,
+  },
   interventions: {
     eyebrow: "Nos interventions",
     title: "Valmorel & Le Grand Domaine.",
