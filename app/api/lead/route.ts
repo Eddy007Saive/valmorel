@@ -85,7 +85,34 @@ export async function POST(req: Request) {
     }
   }
 
-  if (!stored && !mailed) {
+  // 3) Sync CRM GoodTime (best-effort) → le lead apparaît dans l'admin (tenant client_03).
+  //    /api/proprietaire-leads exige un email valide ; si le prospect n'a laissé qu'un
+  //    téléphone, on saute cette destination (Mongo + email l'ont déjà capté).
+  let crmSynced = false;
+  const BACKEND_URL = process.env.BACKEND_URL;
+  const TENANT = process.env.TENANT || "client_03";
+  if (BACKEND_URL && isEmail(email)) {
+    try {
+      const res = await fetch(`${BACKEND_URL}/api/proprietaire-leads`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "x-tenant": TENANT },
+        body: JSON.stringify({
+          email,
+          phone,
+          city: "Valmorel",
+          propertyType,
+          message: `Demande d'estimation depuis le site — source : ${source}`,
+          consent: true,
+        }),
+      });
+      crmSynced = res.ok;
+      if (!res.ok) errors.push("crm:" + res.status);
+    } catch (e) {
+      errors.push("crm:" + (e as Error).message);
+    }
+  }
+
+  if (!stored && !mailed && !crmSynced) {
     console.error("[lead] aucune destination n'a fonctionné", errors);
     return NextResponse.json(
       { error: "Le service est momentanément indisponible. Réessayez ou écrivez-nous directement." },
@@ -93,5 +120,5 @@ export async function POST(req: Request) {
     );
   }
 
-  return NextResponse.json({ ok: true, stored, mailed });
+  return NextResponse.json({ ok: true, stored, mailed, crmSynced });
 }
