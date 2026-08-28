@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import RevealInit from "./components/RevealInit";
+import LeadPopup from "./components/LeadPopup";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <RevealInit />
         {children}
+        <LeadPopup />
       </body>
     </html>
   );
