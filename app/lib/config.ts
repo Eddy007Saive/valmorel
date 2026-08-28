@@ -32,11 +32,32 @@ export type SiteCfg = {
     ctaSecondary?: { label?: string; href?: string };
   };
   home?: HomeCfg;
+  interventions?: { eyebrow?: string; title?: string; intro?: string; cta?: string };
+  reglementation?: { eyebrow?: string; title?: string; intro?: string; cta?: string; disclaimer?: string; faq?: { q: string; a: string }[] };
   contact?: { email?: string; phone?: string; address?: string };
 };
 
 /** Contenu par défaut = état actuel du site (fallback si l'API est down). */
-export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home">> = {
+export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "interventions" | "reglementation">> = {
+  interventions: {
+    eyebrow: "Nos interventions",
+    title: "Valmorel & Le Grand Domaine.",
+    intro: "Nous gérons les locations saisonnières sur l'ensemble de la station de Valmorel et des communes reliées au Grand Domaine. Choisissez votre commune.",
+    cta: "Estimer les revenus de mon bien",
+  },
+  reglementation: {
+    eyebrow: "Sécurité & réglementation",
+    title: "Réglementation des meublés de tourisme à Valmorel.",
+    intro: "Déclaration, classement, taxe de séjour, assurance : tout ce qu'un propriétaire doit savoir pour louer sereinement à Valmorel (commune des Avanchers-Valmorel, Savoie). Cledici prend en charge l'ensemble des démarches.",
+    cta: "Faire estimer et mettre en conformité mon bien",
+    disclaimer: "Informations à jour 2026, vérifiées auprès des sources officielles (Mairie des Avanchers-Valmorel, Office de Tourisme de Valmorel, CCVA). À titre indicatif — pour un audit personnalisé, contactez-nous.",
+    faq: [
+      { q: "Faut-il déclarer son meublé de tourisme à Valmorel ?", a: "Oui. Toute location de meublé de tourisme doit être déclarée à la mairie des Avanchers-Valmorel (formulaire Cerfa n°14004*04 ou service en ligne Declaloc). La mairie délivre un récépissé qui vaut preuve de déclaration." },
+      { q: "Quelle taxe de séjour pour un meublé non classé à Valmorel ?", a: "Pour un hébergement non classé, la taxe de séjour est de 5 % du prix de la nuitée par personne, plafonnée à 4,60 €, à laquelle s'ajoute la majoration départementale de 10 % (Savoie)." },
+      { q: "Pourquoi faire classer son meublé à Valmorel ?", a: "Depuis la réforme (loi Le Meur, revenus 2025), le classement (valable 5 ans) donne droit à un abattement micro-BIC de 50 % au lieu de 30 %, à une taxe de séjour à tarif fixe (souvent plus avantageuse), à la commercialisation via l'Office de Tourisme et à l'éligibilité ANCV." },
+      { q: "Cledici s'occupe-t-il des démarches ?", a: "Oui. Déclaration en mairie, dossier de classement, taxe de séjour et mise en conformité : nous prenons en charge l'ensemble des démarches pour votre bien à Valmorel." },
+    ],
+  },
   brand: { name: "Cledici Conciergerie", tagline: "Conciergerie Airbnb à Valmorel" },
   hero: {
     eyebrow: "Expert de l'habitat touristique de montagne depuis 2018",

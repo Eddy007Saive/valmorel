@@ -4,6 +4,9 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { CITIES } from "../lib/cities";
 import { ZONE_CONTENT } from "../lib/cityContent";
+import { getConfig, FALLBACK } from "../lib/config";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Gestion locative montagne — Valmorel & Le Grand Domaine",
@@ -11,16 +14,18 @@ export const metadata: Metadata = {
   alternates: { canonical: "/nos-interventions" },
 };
 
-export default function NosInterventionsPage() {
+export default async function NosInterventionsPage() {
+  const cfg = await getConfig();
+  const P = cfg.interventions ?? FALLBACK.interventions;
   return (
     <>
       <Header solid />
       <section className="sec" style={{ paddingTop: 56 }}>
         <div className="wrap">
           <div className="sec-head rv">
-            <p className="eyebrow">Nos interventions</p>
-            <h2>Valmorel &amp; Le Grand Domaine.</h2>
-            <p>Nous gérons les locations saisonnières sur l&apos;ensemble de la station de Valmorel et des communes reliées au Grand Domaine. Choisissez votre commune.</p>
+            <p className="eyebrow">{P.eyebrow}</p>
+            <h2>{P.title}</h2>
+            <p>{P.intro}</p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(300px,1fr))", gap: 26, marginTop: 46 }}>
             {CITIES.map((c, i) => (
@@ -35,7 +40,7 @@ export default function NosInterventionsPage() {
             ))}
           </div>
           <div className="prose" style={{ maxWidth: 900, margin: "60px auto 0" }} dangerouslySetInnerHTML={{ __html: ZONE_CONTENT }} />
-          <p style={{ marginTop: 40, textAlign: "center" }}><Link href="/#contact" className="btn btn-green">Estimer les revenus de mon bien</Link></p>
+          <p style={{ marginTop: 40, textAlign: "center" }}><Link href="/#contact" className="btn btn-green">{P.cta}</Link></p>
         </div>
       </section>
       <Footer />

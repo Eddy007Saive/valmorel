@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { getConfig, FALLBACK } from "../lib/config";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Sécurité & réglementation à Valmorel (meublé de tourisme)",
@@ -10,14 +13,10 @@ export const metadata: Metadata = {
   alternates: { canonical: "/securite-reglementation" },
 };
 
-const FAQ = [
-  { q: "Faut-il déclarer son meublé de tourisme à Valmorel ?", a: "Oui. Toute location de meublé de tourisme doit être déclarée à la mairie des Avanchers-Valmorel (formulaire Cerfa n°14004*04 ou service en ligne Declaloc). La mairie délivre un récépissé qui vaut preuve de déclaration." },
-  { q: "Quelle taxe de séjour pour un meublé non classé à Valmorel ?", a: "Pour un hébergement non classé, la taxe de séjour est de 5 % du prix de la nuitée par personne, plafonnée à 4,60 €, à laquelle s'ajoute la majoration départementale de 10 % (Savoie)." },
-  { q: "Pourquoi faire classer son meublé à Valmorel ?", a: "Depuis la réforme (loi Le Meur, revenus 2025), le classement (valable 5 ans) donne droit à un abattement micro-BIC de 50 % au lieu de 30 %, à une taxe de séjour à tarif fixe (souvent plus avantageuse), à la commercialisation via l'Office de Tourisme et à l'éligibilité ANCV." },
-  { q: "Cledici s'occupe-t-il des démarches ?", a: "Oui. Déclaration en mairie, dossier de classement, taxe de séjour et mise en conformité : nous prenons en charge l'ensemble des démarches pour votre bien à Valmorel." },
-];
-
-export default function ReglementationPage() {
+export default async function ReglementationPage() {
+  const cfg = await getConfig();
+  const R = cfg.reglementation ?? FALLBACK.reglementation;
+  const FAQ = R.faq ?? [];
   const ld = [
     {
       "@context": "https://schema.org",
@@ -50,10 +49,10 @@ export default function ReglementationPage() {
 
       <section className="sec" style={{ paddingTop: 64 }}>
         <div className="wrap" style={{ maxWidth: 860 }}>
-          <p className="eyebrow rv">Sécurité &amp; réglementation</p>
-          <h1 className="rv rv-1" style={{ fontSize: "clamp(30px,4vw,46px)", fontWeight: 800, lineHeight: 1.12, marginTop: 12 }}>Réglementation des meublés de tourisme à Valmorel.</h1>
+          <p className="eyebrow rv">{R.eyebrow}</p>
+          <h1 className="rv rv-1" style={{ fontSize: "clamp(30px,4vw,46px)", fontWeight: 800, lineHeight: 1.12, marginTop: 12 }}>{R.title}</h1>
           <p className="rv rv-2" style={{ marginTop: 18, fontSize: "17px", lineHeight: 1.7, color: "var(--muted)", maxWidth: "60ch" }}>
-            Déclaration, classement, taxe de séjour, assurance : tout ce qu&apos;un propriétaire doit savoir pour louer sereinement à Valmorel (commune des Avanchers-Valmorel, Savoie). Cledici prend en charge l&apos;ensemble des démarches.
+            {R.intro}
           </p>
 
           <div className="prose">
@@ -105,9 +104,9 @@ export default function ReglementationPage() {
           </div>
 
           <p style={{ marginTop: 34 }}>
-            <Link href="/#contact" className="btn btn-green">Faire estimer et mettre en conformité mon bien</Link>
+            <Link href="/#contact" className="btn btn-green">{R.cta}</Link>
           </p>
-          <p style={{ fontSize: 12, color: "var(--muted)", marginTop: 18 }}>Informations à jour 2026, vérifiées auprès des sources officielles (Mairie des Avanchers-Valmorel, Office de Tourisme de Valmorel, CCVA). À titre indicatif — pour un audit personnalisé, contactez-nous.</p>
+          <p style={{ fontSize: 12, color: "var(--muted)", marginTop: 18 }}>{R.disclaimer}</p>
         </div>
       </section>
 
