@@ -2,6 +2,7 @@ import Link from "next/link";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LeadForm from "./components/LeadForm";
+import { getConfig } from "./lib/config";
 
 const PARTNERS = ["Airbnb", "Booking.com", "Le Collectionist", "Marriott", "Plumguide", "HomeToGo", "Abritel", "Beds24", "Stripe", "HostProtect", "GoodTime BNB"];
 const OCC = [
@@ -29,7 +30,11 @@ function Bg({ id, alt, priority }: { id: string; alt: string; priority?: boolean
   );
 }
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+  const cfg = await getConfig();
+  const h = cfg.hero ?? {};
   return (
     <>
       <Header />
@@ -46,17 +51,17 @@ export default function Home() {
         <span className="hero-credit">© Florian Pépellin · CC BY-SA 4.0</span>
         <div className="wrap inner">
           <div className="rv in">
-            <p className="eyebrow">Expert de l&apos;habitat touristique de montagne depuis 2018</p>
-            <h1>Louez votre bien à Valmorel, <em>sans contrainte</em> — et maximisez vos revenus.</h1>
-            <p className="sub">Vous êtes propriétaire d&apos;un hébergement de vacances à Valmorel et ses environs ? Confiez-nous votre bien : nous en optimisons la rentabilité, y compris en période creuse. Diffusion sur les plus grandes plateformes, tarification dynamique, accueil des voyageurs, entretien et suivi de votre bien.</p>
+            <p className="eyebrow">{h.eyebrow}</p>
+            <h1>{h.title}</h1>
+            <p className="sub">{h.subtitle}</p>
             <div className="plats">
               <div className="lab">Diffusé sur</div>
               <div className="row"><span>Airbnb</span><span>Booking.com</span><span>Abritel</span><span>Leboncoin</span><span>HomeToGo</span><span>Expedia</span></div>
             </div>
             {/* CTA mobile (le formulaire inline est masqué sur mobile) */}
             <div className="hero-cta">
-              <a href="#estimer" className="btn btn-g">Estimer mes revenus</a>
-              <a href="#services" className="btn btn-o" style={{ color: "#fff" }}>Découvrir nos services</a>
+              <a href={h.ctaPrimary?.href ?? "#estimer"} className="btn btn-g">{h.ctaPrimary?.label ?? "Estimer mes revenus"}</a>
+              <a href={h.ctaSecondary?.href ?? "#services"} className="btn btn-o" style={{ color: "#fff" }}>{h.ctaSecondary?.label ?? "Découvrir nos services"}</a>
             </div>
             <div className="trust-mini"><span className="st">★★★★★</span><b style={{ color: "#fff" }}>4,9 / 5</b><span>· propriétaires accompagnés depuis 2018</span></div>
           </div>
