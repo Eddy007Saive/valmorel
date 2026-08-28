@@ -21,7 +21,7 @@ export default function NotFound() {
             Cette page s&apos;est perdue dans la neige.
           </h1>
           <p style={{ marginTop: 18, fontSize: 16.5, lineHeight: 1.7, color: "var(--muted)" }}>
-            La page que vous cherchez n&apos;existe pas ou plus. Elle a peut-être changé d&apos;adresse — voici de quoi retrouver votre chemin.
+            La page que vous cherchez n&apos;existe pas ou plus. Elle a peut-être changé d&apos;adresse, voici de quoi retrouver votre chemin.
           </p>
 
           <div style={{ display: "flex", gap: 14, justifyContent: "center", marginTop: 34, flexWrap: "wrap" }}>

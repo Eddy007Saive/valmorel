@@ -2,8 +2,7 @@
  * Config du site Cledici (tenant client_03 de la factory GoodTime).
  * Lue depuis goodtime-api (/api/public/config, éditable dans l'admin) avec
  * FALLBACK local = le contenu actuel, pour que le site ne casse jamais.
- * On ne pilote que le TEXTE éditable (titres, intros, stats, avis, FAQ, CTA) —
- * le design/structure (icônes SVG, graphique d'occupation, images) reste en code.
+ * On ne pilote que le TEXTE éditable (titres, intros, stats, avis, FAQ, CTA), * le design/structure (icônes SVG, graphique d'occupation, images) reste en code.
  */
 import { CITIES, type City } from "./cities";
 import { CITY_CONTENT } from "./cityContent";
@@ -21,20 +20,20 @@ export type HomeCfg = {
   stats: { n: string; l: string }[];
   benefits: { eyebrow: string; title: string; intro: string; items: TT[] };
   season: { eyebrow: string; title: string; intro: string; card1: { tag: string } & TT; card2: { tag: string } & TT; note: string };
-  services: { eyebrow: string; title: string; items: TT[] };
+  services: { eyebrow: string; title: string; items: TT[]; image?: string };
   insurance: { eyebrow: string; title: string; intro: string; figs: { v: string; l: string }[] };
-  expertise: { eyebrow: string; title: string; text1: string; text2: string; cta: string };
+  expertise: { eyebrow: string; title: string; text1: string; text2: string; cta: string; image?: string };
   approach: { eyebrow: string; title: string; intro: string; steps: TT[] };
   avis: { eyebrow: string; title: string; items: { author: string; place: string; text: string }[] };
-  zone: { eyebrow: string; title: string; intro: string };
+  zone: { eyebrow: string; title: string; intro: string; image?: string; credit?: string };
   faq: { eyebrow: string; title: string; items: { q: string; a: string }[] };
-  final: { eyebrow: string; title: string; intro: string; points: string[] };
+  final: { eyebrow: string; title: string; intro: string; points: string[]; image?: string };
 };
 
 export type SiteCfg = {
   brand?: { name?: string; tagline?: string; logo?: string };
   hero?: {
-    eyebrow?: string; title?: string; subtitle?: string;
+    eyebrow?: string; title?: string; subtitle?: string; image?: string; credit?: string;
     ctaPrimary?: { label?: string; href?: string };
     ctaSecondary?: { label?: string; href?: string };
   };
@@ -53,7 +52,7 @@ export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "inter
     enabled: true,
     eyebrow: "Offre propriétaires",
     title: "Estimez gratuitement vos revenus à Valmorel",
-    hint: "Gratuit et sans engagement — un expert local vous recontacte sous 24 h.",
+    hint: "Gratuit et sans engagement, un expert local vous recontacte sous 24 h.",
     delaySeconds: 6,
     frequencyDays: 7,
   },
@@ -68,7 +67,7 @@ export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "inter
     title: "Réglementation des meublés de tourisme à Valmorel.",
     intro: "Déclaration, classement, taxe de séjour, assurance : tout ce qu'un propriétaire doit savoir pour louer sereinement à Valmorel (commune des Avanchers-Valmorel, Savoie). Cledici prend en charge l'ensemble des démarches.",
     cta: "Faire estimer et mettre en conformité mon bien",
-    disclaimer: "Informations à jour 2026, vérifiées auprès des sources officielles (Mairie des Avanchers-Valmorel, Office de Tourisme de Valmorel, CCVA). À titre indicatif — pour un audit personnalisé, contactez-nous.",
+    disclaimer: "Informations à jour 2026, vérifiées auprès des sources officielles (Mairie des Avanchers-Valmorel, Office de Tourisme de Valmorel, CCVA). À titre indicatif, pour un audit personnalisé, contactez-nous.",
     faq: [
       { q: "Faut-il déclarer son meublé de tourisme à Valmorel ?", a: "Oui. Toute location de meublé de tourisme doit être déclarée à la mairie des Avanchers-Valmorel (formulaire Cerfa n°14004*04 ou service en ligne Declaloc). La mairie délivre un récépissé qui vaut preuve de déclaration." },
       { q: "Quelle taxe de séjour pour un meublé non classé à Valmorel ?", a: "Pour un hébergement non classé, la taxe de séjour est de 5 % du prix de la nuitée par personne, plafonnée à 4,60 €, à laquelle s'ajoute la majoration départementale de 10 % (Savoie)." },
@@ -79,7 +78,7 @@ export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "inter
   brand: { name: "Cledici Conciergerie", tagline: "Conciergerie Airbnb à Valmorel" },
   hero: {
     eyebrow: "Expert de l'habitat touristique de montagne depuis 2018",
-    title: "Louez votre bien à Valmorel, sans contrainte — et maximisez vos revenus.",
+    title: "Louez votre bien à Valmorel, sans contrainte, et maximisez vos revenus.",
     subtitle:
       "Vous êtes propriétaire d'un hébergement de vacances à Valmorel et ses environs ? Confiez-nous votre bien : nous en optimisons la rentabilité, y compris en période creuse. Diffusion sur les plus grandes plateformes, tarification dynamique, accueil des voyageurs, entretien et suivi de votre bien.",
     ctaPrimary: { label: "Estimer mes revenus", href: "#estimer" },
@@ -105,18 +104,18 @@ export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "inter
     },
     season: {
       eyebrow: "Optimisation saisonnière",
-      title: "Des revenus toute l'année — pas seulement l'hiver.",
-      intro: "La haute saison fait le gros des revenus. Mais ce sont les périodes creuses qui font la différence sur l'année — et c'est exactement là que nous faisons la différence.",
+      title: "Des revenus toute l'année, pas seulement l'hiver.",
+      intro: "La haute saison fait le gros des revenus. Mais ce sont les périodes creuses qui font la différence sur l'année, et c'est exactement là que nous faisons la différence.",
       card1: { tag: "Haute saison · Hiver", title: "Chaque nuit valorisée au maximum", text: "Tarification dynamique calée sur les vacances scolaires, les ponts et les pics d'affluence. On capte le plein potentiel des semaines les plus demandées, sans jamais sous-vendre votre bien." },
       card2: { tag: "Basse & inter-saison · Printemps · Été · Automne", title: "On remplit les périodes à faible taux d'occupation", text: "Randonnée, VTT, trail, événements, courts séjours et télétravail à la montagne : on active la demande hors-saison pour que votre bien ne dorme jamais. Des revenus sur 12 mois, pas sur 4." },
-      note: "Illustration. Notre objectif : lisser l'occupation sur l'année et combler les creux du printemps, de l'été et de l'automne — là où la plupart des biens restent vides.",
+      note: "Illustration. Notre objectif : lisser l'occupation sur l'année et combler les creux du printemps, de l'été et de l'automne, là où la plupart des biens restent vides.",
     },
     services: {
       eyebrow: "Une gestion complète, de A à Z",
       title: "Tout ce qui fait la réussite de votre location en montagne.",
       items: [
         { title: "Création & diffusion de l'annonce", text: "Photos professionnelles et mise en ligne sur Airbnb, Booking, Abritel…" },
-        { title: "Accueil des voyageurs & check-in", text: "Remise des clés, état des lieux, conseils station — à toute heure." },
+        { title: "Accueil des voyageurs & check-in", text: "Remise des clés, état des lieux, conseils station, à toute heure." },
         { title: "Ménage & linge hôtelier", text: "Un logement impeccable à chaque arrivée, linge fourni et entretenu." },
         { title: "Optimisation des prix", text: "Tarifs ajustés aux saisons, vacances scolaires et événements de la station." },
         { title: "Maintenance & hivernage", text: "Interventions, petits travaux et suivi du bien, été comme hiver." },
@@ -125,7 +124,7 @@ export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "inter
     insurance: {
       eyebrow: "Sérénité & protection",
       title: "Votre bien protégé, pas seulement géré.",
-      intro: "Confier votre logement, c'est aussi le protéger. Les biens que nous prenons en gestion sont assurés par notre propre assurance — dégradations, nuisibles, perte d'exploitation — et couverts par une assurance annulation. Vous louez l'esprit totalement tranquille.",
+      intro: "Confier votre logement, c'est aussi le protéger. Les biens que nous prenons en gestion sont assurés par notre propre assurance, dégradations, nuisibles, perte d'exploitation, et couverts par une assurance annulation. Vous louez l'esprit totalement tranquille.",
       figs: [
         { v: "50 000 €", l: "de dégradations potentielles couvertes, à l'année" },
         { v: "10 000 €", l: "de traitement des nuisibles pris en charge" },
@@ -143,11 +142,11 @@ export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "inter
     approach: {
       eyebrow: "Notre approche",
       title: "On révèle le plein potentiel de votre bien.",
-      intro: "Pas de tarif standard : on part de votre logement, on l'analyse, on l'améliore — et on vous dit précisément ce qu'il peut vous rapporter.",
+      intro: "Pas de tarif standard : on part de votre logement, on l'analyse, on l'améliore, et on vous dit précisément ce qu'il peut vous rapporter.",
       steps: [
         { title: "On audite votre bien", text: "Analyse complète de votre logement et de son potentiel locatif sur toute l'année." },
         { title: "On vous conseille", text: "Des recommandations concrètes pour améliorer les performances : aménagement, équipements, positionnement." },
-        { title: "On vous dit combien vous gagnez", text: "Une estimation claire de vos revenus nets par an — puis on va chercher le plein potentiel de votre bien." },
+        { title: "On vous dit combien vous gagnez", text: "Une estimation claire de vos revenus nets par an, puis on va chercher le plein potentiel de votre bien." },
       ],
     },
     avis: {
@@ -162,7 +161,7 @@ export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "inter
     zone: {
       eyebrow: "Notre terrain de jeu",
       title: "Valmorel & Le Grand Domaine.",
-      intro: "Nous intervenons sur l'ensemble de la station de Valmorel et du Grand Domaine — une zone que nous connaissons saison après saison depuis 2018.",
+      intro: "Nous intervenons sur l'ensemble de la station de Valmorel et du Grand Domaine, une zone que nous connaissons saison après saison depuis 2018.",
     },
     faq: {
       eyebrow: "Bon à savoir",

@@ -26,7 +26,7 @@ export default function LeadPopup({ popup }: { popup?: PopupCfg }) {
   const days = Number(popup?.frequencyDays) || 7;
   const eyebrow = popup?.eyebrow || "Offre propriétaires";
   const title = popup?.title || "Estimez gratuitement vos revenus à Valmorel";
-  const hint = popup?.hint || "Gratuit et sans engagement — un expert local vous recontacte sous 24 h.";
+  const hint = popup?.hint || "Gratuit et sans engagement, un expert local vous recontacte sous 24 h.";
 
   const [open, setOpen] = useState(false);
 

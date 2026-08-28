@@ -57,7 +57,7 @@ export default async function ReglementationPage() {
 
           <div className="prose">
             <h2>1. Déclarer votre meublé en mairie</h2>
-            <p>Toute location de meublé de tourisme doit être <strong>déclarée à la mairie des Avanchers-Valmorel</strong>, via le formulaire <strong>Cerfa n°14004*04</strong> ou le service en ligne <strong>Declaloc</strong>. La mairie délivre un <strong>récépissé</strong> qui vaut preuve de déclaration — à conserver et à mentionner sur vos annonces.</p>
+            <p>Toute location de meublé de tourisme doit être <strong>déclarée à la mairie des Avanchers-Valmorel</strong>, via le formulaire <strong>Cerfa n°14004*04</strong> ou le service en ligne <strong>Declaloc</strong>. La mairie délivre un <strong>récépissé</strong> qui vaut preuve de déclaration, à conserver et à mentionner sur vos annonces.</p>
 
             <h2>2. Faire classer votre meublé (fortement recommandé)</h2>
             <p>Le classement en meublé de tourisme (de 1 à 5 étoiles) est réalisé par l&apos;<strong>Office de Tourisme de Valmorel</strong> (accrédité AFNOR). Il est <strong>valable 5 ans</strong> et coûte à partir de <strong>120 €</strong>. Il change tout pour la rentabilité :</p>
@@ -67,8 +67,8 @@ export default async function ReglementationPage() {
               <tbody>
                 <tr><td>Abattement fiscal (micro-BIC, revenus 2025)</td><td>30 %</td><td><strong>50 %</strong></td></tr>
                 <tr><td>Taxe de séjour</td><td>5 % de la nuitée (proportionnel)</td><td>Tarif fixe par étoile (souvent plus avantageux)</td></tr>
-                <tr><td>Commercialisation Office de Tourisme</td><td>—</td><td>Oui</td></tr>
-                <tr><td>Éligibilité chèques ANCV</td><td>—</td><td>Oui</td></tr>
+                <tr><td>Commercialisation Office de Tourisme</td><td>Non</td><td>Oui</td></tr>
+                <tr><td>Éligibilité chèques ANCV</td><td>Non</td><td>Oui</td></tr>
               </tbody>
             </table>
             </div>
@@ -90,7 +90,7 @@ export default async function ReglementationPage() {
             <p>Les biens que nous prenons en gestion sont couverts par <strong>notre propre assurance</strong> : jusqu&apos;à <strong>50 000 €</strong> de dégradations à l&apos;année, <strong>10 000 €</strong> de traitement des nuisibles, <strong>5 000 €</strong> de perte d&apos;exploitation, ainsi qu&apos;une <strong>assurance annulation</strong> en cas d&apos;annulation des voyageurs. Vous louez l&apos;esprit tranquille.</p>
 
             <h2>5. Cledici s&apos;occupe de toutes vos démarches</h2>
-            <p>Déclaration en mairie, dossier de classement, collecte de la taxe de séjour, mise en conformité : nous prenons en charge l&apos;ensemble des obligations pour que votre location à Valmorel soit 100 % conforme — en plus de la gestion complète de votre bien.</p>
+            <p>Déclaration en mairie, dossier de classement, collecte de la taxe de séjour, mise en conformité : nous prenons en charge l&apos;ensemble des obligations pour que votre location à Valmorel soit 100 % conforme, en plus de la gestion complète de votre bien.</p>
           </div>
 
           {/* FAQ */}

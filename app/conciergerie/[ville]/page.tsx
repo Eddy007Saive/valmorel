@@ -87,7 +87,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
           <ul className="rv rv-3" style={{ marginTop: 20, listStyle: "none" }}>
             {c.highlights.map((h) => (
               <li key={h} style={{ display: "flex", gap: 12, padding: "10px 0", borderBottom: "1px solid var(--line)" }}>
-                <span style={{ color: "var(--gold)", fontWeight: 800 }}>—</span>
+                <span style={{ color: "var(--gold)", fontWeight: 800 }}>·</span>
                 <span style={{ fontSize: 15.5 }}>{h}</span>
               </li>
             ))}
@@ -117,8 +117,8 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
             <thead><tr><th>Obligation</th><th>Détail</th></tr></thead>
             <tbody>
               <tr><td>Déclaration en mairie</td><td>Cerfa 14004*04 ou service Declaloc → récépissé</td></tr>
-              <tr><td>Taxe de séjour — non classé</td><td>5 % de la nuitée / personne, plafonné à 4,60 € (+10 % Savoie)</td></tr>
-              <tr><td>Taxe de séjour — classé</td><td>Tarif fixe par étoile, fixé par la CCVA (+10 % Savoie)</td></tr>
+              <tr><td>Taxe de séjour · non classé</td><td>5 % de la nuitée / personne, plafonné à 4,60 € (+10 % Savoie)</td></tr>
+              <tr><td>Taxe de séjour · classé</td><td>Tarif fixe par étoile, fixé par la CCVA (+10 % Savoie)</td></tr>
               <tr><td>Abattement fiscal (micro-BIC, revenus 2025)</td><td>50 % si classé, 30 % si non classé</td></tr>
             </tbody>
           </table>

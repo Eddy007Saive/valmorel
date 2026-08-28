@@ -19,16 +19,16 @@ export const CITIES: City[] = [
     intro:
       "Vous possédez un appartement ou un chalet à Valmorel ? Cledici gère votre location saisonnière de A à Z et optimise votre rentabilité toute l'année, y compris hors saison de ski.",
     marche:
-      "Station-village piétonne créée en 1976, Valmorel est le cœur du Grand Domaine (près de 165 km de pistes reliées à Saint-François-Longchamp) et labellisée Famille Plus. Son architecture chalet, son ambiance conviviale et sa clientèle familiale en font un marché locatif très demandé l'hiver — et de plus en plus attractif l'été (randonnée, VTT, bien-être en montagne).",
+      "Station-village piétonne créée en 1976, Valmorel est le cœur du Grand Domaine (près de 165 km de pistes reliées à Saint-François-Longchamp) et labellisée Famille Plus. Son architecture chalet, son ambiance conviviale et sa clientèle familiale en font un marché locatif très demandé l'hiver, et de plus en plus attractif l'été (randonnée, VTT, bien-être en montagne).",
     highlights: [
-      "Cœur du Grand Domaine — forte demande hiver et été",
+      "Cœur du Grand Domaine, forte demande hiver et été",
       "Station-village piétonne, clientèle familiale fidèle",
       "Potentiel réel en inter-saison (randonnée, VTT, événements)",
     ],
     neighbors: ["doucy", "les-avanchers", "saint-francois-longchamp"],
     faq: [
       { q: "Faut-il déclarer son meublé à Valmorel ?", a: "Oui, en mairie des Avanchers-Valmorel (Cerfa 14004*04 ou Declaloc). Cledici s'occupe de la démarche pour vous." },
-      { q: "Cledici gère-t-il aussi hors saison de ski ?", a: "Oui — c'est notre spécialité : nous activons la demande au printemps, l'été et l'automne pour que votre bien ne dorme jamais." },
+      { q: "Cledici gère-t-il aussi hors saison de ski ?", a: "Oui, c'est notre spécialité : nous activons la demande au printemps, l'été et l'automne pour que votre bien ne dorme jamais." },
     ],
   },
   {
@@ -61,7 +61,7 @@ export const CITIES: City[] = [
       "Reliée à Valmorel par le Grand Domaine, au pied du col de la Madeleine, Saint-François-Longchamp offre un large domaine skiable et un accès été très prisé des cyclistes et randonneurs. Un marché à double saison, parfait pour une gestion optimisée toute l'année.",
     highlights: [
       "Reliée à Valmorel via Le Grand Domaine",
-      "Col de la Madeleine — forte demande cyclistes l'été",
+      "Col de la Madeleine, forte demande cyclistes l'été",
       "Domaine skiable étendu, clientèle variée",
     ],
     neighbors: ["valmorel"],

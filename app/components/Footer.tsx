@@ -12,7 +12,7 @@ export default function Footer() {
           <div style={{ fontSize: 13.5 }}>Expert de l&apos;habitat touristique de montagne depuis 2018 · Valmorel</div>
         </div>
         <div className="foot-bot">
-          <span>© Cledici Conciergerie — Tous droits réservés.</span>
+          <span>© Cledici Conciergerie · Tous droits réservés.</span>
           <span>
             <a href="https://cledici.fr" style={{ color: "rgba(255,255,255,.62)" }}>cledici.fr</a> ·{" "}
             <Link href="/mentions-legales">Mentions légales</Link> · <Link href="/confidentialite">Confidentialité</Link>

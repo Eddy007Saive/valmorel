@@ -22,8 +22,19 @@ const BENE_ICONS = [
   <svg key="3" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2-2z" /></svg>,
 ];
 
-/** Fond pleine largeur Unsplash, responsive (srcset) : le mobile télécharge une version légère. */
-function Bg({ id, alt, priority }: { id: string; alt: string; priority?: boolean }) {
+/**
+ * Fond pleine largeur. Si `src` est fourni (image éditée dans l'admin), on l'utilise
+ * directement ; sinon on retombe sur l'image Unsplash par défaut (`id`), responsive.
+ */
+function Bg({ id, alt, src, priority }: { id: string; alt: string; src?: string; priority?: boolean }) {
+  const prio = priority ? { fetchPriority: "high" as const } : { loading: "lazy" as const };
+  if (src) {
+    return (
+      <div className="bg">
+        <img src={src} sizes="100vw" alt={alt} {...prio} />
+      </div>
+    );
+  }
   const base = `https://images.unsplash.com/${id}?auto=format&fit=crop&q=58`;
   return (
     <div className="bg">
@@ -32,11 +43,19 @@ function Bg({ id, alt, priority }: { id: string; alt: string; priority?: boolean
         srcSet={`${base}&w=640 640w, ${base}&w=1024 1024w, ${base}&w=1440 1440w, ${base}&w=1920 1920w`}
         sizes="100vw"
         alt={alt}
-        {...(priority ? { fetchPriority: "high" as const } : { loading: "lazy" as const })}
+        {...prio}
       />
     </div>
   );
 }
+
+// Images par défaut de la home (fallback si non éditées dans l'admin).
+const IMG = {
+  hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG/1280px-Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG",
+  services: "https://res.cloudinary.com/dxhtjrnvt/image/upload/f_auto,q_auto,w_1000/v1782299030/cledici/equipe-montagne.jpg",
+  zone: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Station_de_Valmorel_enneig%C3%A9e_vue_des_pistes_%28janvier_2022%29.JPG/1280px-Station_de_Valmorel_enneig%C3%A9e_vue_des_pistes_%28janvier_2022%29.JPG",
+};
+const CREDIT_DEFAULT = "© Florian Pépellin · CC BY-SA 4.0";
 
 export const dynamic = "force-dynamic";
 
@@ -52,12 +71,12 @@ export default async function Home() {
       <section className="hero">
         <div className="bg">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG/1280px-Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG"
+            src={h.image || IMG.hero}
             alt="Le domaine skiable de Valmorel et le massif de la Lauzière en hiver"
             fetchPriority="high"
           />
         </div>
-        <span className="hero-credit">© Florian Pépellin · CC BY-SA 4.0</span>
+        {(h.credit ?? CREDIT_DEFAULT) && <span className="hero-credit">{h.credit ?? CREDIT_DEFAULT}</span>}
         <div className="wrap inner">
           <div className="rv in">
             <p className="eyebrow">{h.eyebrow}</p>
@@ -151,7 +170,7 @@ export default async function Home() {
       <section className="sec" id="services" style={{ background: "var(--snow)" }}>
         <div className="wrap">
           <div className="svc">
-            <div className="media rv"><img src="https://res.cloudinary.com/dxhtjrnvt/image/upload/f_auto,q_auto,w_1000/v1782299030/cledici/equipe-montagne.jpg" alt="L'équipe Cledici Conciergerie à Valmorel" loading="lazy" /></div>
+            <div className="media rv"><img src={H.services.image || IMG.services} alt="L'équipe Cledici Conciergerie à Valmorel" loading="lazy" /></div>
             <div className="rv">
               <p className="eyebrow">{H.services.eyebrow}</p>
               <h2 style={{ fontSize: "clamp(26px,3.2vw,38px)", fontWeight: 800, lineHeight: 1.15, marginTop: 12 }}>{H.services.title}</h2>
@@ -185,7 +204,7 @@ export default async function Home() {
 
       {/* EXPERTISE */}
       <section className="exp" id="expertise">
-        <Bg id="photo-1605540436563-5bca919ae766" alt="Montagne Valmorel" />
+        <Bg id="photo-1605540436563-5bca919ae766" src={H.expertise.image} alt="Montagne Valmorel" />
         <div className="wrap"><div className="inner rv in">
           <p className="eyebrow">{H.expertise.eyebrow}</p>
           <h2>{H.expertise.title}</h2>
@@ -243,11 +262,11 @@ export default async function Home() {
             </div>
             <div className="map rv">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Station_de_Valmorel_enneig%C3%A9e_vue_des_pistes_%28janvier_2022%29.JPG/1280px-Station_de_Valmorel_enneig%C3%A9e_vue_des_pistes_%28janvier_2022%29.JPG"
+                src={H.zone.image || IMG.zone}
                 alt="La station de Valmorel enneigée vue des pistes"
                 loading="lazy"
               />
-              <span className="credit">© Florian Pépellin · CC BY-SA 4.0</span>
+              {(H.zone.credit ?? CREDIT_DEFAULT) && <span className="credit">{H.zone.credit ?? CREDIT_DEFAULT}</span>}
             </div>
           </div>
         </div>
@@ -267,7 +286,7 @@ export default async function Home() {
 
       {/* FINAL CTA */}
       <section className="final" id="estimer">
-        <Bg id="photo-1517320964276-a002fa203177" alt="" />
+        <Bg id="photo-1517320964276-a002fa203177" src={H.final.image} alt="" />
         <div className="wrap"><div className="inner">
           <div className="rv">
             <p className="eyebrow" style={{ color: "#F2C879" }}>{H.final.eyebrow}</p>
