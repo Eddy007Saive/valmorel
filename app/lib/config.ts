@@ -5,8 +5,15 @@
  * On ne pilote que le TEXTE éditable (titres, intros, stats, avis, FAQ, CTA) —
  * le design/structure (icônes SVG, graphique d'occupation, images) reste en code.
  */
+import { CITIES, type City } from "./cities";
+import { CITY_CONTENT } from "./cityContent";
+
 const BACKEND_URL = process.env.BACKEND_URL ?? "http://localhost:3001";
 const TENANT = process.env.TENANT ?? "client_03";
+
+export type CityCfg = City & { content?: string };
+/** Villes locales enrichies du contenu éditorial → fallback des pages villes. */
+const LOCAL_CITIES: CityCfg[] = CITIES.map((c) => ({ ...c, content: CITY_CONTENT[c.slug] ?? "" }));
 
 type TT = { title: string; text: string };
 
@@ -34,11 +41,13 @@ export type SiteCfg = {
   home?: HomeCfg;
   interventions?: { eyebrow?: string; title?: string; intro?: string; cta?: string };
   reglementation?: { eyebrow?: string; title?: string; intro?: string; cta?: string; disclaimer?: string; faq?: { q: string; a: string }[] };
+  cities?: CityCfg[];
   contact?: { email?: string; phone?: string; address?: string };
 };
 
 /** Contenu par défaut = état actuel du site (fallback si l'API est down). */
-export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "interventions" | "reglementation">> = {
+export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "interventions" | "reglementation" | "cities">> = {
+  cities: LOCAL_CITIES,
   interventions: {
     eyebrow: "Nos interventions",
     title: "Valmorel & Le Grand Domaine.",

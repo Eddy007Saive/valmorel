@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { CITIES } from "../lib/cities";
 import { ZONE_CONTENT } from "../lib/cityContent";
 import { getConfig, FALLBACK } from "../lib/config";
 
@@ -17,6 +16,7 @@ export const metadata: Metadata = {
 export default async function NosInterventionsPage() {
   const cfg = await getConfig();
   const P = cfg.interventions ?? FALLBACK.interventions;
+  const CITIES = cfg.cities ?? FALLBACK.cities;
   return (
     <>
       <Header solid />

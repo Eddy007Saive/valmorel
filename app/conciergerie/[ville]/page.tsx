@@ -3,16 +3,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import { CITIES, getCity } from "../../lib/cities";
-import { CITY_CONTENT } from "../../lib/cityContent";
+import { getConfig, FALLBACK } from "../../lib/config";
 
-export function generateStaticParams() {
-  return CITIES.map((c) => ({ ville: c.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ ville: string }> }): Promise<Metadata> {
   const { ville } = await params;
-  const c = getCity(ville);
+  const cities = (await getConfig()).cities ?? FALLBACK.cities;
+  const c = cities.find((x) => x.slug === ville);
   if (!c) return {};
   return {
     title: `Conciergerie à ${c.name} — Airbnb & location saisonnière`,
@@ -23,10 +21,11 @@ export async function generateMetadata({ params }: { params: Promise<{ ville: st
 
 export default async function VillePage({ params }: { params: Promise<{ ville: string }> }) {
   const { ville } = await params;
-  const c = getCity(ville);
+  const cities = (await getConfig()).cities ?? FALLBACK.cities;
+  const c = cities.find((x) => x.slug === ville);
   if (!c) notFound();
 
-  const neighbors = c.neighbors.map((s) => getCity(s)).filter(Boolean) as NonNullable<ReturnType<typeof getCity>>[];
+  const neighbors = c.neighbors.map((s) => cities.find((x) => x.slug === s)).filter(Boolean) as NonNullable<(typeof cities)[number]>[];
 
   const ld = [
     {
@@ -97,10 +96,10 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
       </section>
 
       {/* GESTION LOCATIVE : contenu éditorial propre à la commune */}
-      {CITY_CONTENT[c.slug] && (
+      {c.content && (
         <section className="sec" style={{ paddingTop: 0 }}>
           <div className="wrap" style={{ maxWidth: 900 }}>
-            <div className="prose" dangerouslySetInnerHTML={{ __html: CITY_CONTENT[c.slug] }} />
+            <div className="prose" dangerouslySetInnerHTML={{ __html: c.content }} />
           </div>
         </section>
       )}
