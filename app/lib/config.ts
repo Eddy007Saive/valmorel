@@ -41,7 +41,7 @@ export type SiteCfg = {
   interventions?: { eyebrow?: string; title?: string; intro?: string; cta?: string };
   reglementation?: { eyebrow?: string; title?: string; intro?: string; cta?: string; disclaimer?: string; faq?: { q: string; a: string }[] };
   cities?: CityCfg[];
-  popup?: { enabled?: boolean | string; eyebrow?: string; title?: string; hint?: string; delaySeconds?: number | string; frequencyDays?: number | string };
+  popup?: { enabled?: boolean | string; eyebrow?: string; title?: string; hint?: string; image?: string; delaySeconds?: number | string; frequencyDays?: number | string };
   contact?: { email?: string; phone?: string; address?: string };
 };
 
@@ -53,6 +53,7 @@ export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "inter
     eyebrow: "Offre propriétaires",
     title: "Estimez gratuitement vos revenus à Valmorel",
     hint: "Gratuit et sans engagement, un expert local vous recontacte sous 24 h.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG/1280px-Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG",
     delaySeconds: 6,
     frequencyDays: 7,
   },
