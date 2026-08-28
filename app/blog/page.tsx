@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { ARTICLES, fmtDate } from "../lib/articles";
+import { fmtDate } from "../lib/articles";
+import { getPosts } from "../lib/blogApi";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Blog — Conseils propriétaires à Valmorel",
@@ -10,8 +13,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/blog" },
 };
 
-export default function BlogPage() {
-  const posts = [...ARTICLES].sort((a, b) => b.date.localeCompare(a.date));
+export default async function BlogPage() {
+  const posts = (await getPosts()).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   return (
     <>
       <Header solid />

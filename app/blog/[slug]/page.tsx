@@ -3,15 +3,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import { ARTICLES, getArticle, fmtDate } from "../../lib/articles";
+import { fmtDate } from "../../lib/articles";
+import { getPost, getPosts } from "../../lib/blogApi";
 
-export function generateStaticParams() {
-  return ARTICLES.map((a) => ({ slug: a.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const a = getArticle(slug);
+  const a = await getPost(slug);
   if (!a) return {};
   return {
     title: a.seoTitle ?? a.title,
@@ -23,8 +22,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const a = getArticle(slug);
+  const a = await getPost(slug);
   if (!a) notFound();
+  const contentHtml = a.contentHtml ?? "";
 
   const ld = {
     "@context": "https://schema.org",
@@ -43,7 +43,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const faq: { q: string; ans: string }[] = [];
   const re = /<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/g;
   let m: RegExpExecArray | null;
-  while ((m = re.exec(a.contentHtml)) !== null) {
+  while ((m = re.exec(contentHtml)) !== null) {
     const q = strip(m[1]);
     if (q.includes("?")) faq.push({ q, ans: strip(m[2]) });
   }
@@ -59,10 +59,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           })),
         }
       : null;
-  const others = ARTICLES.filter((x) => x.slug !== a.slug).slice(0, 3);
+  const others = (await getPosts()).filter((x) => x.slug !== a.slug).slice(0, 3);
 
   // Tableaux scrollables sur mobile (évite le débordement horizontal).
-  const html = a.contentHtml
+  const html = contentHtml
     .replace(/<table>/g, '<div class="table-wrap"><table>')
     .replace(/<\/table>/g, "</table></div>");
 
