@@ -9,11 +9,15 @@ export default function LeadForm({
   hint,
   pfx,
   anchor,
+  magnetUrl,
+  magnetLabel,
 }: {
   title: string;
   hint: string;
   pfx: string;
   anchor?: boolean;
+  magnetUrl?: string;
+  magnetLabel?: string;
 }) {
   const [propertyType, setPropertyType] = useState("Appartement");
   const [email, setEmail] = useState("");
@@ -52,10 +56,17 @@ export default function LeadForm({
       <div className="lead rv in" {...(anchor ? { id: "contact" } : {})}>
         <div style={{ textAlign: "center", padding: "18px 4px" }}>
           <div style={{ fontSize: 44, lineHeight: 1 }}>✓</div>
-          <h2 style={{ marginTop: 14 }}>Demande envoyée !</h2>
+          <h2 style={{ marginTop: 14 }}>{magnetUrl ? "C'est prêt !" : "Demande envoyée !"}</h2>
           <p className="hint" style={{ marginTop: 10 }}>
-            Merci. Un expert local vous recontacte sous 24 h pour estimer le potentiel de votre bien à Valmorel.
+            {magnetUrl
+              ? "Merci ! Téléchargez votre document ci-dessous — nous vous l'avons aussi envoyé par email."
+              : "Merci. Un expert local vous recontacte sous 24 h pour estimer le potentiel de votre bien à Valmorel."}
           </p>
+          {magnetUrl && (
+            <a href={magnetUrl} target="_blank" rel="noreferrer" className="btn btn-green" style={{ marginTop: 18, display: "inline-flex" }} download>
+              {magnetLabel || "Télécharger le document"}
+            </a>
+          )}
         </div>
       </div>
     );

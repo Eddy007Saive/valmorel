@@ -103,6 +103,9 @@ export async function POST(req: Request) {
           propertyType,
           message: `Demande d'estimation depuis le site — source : ${source}`,
           consent: true,
+          source,
+          // Popup → déclenche l'email de suivi côté backend (si mode « lead magnet »).
+          leadMagnet: source === "lf-popup",
         }),
       });
       crmSynced = res.ok;

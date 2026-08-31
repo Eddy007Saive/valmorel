@@ -9,10 +9,13 @@ const IMG_DEFAULT =
 
 type PopupCfg = {
   enabled?: boolean | string;
+  mode?: "capture" | "magnet";
   eyebrow?: string;
   title?: string;
   hint?: string;
   image?: string;
+  magnetUrl?: string;
+  magnetLabel?: string;
   delaySeconds?: number | string;
   frequencyDays?: number | string;
 };
@@ -31,6 +34,7 @@ export default function LeadPopup({ popup }: { popup?: PopupCfg }) {
   const title = popup?.title || "Estimez gratuitement vos revenus à Valmorel";
   const hint = popup?.hint || "Gratuit et sans engagement, un expert local vous recontacte sous 24 h.";
   const image = popup?.image || IMG_DEFAULT;
+  const isMagnet = popup?.mode === "magnet" && !!popup?.magnetUrl;
 
   const [open, setOpen] = useState(false);
 
@@ -106,7 +110,13 @@ export default function LeadPopup({ popup }: { popup?: PopupCfg }) {
 
         {/* Colonne formulaire (droite) */}
         <div className="cledici-pop-form">
-          <LeadForm pfx="lf-popup" title={title} hint={hint} />
+          <LeadForm
+            pfx="lf-popup"
+            title={title}
+            hint={hint}
+            magnetUrl={isMagnet ? popup?.magnetUrl : undefined}
+            magnetLabel={popup?.magnetLabel}
+          />
         </div>
       </div>
     </div>

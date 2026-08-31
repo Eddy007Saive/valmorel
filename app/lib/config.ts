@@ -41,7 +41,7 @@ export type SiteCfg = {
   interventions?: { eyebrow?: string; title?: string; intro?: string; cta?: string };
   reglementation?: { eyebrow?: string; title?: string; intro?: string; cta?: string; disclaimer?: string; faq?: { q: string; a: string }[] };
   cities?: CityCfg[];
-  popup?: { enabled?: boolean | string; eyebrow?: string; title?: string; hint?: string; image?: string; delaySeconds?: number | string; frequencyDays?: number | string };
+  popup?: { enabled?: boolean | string; mode?: "capture" | "magnet"; eyebrow?: string; title?: string; hint?: string; image?: string; magnetUrl?: string; magnetLabel?: string; emailSubject?: string; emailBody?: string; delaySeconds?: number | string; frequencyDays?: number | string };
   contact?: { email?: string; phone?: string; address?: string };
 };
 
