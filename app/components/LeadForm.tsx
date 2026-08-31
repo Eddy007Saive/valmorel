@@ -11,6 +11,8 @@ export default function LeadForm({
   anchor,
   magnetUrl,
   magnetLabel,
+  emailOnly,
+  submitLabel,
 }: {
   title: string;
   hint: string;
@@ -18,6 +20,8 @@ export default function LeadForm({
   anchor?: boolean;
   magnetUrl?: string;
   magnetLabel?: string;
+  emailOnly?: boolean; // popup lead-magnet : on ne demande que l'email
+  submitLabel?: string;
 }) {
   const [propertyType, setPropertyType] = useState("Appartement");
   const [email, setEmail] = useState("");
@@ -29,9 +33,9 @@ export default function LeadForm({
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (status === "loading") return;
-    if (!email && !phone) {
+    if (emailOnly ? !email : !email && !phone) {
       setStatus("error");
-      setMsg("Indiquez au moins un email ou un téléphone.");
+      setMsg(emailOnly ? "Indiquez votre adresse email." : "Indiquez au moins un email ou un téléphone.");
       return;
     }
     setStatus("loading");
@@ -77,19 +81,27 @@ export default function LeadForm({
       <h2>{title}</h2>
       <p className="hint">{hint}</p>
 
-      <label htmlFor={`${pfx}-type`}>Type de bien</label>
-      <select id={`${pfx}-type`} aria-label="Type de bien" value={propertyType} onChange={(e) => setPropertyType(e.target.value)}>
-        <option>Appartement</option>
-        <option>Chalet</option>
-        <option>Studio</option>
-        <option>Autre</option>
-      </select>
+      {!emailOnly && (
+        <>
+          <label htmlFor={`${pfx}-type`}>Type de bien</label>
+          <select id={`${pfx}-type`} aria-label="Type de bien" value={propertyType} onChange={(e) => setPropertyType(e.target.value)}>
+            <option>Appartement</option>
+            <option>Chalet</option>
+            <option>Studio</option>
+            <option>Autre</option>
+          </select>
+        </>
+      )}
 
       <label htmlFor={`${pfx}-email`}>Adresse e-mail</label>
       <input id={`${pfx}-email`} type="email" aria-label="Adresse e-mail" placeholder="vous@email.fr" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" />
 
-      <label htmlFor={`${pfx}-tel`}>Téléphone</label>
-      <input id={`${pfx}-tel`} type="tel" aria-label="Téléphone" placeholder="06 00 00 00 00" value={phone} onChange={(e) => setPhone(e.target.value)} autoComplete="tel" />
+      {!emailOnly && (
+        <>
+          <label htmlFor={`${pfx}-tel`}>Téléphone</label>
+          <input id={`${pfx}-tel`} type="tel" aria-label="Téléphone" placeholder="06 00 00 00 00" value={phone} onChange={(e) => setPhone(e.target.value)} autoComplete="tel" />
+        </>
+      )}
 
       {/* Honeypot anti-spam : masqué aux humains */}
       <input
@@ -104,16 +116,18 @@ export default function LeadForm({
       />
 
       <button type="submit" className="btn btn-green" disabled={status === "loading"}>
-        {status === "loading" ? "Envoi en cours…" : "Être recontacté"}
+        {status === "loading" ? "Envoi en cours…" : submitLabel || "Être recontacté"}
       </button>
 
       {status === "error" && (
         <p style={{ color: "#c0392b", fontSize: 13.5, marginTop: 10, fontWeight: 600 }}>{msg}</p>
       )}
 
-      <div className="commission">
-        Proposition sur mesure<b>Étude gratuite de votre potentiel locatif</b>
-      </div>
+      {!emailOnly && (
+        <div className="commission">
+          Proposition sur mesure<b>Étude gratuite de votre potentiel locatif</b>
+        </div>
+      )}
     </form>
   );
 }

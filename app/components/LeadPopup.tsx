@@ -114,6 +114,8 @@ export default function LeadPopup({ popup }: { popup?: PopupCfg }) {
             pfx="lf-popup"
             title={title}
             hint={hint}
+            emailOnly
+            submitLabel={isMagnet ? "Recevoir le dossier" : "Estimer mes revenus"}
             magnetUrl={isMagnet ? popup?.magnetUrl : undefined}
             magnetLabel={popup?.magnetLabel}
           />
