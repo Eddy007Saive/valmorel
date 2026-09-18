@@ -12,6 +12,460 @@ export type Article = {
 // Contenu rédigé par ChatSEO — données réelles Valmorel / CCVA (Savoie).
 export const ARTICLES: Article[] = [
   {
+    slug: "amortissement-lmnp-location-saisonniere",
+    title: "Amortissement LMNP : comment ça marche concrètement (et ce que ça change pour votre chalet)",
+    excerpt: "L'amortissement LMNP est le levier fiscal le plus puissant du régime réel - et le plus souvent mal exploité par les propriétaires de chalets. On vous explique le mécanisme sans jargon.",
+    date: "2026-09-18",
+    cover: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Amortissement LMNP : fonctionnement concret pour votre chalet",
+    seoDescription: "Amortissement LMNP au régime réel : mécanisme, durées, erreurs à éviter et impact sur votre chalet de montagne. Guide clair, sans chiffres inventés.",
+    contentHtml: `<p><strong>En bref :</strong> L'amortissement LMNP permet de déduire chaque année une fraction de la valeur de votre chalet et de son mobilier, sans débourser un centime. C'est une charge comptable fictive qui réduit votre bénéfice imposable - parfois jusqu'à zéro. Ce levier n'existe qu'au régime réel. Si vous êtes encore au micro-BIC, vous passez probablement à côté d'une économie fiscale significative.</p>
+
+<p>La plupart des propriétaires LMNP ne comprennent pas vraiment l'amortissement. Ils en ont entendu parler, ils savent vaguement que "c'est bien", mais ils ne voient pas concrètement comment ça s'applique à leur chalet de montagne. Résultat : ils restent au micro-BIC par défaut, ils ne décomposent pas correctement leur bien, ils oublient d'amortir le mobilier. Et ils laissent de l'argent sur la table, année après année. Cet article est là pour corriger ça - clairement, sans chiffres inventés, et sans vous vendre un produit financier.</p>
+
+<h2>LMNP et amortissement : de quoi parle-t-on ?</h2>
+
+<p>L'<strong>amortissement comptable</strong> repose sur un principe simple : un bien perd de la valeur avec le temps. Un chalet s'use, le mobilier vieillit, les équipements se déprécient. La comptabilité LMNP au régime réel traduit cette usure en <strong>charge annuelle déductible</strong> - même si vous ne dépensez rien cette année-là.</p>
+
+<p>C'est la différence fondamentale avec une charge classique comme une facture de plombier : l'amortissement est une <strong>charge fictive</strong>. Pas de sortie de trésorerie. Juste une écriture comptable qui vient réduire votre résultat imposable.</p>
+
+<p>En pratique, on distingue trois catégories à amortir séparément :</p>
+
+<ul>
+  <li><strong>Le bien immobilier (hors terrain)</strong> : la construction, les murs, la toiture. La durée d'amortissement s'étale sur plusieurs décennies - l'ordre de grandeur communément retenu tourne autour de 25 à 40 ans selon la nature du bien et les pratiques comptables. Le terrain, lui, n'est jamais amortissable : il ne se déprécie pas.</li>
+  <li><strong>Le mobilier et les équipements</strong> : canapés, literie, électroménager, matériel de cuisine. Les durées sont bien plus courtes - quelques années selon le type d'équipement (de 3 ans pour du matériel informatique à une dizaine d'années pour du mobilier robuste). Chaque catégorie peut faire l'objet d'une ligne distincte.</li>
+  <li><strong>Les travaux d'amélioration</strong> : selon leur nature, ils peuvent être amortis sur leur propre durée de vie ou déduits directement en charges. Un expert-comptable tranche au cas par cas.</li>
+</ul>
+
+<p>Le calcul de base est linéaire : valeur amortissable divisée par la durée d'usage. La première année, on applique un prorata en fonction de la date de mise en location. Pour tout arbitrage précis sur les durées retenues, <strong>consultez un expert-comptable</strong> : les pratiques varient et l'administration fiscale peut les remettre en cause si elles ne sont pas justifiées.</p>
+
+<h2>Pourquoi l'amortissement est réservé au régime réel ?</h2>
+
+<p>Le <strong>micro-BIC</strong> fonctionne à l'abattement forfaitaire. L'administration applique un pourcentage fixe sur vos recettes brutes, et vous êtes imposé sur le solde. Simple, rapide - mais fermé. Vous ne pouvez déduire aucune charge réelle, et l'amortissement n'existe pas dans ce cadre.</p>
+
+<p>Le <strong>régime réel</strong>, lui, ouvre deux leviers cumulables :</p>
+
+<ul>
+  <li>La déduction des <strong>charges réelles</strong> : intérêts d'emprunt, taxe foncière, assurance, frais de gestion, entretien courant, etc. On détaille ces charges dans <a href="https://valmorel.cledici.fr/blog/charges-deductibles-lmnp-reel-valmorel">notre article sur les charges déductibles en LMNP</a>.</li>
+  <li>L'<strong>amortissement</strong> du bien et du mobilier, qui vient s'ajouter aux charges réelles pour réduire encore davantage le bénéfice imposable.</li>
+</ul>
+
+<p>C'est la combinaison des deux qui fait du régime réel un <strong>levier fiscal majeur</strong> pour les propriétaires de biens loués en meublé. Pour comprendre dans quel cas le régime réel devient plus avantageux que le micro-BIC, et comment basculer, on vous renvoie vers notre article sur le micro-BIC et le régime réel.</p>
+
+<p>Un point important : le choix du régime réel se fait par option auprès de votre Service des Impôts des Entreprises. Cette option doit être exercée avant la date limite de dépôt de votre déclaration de revenus de l'année concernée. Elle est ensuite reconduite tacitement. Autrement dit, il y a une fenêtre à respecter - et la rater, c'est perdre une année.</p>
+
+<h2>Comment l'amortissement s'applique à un chalet de montagne ?</h2>
+
+<p>Prenons le raisonnement dans l'ordre, sans inventer de chiffres.</p>
+
+<p>Quand vous achetez un chalet, vous avez un prix d'acquisition global. La première étape consiste à <strong>décomposer ce prix</strong> entre la valeur du terrain (non amortissable) et la valeur de la construction (amortissable). Cette ventilation est déterminante : plus la part terrain est élevée, moins vous pouvez amortir. Un expert-comptable ou un notaire peut vous aider à la justifier.</p>
+
+<p>Ensuite, vous identifiez la valeur du <strong>mobilier et des équipements</strong> - idéalement listés dans un inventaire au moment de l'acquisition ou de la mise en location. Chaque catégorie est amortie sur sa propre durée.</p>
+
+<p>Chaque année, vous déduisez la <strong>dotation aux amortissements</strong> de l'exercice. Cette dotation vient s'ajouter à vos autres charges déductibles. Si l'ensemble de vos charges (réelles + amortissements) dépasse vos loyers encaissés, vous atteignez un résultat nul ou proche de zéro - et vous ne payez pas d'impôt sur ces revenus locatifs.</p>
+
+<p>Mais attention à une règle essentielle : <strong>les amortissements ne peuvent pas créer de déficit LMNP</strong>. Si vos charges réelles (hors amortissements) sont déjà supérieures à vos loyers, l'amortissement de l'année ne peut pas aggraver ce déficit. La partie non utilisée n'est pas perdue pour autant : elle devient un <strong>amortissement réputé différé</strong>, reportable sans limite de durée sur les exercices futurs. C'est un avantage considérable : vous constituez une réserve fiscale que vous utiliserez quand vos revenus locatifs augmenteront.</p>
+
+<p>Pour les charges cumulables avec l'amortissement (frais de gestion, assurances, travaux, etc.), consultez <a href="https://valmorel.cledici.fr/blog/charges-deductibles-lmnp-reel-valmorel">notre article sur les charges déductibles en LMNP</a> - la liste est plus longue qu'on ne le pense souvent.</p>
+
+<h2>Les erreurs fréquentes des propriétaires de chalet</h2>
+
+<p>On voit les mêmes erreurs revenir régulièrement chez les propriétaires de biens en montagne. Les voici, sans détour.</p>
+
+<ul>
+  <li><strong>Rester au micro-BIC par défaut, sans comparer.</strong> Le micro-BIC est simple, mais il n'est pas toujours le plus avantageux. Pour un chalet de valeur, avec un emprunt en cours ou un mobilier récent, le régime réel avec amortissement peut être nettement plus intéressant. La comparaison mérite d'être faite sérieusement.</li>
+  <li><strong>Oublier d'amortir le mobilier séparément.</strong> Beaucoup de propriétaires amortissent le bien mais négligent l'inventaire du mobilier. C'est pourtant une source d'amortissement rapide, sur des durées courtes, qui peut peser significativement dans les premières années.</li>
+  <li><strong>Ne pas décomposer le terrain.</strong> Inclure le terrain dans la base amortissable est une erreur comptable. Le terrain ne s'use pas, il n'est pas amortissable. Si cette ventilation n'est pas faite correctement dès le départ, l'administration peut la remettre en cause.</li>
+  <li><strong>Attendre trop longtemps pour basculer au réel.</strong> L'option pour le régime réel a des règles de délai strictes. Si vous ratez la fenêtre déclarative, vous attendez une année de plus. Et chaque année passée au micro-BIC sans amortissement, c'est une dotation que vous ne récupérerez pas.</li>
+</ul>
+
+<h2>Foire aux questions</h2>
+
+<h3>Peut-on amortir un chalet acheté il y a plusieurs années ?</h3>
+
+<p>Oui, sous conditions. Si vous basculez au régime réel après avoir été au micro-BIC, vous pouvez commencer à amortir votre bien à partir de la date d'option. L'amortissement est calculé sur la <strong>valeur vénale du bien au moment du passage au réel</strong>, et non sur le prix d'achat initial. Les années passées au micro-BIC ne donnent pas lieu à un rattrapage d'amortissement. Un expert-comptable établira le plan d'amortissement à partir de cette base de départ.</p>
+
+<h3>L'amortissement LMNP est-il cumulable avec d'autres charges ?</h3>
+
+<p>Oui, c'est précisément l'intérêt du régime réel. L'amortissement s'ajoute aux <strong>charges réelles déductibles</strong> : intérêts d'emprunt, taxe foncière, primes d'assurance, frais de gestion locative, dépenses d'entretien et de réparation, etc. La combinaison des deux peut ramener le bénéfice imposable à zéro sur plusieurs années. Pour le détail des charges cumulables, consultez <a href="https://valmorel.cledici.fr/blog/charges-deductibles-lmnp-reel-valmorel">notre article sur les charges déductibles en LMNP</a>.</p>
+
+<h3>Que se passe-t-il si je vends mon chalet après avoir amorti ?</h3>
+
+<p>C'est un point à ne pas négliger, surtout depuis la <strong>loi de finances 2025</strong>. Pour les cessions réalisées à compter du 15 février 2025, les amortissements déduits pendant la période de location sont <strong>réintégrés dans le calcul de la plus-value</strong> : ils viennent réduire le prix d'acquisition fiscal, ce qui augmente mécaniquement la plus-value imposable. L'avantage fiscal obtenu pendant la location est donc partiellement "repris" à la revente. L'impact réel dépend de votre durée de détention, des abattements applicables et de votre situation personnelle. Consultez impérativement un expert-comptable ou un notaire avant toute décision de cession.</p>
+
+<h3>Ai-je besoin d'un expert-comptable pour déclarer l'amortissement ?</h3>
+
+<p>Techniquement, ce n'est pas obligatoire. En pratique, c'est <strong>fortement recommandé</strong>. Établir un plan d'amortissement correct - avec la bonne ventilation terrain/construction, les bonnes durées par composant, le traitement des amortissements différés - demande une maîtrise comptable réelle. Une erreur sur la base amortissable ou les durées retenues peut être remise en cause par l'administration. Le coût d'un expert-comptable spécialisé LMNP est lui-même déductible en charges réelles. C'est généralement un investissement rentable.</p>
+
+<h2>Vous louez votre chalet à Valmorel ? Parlons de vos revenus.</h2>
+
+<p>L'amortissement LMNP est un outil fiscal - et un outil fiscal bien utilisé commence par des revenus locatifs bien optimisés. C'est là qu'on intervient.</p>
+
+<p><strong>Cledici gère des chalets sur Le Grand Domaine depuis 2018.</strong> On connaît Valmorel, ses saisons, ses pics de demande et ses périodes creuses. On sait comment remplir un calendrier, fixer les bons tarifs et fidéliser les locataires - pour que vos revenus soient au rendez-vous, été comme hiver.</p>
+
+<p>Notre rôle, c'est la <strong>gestion locative</strong> : conciergerie, ménage, accueil des voyageurs, tarification dynamique, diffusion sur les plateformes. Pas la comptabilité ni la fiscalité - pour les arbitrages sur l'amortissement et le régime réel, nous vous orientons systématiquement vers un expert-comptable spécialisé LMNP.</p>
+
+<p>Ce qu'on peut faire pour vous dès maintenant : vous donner une <strong>estimation personnalisée et gratuite</strong> de vos revenus locatifs potentiels à Valmorel, basée sur les données réelles du marché local. Sans engagement, sans jargon.</p>
+
+<p><strong>Demandez votre estimation gratuite</strong> - on vous répond sous 48 heures.</p>`,
+  },
+  {
+    slug: "numero-enregistrement-location-saisonniere",
+    title: "Numéro d'enregistrement location saisonnière : guide complet pour les propriétaires du Grand Domaine",
+    excerpt: "Déclaration en mairie, formulaire Cerfa, affichage obligatoire sur Airbnb et Booking, sanctions : tout ce que les propriétaires du Grand Domaine doivent savoir sur le numéro d'enregistrement de leur meublé de tourisme.",
+    date: "2026-09-18",
+    cover: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Numéro d'enregistrement location saisonnière : guide 2026",
+    seoDescription: "Obtenez votre numéro d'enregistrement location saisonnière à Valmorel, Doucy ou Saint-François-Longchamp : démarches, délais, affichage Airbnb et sanctions.",
+    contentHtml: `<p><strong>En bref :</strong> Tout meublé de tourisme doit être déclaré en mairie avant la première mise en location. Dans les communes qui appliquent la procédure d'enregistrement, vous recevez un <strong>numéro d'enregistrement location saisonnière</strong> à 13 caractères, obligatoire sur chaque annonce Airbnb, Booking ou autre plateforme. À partir de mai 2026, cette obligation s'étend à toutes les communes de France via un portail national unique. Voici les étapes concrètes pour être en règle dans les communes du Grand Domaine : Valmorel, Doucy, Saint-François-Longchamp et Les Avanchers-Valmorel.</p>
+
+<h2>Qu'est-ce que le numéro d'enregistrement et pourquoi c'est obligatoire ?</h2>
+
+<p>Un <strong>meublé de tourisme</strong>, c'est un appartement ou un chalet loué à la nuitée, à la semaine ou au mois, à une clientèle de passage qui n'en fait pas sa résidence principale. C'est le cas de la grande majorité des biens loués à Valmorel ou à Saint-François-Longchamp.</p>
+
+<p>La loi impose deux choses distinctes :</p>
+
+<ul>
+  <li>Une <strong>déclaration préalable en mairie</strong>, obligatoire dans toutes les communes pour les résidences secondaires mises en location.</li>
+  <li>Un <strong>numéro d'enregistrement</strong>, délivré automatiquement par la mairie dans les communes qui ont mis en place cette procédure renforcée - et, à partir de mai 2026, par un portail national unique pour l'ensemble du territoire.</li>
+</ul>
+
+<p>Ce numéro est composé de <strong>13 caractères</strong> répartis en trois groupes : le code officiel géographique de la commune (5 chiffres), un identifiant unique (6 chiffres) et une clé de contrôle (2 caractères alphanumériques). Il permet aux communes de suivre et contrôler les meublés de tourisme présents sur leur territoire.</p>
+
+<p>La <strong>loi du 19 novembre 2024</strong> (dite loi Le Meur) a renforcé ce dispositif : l'enregistrement devient obligatoire dans toutes les communes à compter de mai 2026. En attendant l'ouverture du portail national, les démarches se font encore en mairie selon les modalités locales.</p>
+
+<h2>Qui est concerné ? Résidence principale, résidence secondaire et communes du Grand Domaine</h2>
+
+<p><strong>La situation n'est pas la même selon votre usage du bien.</strong></p>
+
+<p>Si votre appartement à Valmorel est votre <strong>résidence principale</strong> (vous y vivez au moins 8 mois par an), vous pouvez le louer en meublé de tourisme jusqu'à 120 jours par année civile - voire moins si la commune a abaissé ce seuil. La déclaration préalable en mairie reste obligatoire dans les communes qui appliquent le numéro d'enregistrement.</p>
+
+<p>Si votre bien est une <strong>résidence secondaire</strong> - ce qui est le cas de la très grande majorité des propriétaires du Grand Domaine - deux démarches s'imposent dans les communes qui ont instauré la procédure de changement d'usage :</p>
+
+<ol>
+  <li>Une <strong>autorisation de changement d'usage</strong> (passage du statut de logement à meublé touristique).</li>
+  <li>Une <strong>déclaration avec enregistrement</strong> pour obtenir votre numéro.</li>
+</ol>
+
+<p>Pour les communes de <strong>Valmorel, Doucy, Saint-François-Longchamp et Les Avanchers-Valmorel</strong>, la procédure exacte applicable - déclaration simple ou déclaration avec enregistrement - dépend des délibérations prises par chaque mairie. <strong>Contactez directement la mairie de votre commune</strong> pour connaître le régime en vigueur et les éventuels téléservices disponibles. Les coordonnées sont disponibles sur l'annuaire de <a href="https://lannuaire.service-public.gouv.fr/navigation/mairie" target="_blank" rel="noopener">Service-Public.fr</a>.</p>
+
+<p>Pour aller plus loin sur les obligations spécifiques aux Avanchers-Valmorel, consultez notre article dédié à la <a href="https://valmorel.cledici.fr/blog/declaration-location-meublee-avanchers-valmorel">déclaration de location meublée aux Avanchers-Valmorel</a>.</p>
+
+<h2>Comment obtenir son numéro d'enregistrement : les étapes</h2>
+
+<h3>Étape 1 : La déclaration en mairie (formulaire Cerfa n°14004)</h3>
+
+<p>Dans les communes qui n'appliquent pas encore la procédure d'enregistrement renforcée, la démarche de base est une <strong>déclaration simple</strong>. Elle se fait au moyen du <strong>formulaire Cerfa n°14004</strong> (déclaration de meublé de tourisme), à envoyer au maire par courrier recommandé avec accusé de réception, ou en ligne si la commune propose un téléservice.</p>
+
+<p>Vous devez y indiquer :</p>
+
+<ul>
+  <li>Votre identité et votre adresse,</li>
+  <li>L'adresse précise du meublé (bâtiment, escalier, étage, numéro d'appartement si nécessaire),</li>
+  <li>Le nombre de pièces et de lits,</li>
+  <li>Les périodes prévisionnelles de location,</li>
+  <li>Si le bien est votre résidence principale ou secondaire.</li>
+</ul>
+
+<p>Le formulaire Cerfa n°14004 est téléchargeable directement sur <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/R14321" target="_blank" rel="noopener">Service-Public.fr</a>.</p>
+
+<p><strong>À noter :</strong> le formulaire Cerfa n°13566 concerne les chambres d'hôtes, pas les meublés de tourisme. Ne confondez pas les deux.</p>
+
+<h3>Étape 2 : La déclaration préalable de changement d'usage (si résidence secondaire dans une commune concernée)</h3>
+
+<p>Dans les communes qui ont instauré la procédure de changement d'usage, louer une <strong>résidence secondaire</strong> comme meublé de tourisme nécessite une autorisation préalable de la mairie. Cette étape s'ajoute à la déclaration.</p>
+
+<p>Depuis l'entrée en vigueur de la loi du 19 novembre 2024, cette autorisation est conditionnée à la présentation d'un <strong>DPE (diagnostic de performance énergétique)</strong> classé entre A et E. Un bien classé F ou G ne peut plus obtenir d'autorisation de changement d'usage en France métropolitaine.</p>
+
+<p>Selon la commune, l'autorisation peut être :</p>
+
+<ul>
+  <li><strong>Définitive</strong> : attachée au propriétaire, elle prend fin à la cessation d'activité.</li>
+  <li><strong>Définitive avec compensation</strong> : vous devez transformer en habitation un autre local (boutique, bureau…). L'autorisation est alors attachée au bien.</li>
+  <li><strong>Temporaire</strong> : valable moins de 5 ans, non renouvelable automatiquement.</li>
+</ul>
+
+<p>En cas de refus, la mairie doit motiver sa décision. <strong>Ne pas demander cette autorisation expose à des sanctions sévères</strong> (voir la section dédiée ci-dessous).</p>
+
+<h3>Étape 3 : Recevoir et utiliser son numéro</h3>
+
+<p>Une fois la déclaration complète déposée, la mairie vous délivre <strong>sans délai</strong> un accusé de réception indiquant votre numéro d'enregistrement. Ce numéro est délivré automatiquement et instantanément dans les communes qui ont mis en place un téléservice dédié.</p>
+
+<p>À partir de mai 2026, ce sera le portail national unique qui délivrera les numéros pour toutes les communes. Les numéros déjà attribués localement resteront valables pendant une période transitoire.</p>
+
+<p>Une fois obtenu, ce numéro doit figurer sur <strong>toutes vos annonces</strong>. Si votre bien est en copropriété, vous devez également le communiquer à votre syndic dès réception.</p>
+
+<p>Pensez aussi à vous inscrire au répertoire Sirène de l'INSEE via le <a href="https://formalites.entreprises.gouv.fr/" target="_blank" rel="noopener">Guichet des formalités des entreprises</a> pour obtenir votre numéro SIRET, indispensable pour vos déclarations fiscales.</p>
+
+<h2>Où et comment afficher le numéro sur vos annonces</h2>
+
+<p><strong>L'affichage du numéro n'est pas optionnel.</strong> Dès lors qu'un numéro d'enregistrement vous a été attribué, il doit apparaître sur chaque annonce de location, y compris sur les plateformes en ligne.</p>
+
+<p>Concrètement, sur <strong>Airbnb</strong> : rendez-vous dans les paramètres de votre annonce, section "Informations légales" ou "Numéro d'enregistrement". Saisissez votre numéro à 13 caractères dans le champ prévu.</p>
+
+<p>Sur <strong>Booking.com</strong> : accédez à l'extranet, puis à la section "Informations sur la propriété" ou "Conformité légale". Le champ d'enregistrement y est prévu.</p>
+
+<p>L'annonce doit également préciser si vous êtes un <strong>loueur particulier ou professionnel</strong> (selon votre statut fiscal de loueur en meublé non professionnel ou professionnel).</p>
+
+<p>Les plateformes ont elles-mêmes l'obligation de ne pas maintenir en ligne une annonce sans numéro d'enregistrement lorsque celui-ci est requis. En cas de contrôle, c'est votre responsabilité de propriétaire qui est engagée en premier lieu.</p>
+
+<p>La <strong>taxe de séjour</strong> est une obligation connexe à ne pas négliger : à Valmorel et dans les communes du Grand Domaine, elle s'applique à chaque nuitée. Retrouvez tous les détails dans notre article sur la taxe de séjour à Valmorel.</p>
+
+<h2>Quelles sanctions en cas de non-respect ?</h2>
+
+<p><strong>Les sanctions existent et elles sont significatives.</strong> Voici ce que prévoit la réglementation, selon le manquement :</p>
+
+<ul>
+  <li><strong>Absence de déclaration simple</strong> (dans les communes sans enregistrement renforcé) : amende civile pouvant aller jusqu'à 450 €.</li>
+  <li><strong>Absence de déclaration avec enregistrement</strong> (dans les communes qui l'appliquent) : amende civile pouvant aller jusqu'à 5 000 € pour le loueur.</li>
+  <li><strong>Absence d'autorisation de changement d'usage</strong> pour une résidence secondaire : amende pouvant aller jusqu'à 100 000 €, remise en état initial du logement possible, et astreinte journalière par m².</li>
+  <li><strong>Annonce sans numéro d'enregistrement</strong> sur une plateforme : amende pouvant aller jusqu'à 12 500 € par annonce pour la plateforme, et sanctions pour le loueur.</li>
+</ul>
+
+<p>Ces montants sont ceux prévus par les textes en vigueur (Code du tourisme, Code de la construction et de l'habitation). <strong>La procédure exacte et les modalités de contrôle varient selon les communes.</strong> Contactez la mairie de votre commune ou un professionnel du droit pour connaître votre situation précise.</p>
+
+<p>La loi du 19 novembre 2024 a également renforcé les outils de contrôle des communes : elles peuvent désormais accéder aux données d'activité transmises par les plateformes via l'API nationale "meublés". Le risque de détection des situations irrégulières augmente donc concrètement.</p>
+
+<h2>Foire aux questions</h2>
+
+<h3>Dois-je obtenir un numéro d'enregistrement si je loue seulement quelques semaines par an à Valmorel ?</h3>
+
+<p>Oui, dès la première mise en location d'une résidence secondaire, la déclaration en mairie est obligatoire. Si votre commune applique la procédure d'enregistrement, vous devez obtenir votre numéro avant toute location, quelle que soit la durée. La fréquence ou la durée de location ne change pas cette obligation.</p>
+
+<h3>Le formulaire Cerfa 13566 est-il le bon formulaire pour déclarer mon meublé de tourisme ?</h3>
+
+<p>Non. Le Cerfa n°13566 concerne les <strong>chambres d'hôtes</strong> (location d'une chambre chez l'habitant, avec présence du propriétaire). Pour un <strong>meublé de tourisme</strong> (appartement ou chalet à disposition exclusive du locataire), le formulaire applicable est le <strong>Cerfa n°14004</strong>. Vérifiez toujours auprès de votre mairie le document exact à utiliser.</p>
+
+<h3>Mon numéro d'enregistrement actuel sera-t-il encore valable après mai 2026 ?</h3>
+
+<p>Les numéros déjà attribués par les communes resteront valables pendant une période transitoire après l'ouverture du portail national unique. Mais une fois ce portail opérationnel, tous les loueurs devront y effectuer une nouvelle déclaration. Suivez les communications de votre mairie et de Service-Public.fr pour connaître les délais exacts.</p>
+
+<h3>Que se passe-t-il si je publie mon annonce Airbnb sans numéro d'enregistrement ?</h3>
+
+<p>Si votre commune applique la procédure d'enregistrement et que vous n'avez pas indiqué votre numéro sur l'annonce, vous êtes en infraction. La plateforme peut être sanctionnée, et votre responsabilité de loueur est engagée. Airbnb et Booking demandent désormais ce numéro lors de la création ou de la mise à jour des annonces dans les communes concernées.</p>
+
+<h3>Dois-je refaire une déclaration si je change le nombre de couchages ou de pièces ?</h3>
+
+<p>Oui. Toute modification d'une information déclarée (nombre de pièces, de lits, période de location…) impose de déposer une nouvelle déclaration auprès de la mairie. Votre numéro d'enregistrement reste le même, mais la déclaration doit être mise à jour.</p>
+
+<h3>Les communes de Doucy et Saint-François-Longchamp appliquent-elles le changement d'usage ?</h3>
+
+<p>Cela dépend des délibérations prises par chaque conseil municipal. La procédure de changement d'usage est une option que les communes peuvent activer, pas une obligation nationale uniforme - jusqu'en mai 2026. Contactez directement la mairie de Doucy ou de Saint-François-Longchamp pour connaître le régime applicable à votre bien.</p>
+
+<h2>Déléguez les démarches à Cledici : on s'occupe de tout</h2>
+
+<p><strong>Les obligations administratives autour de la location saisonnière se sont multipliées.</strong> Déclaration en mairie, numéro d'enregistrement, affichage sur les plateformes, taxe de séjour, DPE : chaque étape a ses délais, ses formulaires, ses risques en cas d'oubli.</p>
+
+<p>Depuis 2018, Cledici accompagne les propriétaires du Grand Domaine - Valmorel, Doucy, Saint-François-Longchamp, Les Avanchers - dans la gestion complète de leur bien. On connaît les mairies, les procédures locales et les plateformes. On s'assure que votre bien est en règle avant la première nuitée.</p>
+
+<p>Deux options pour commencer :</p>
+
+<ul>
+  <li><strong>Obtenez une estimation personnalisée gratuite</strong> de vos revenus locatifs potentiels sur notre page d'estimation de revenus. Aucun engagement, résultat immédiat.</li>
+  <li><strong>Demandez un devis conciergerie</strong> via notre formulaire de contact : on vous rappelle sous 24h pour faire le point sur votre situation et vos objectifs.</li>
+</ul>
+
+<p>La montagne a ses codes. Ses règles administratives aussi. On les maîtrise pour vous.</p>`,
+  },
+  {
+    slug: "sci-location-meublee-chalet-montagne",
+    title: "SCI et location meublée : bonne ou mauvaise idée pour un chalet à Valmorel ?",
+    excerpt: "SCI et location meublée courte durée : une combinaison séduisante sur le papier, mais semée de pièges fiscaux. On fait le point sans détour pour les propriétaires de chalet à Valmorel.",
+    date: "2026-09-18",
+    cover: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "SCI et location meublée : bon choix pour un chalet ?",
+    seoDescription: "SCI et location meublée courte durée : on décrypte les règles fiscales, les pièges à éviter et les cas où la SCI a vraiment du sens pour un chalet à Valmorel.",
+    contentHtml: `<p><strong>En bref :</strong> La SCI et la location meublée courte durée ne font pas toujours bon ménage. Une SCI à l'IR tolère le meublé de façon très accessoire seulement. Au-delà, le passage à l'IS est automatique - et irréversible. La SCI a du sens pour organiser une transmission ou gérer un bien à plusieurs. Pour optimiser fiscalement en solo via le statut LMNP, elle est souvent contre-productive. Un expert-comptable et un notaire restent les seuls interlocuteurs légitimes pour trancher.</p>
+
+<h2>Pourquoi la question se pose à Valmorel</h2>
+
+<p>Beaucoup de propriétaires de chalet au Grand Domaine ont acquis leur bien via une SCI familiale. C'est logique : la SCI facilite la détention à plusieurs, simplifie la gestion et prépare la transmission. Mais quand vient l'idée de louer le chalet en courte durée pour en tirer des revenus, la situation se complique.</p>
+
+<p><strong>La SCI et la location meublée obéissent à des logiques fiscales différentes.</strong> Les confondre peut coûter cher. On vous explique pourquoi.</p>
+
+<h2>Le principe de base : une SCI est une structure civile</h2>
+
+<p>Une SCI (Société Civile Immobilière) est, par définition, une structure à vocation <strong>civile</strong>. Elle est conçue pour détenir et gérer de l'immobilier - typiquement en location nue, à revenus fonciers.</p>
+
+<p>Or, la location meublée est considérée par l'administration fiscale comme une <strong>activité commerciale</strong>. Elle relève des Bénéfices Industriels et Commerciaux (BIC), pas des revenus fonciers.</p>
+
+<p>Résultat : quand une SCI pratique de la location meublée de façon significative, il y a un conflit de nature juridique et fiscale. Ce conflit a des conséquences concrètes.</p>
+
+<h2>La tolérance fiscale : le meublé accessoire en SCI à l'IR</h2>
+
+<p>L'administration fiscale admet une <strong>tolérance</strong> : une SCI soumise à l'impôt sur le revenu (IR) peut pratiquer de la location meublée à condition que cette activité reste <strong>accessoire</strong>.</p>
+
+<p>En pratique, cette tolérance est généralement appréciée en comparant les recettes issues du meublé aux recettes totales de la SCI. Le seuil communément retenu tourne autour de <strong>10 % des recettes totales hors taxes</strong>. Ce n'est pas un droit inscrit dans la loi : c'est une position administrative, susceptible d'évoluer.</p>
+
+<p>Quelques points importants :</p>
+<ul>
+  <li>Ce seuil est apprécié dans la durée, pas uniquement sur un exercice isolé.</li>
+  <li>La tolérance vise le meublé <strong>ponctuel et marginal</strong>, pas la location saisonnière organisée et répétée.</li>
+  <li>Un chalet loué plusieurs semaines par an en haute saison de ski dépasse facilement ce seuil si la SCI ne génère pas d'autres revenus locatifs nus significatifs.</li>
+</ul>
+
+<p><strong>Conséquence directe :</strong> si votre projet est de louer activement votre chalet à Valmorel en courte durée, la SCI à l'IR n'est probablement pas le bon véhicule.</p>
+
+<h2>Le risque de bascule à l'IS : automatique et irréversible</h2>
+
+<p>Si la location meublée dépasse le seuil de tolérance ou devient l'activité principale de la SCI, celle-ci bascule automatiquement à l'<strong>impôt sur les sociétés (IS)</strong>.</p>
+
+<p>Ce passage à l'IS est <strong>définitif</strong>. On ne revient pas en arrière.</p>
+
+<p>Quelles sont les conséquences concrètes ?</p>
+<ul>
+  <li>Les bénéfices de la SCI sont imposés à l'IS, selon les taux en vigueur (à vérifier avec votre expert-comptable, car ils évoluent).</li>
+  <li>La fiscalité de la <strong>plus-value à la revente</strong> change radicalement : exit le régime des plus-values des particuliers avec ses abattements pour durée de détention. La SCI à l'IS est soumise au régime des plus-values professionnelles, souvent moins favorable à long terme.</li>
+  <li>Les distributions de bénéfices aux associés sont ensuite soumises à la fiscalité des dividendes.</li>
+</ul>
+
+<p>Ce n'est pas nécessairement catastrophique - mais c'est une décision structurante qui mérite d'être anticipée, pas subie.</p>
+
+<h2>SCI à l'IS et LMNP : une incompatibilité fondamentale</h2>
+
+<p>C'est l'un des points les plus mal compris. <strong>Le statut LMNP (Loueur en Meublé Non Professionnel) est réservé aux personnes physiques.</strong> Une SCI, quelle que soit son imposition, ne peut pas bénéficier du statut LMNP.</p>
+
+<p>Pourquoi est-ce important ? Parce que le principal avantage du LMNP au régime réel, c'est la possibilité d'<strong>amortir comptablement le bien</strong> - le bâti, le mobilier, parfois les travaux - pour réduire la base imposable, voire générer un déficit reportable. C'est un levier fiscal puissant pour un chalet de montagne dont la valeur est élevée.</p>
+
+<p>En SCI à l'IS, la société peut certes amortir comptablement l'immeuble. Mais :</p>
+<ul>
+  <li>Ces amortissements viennent réduire la valeur nette comptable du bien.</li>
+  <li>À la revente, la plus-value est calculée sur la valeur nette comptable, pas sur le prix d'acquisition initial. L'amortissement se "reprend" fiscalement.</li>
+  <li>Le régime des plus-values professionnelles s'applique, sans les abattements pour durée de détention du régime des particuliers.</li>
+</ul>
+
+<p>Pour approfondir la mécanique de l'amortissement et ses effets sur votre fiscalité, consultez <a href="https://valmorel.cledici.fr/blog/amortissement-lmnp-location-saisonniere">notre article sur l'amortissement LMNP</a>.</p>
+
+<h2>Comparatif : SCI IR, SCI IS, LMNP en nom propre</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Critère</th>
+      <th>SCI à l'IR</th>
+      <th>SCI à l'IS</th>
+      <th>LMNP en nom propre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Location meublée courte durée</td>
+      <td>Tolérée si accessoire (&lt; seuil)</td>
+      <td>Possible</td>
+      <td>Possible</td>
+    </tr>
+    <tr>
+      <td>Statut LMNP</td>
+      <td>Non applicable</td>
+      <td>Non applicable</td>
+      <td>Oui (si conditions remplies)</td>
+    </tr>
+    <tr>
+      <td>Amortissement comptable du bien</td>
+      <td>Non</td>
+      <td>Oui (mais repris à la revente)</td>
+      <td>Oui (régime réel)</td>
+    </tr>
+    <tr>
+      <td>Plus-value à la revente</td>
+      <td>Régime des particuliers (IR)</td>
+      <td>Régime professionnel (IS)</td>
+      <td>Régime des particuliers (IR)</td>
+    </tr>
+    <tr>
+      <td>Transmission patrimoniale</td>
+      <td>Facilitée (parts sociales)</td>
+      <td>Facilitée (parts sociales)</td>
+      <td>Plus complexe (bien en direct)</td>
+    </tr>
+    <tr>
+      <td>Gestion à plusieurs associés</td>
+      <td>Oui</td>
+      <td>Oui</td>
+      <td>Non (personne physique seule)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>Ce tableau est indicatif. Les règles fiscales évoluent régulièrement. Seul un expert-comptable peut analyser votre situation précise.</em></p>
+
+<h2>Quand la SCI a vraiment du sens</h2>
+
+<p>La SCI n'est pas une mauvaise idée par principe. Elle répond à des besoins réels et légitimes. On peut citer plusieurs situations où elle s'impose naturellement.</p>
+
+<h3>La transmission patrimoniale</h3>
+
+<p>C'est le cas d'usage le plus solide. Détenir un chalet via une SCI familiale permet de <strong>transmettre des parts sociales progressivement</strong>, en utilisant les abattements fiscaux applicables en ligne directe. Le bien reste uni, la gestion reste organisée, et les conflits entre héritiers sont mieux encadrés qu'en indivision classique.</p>
+
+<h3>La sortie de l'indivision</h3>
+
+<p>L'indivision est souvent fragile. Elle expose à des blocages dès qu'un indivisaire veut vendre ou que les avis divergent sur la gestion. La SCI offre un cadre plus souple, avec un gérant désigné dans les statuts qui peut prendre les décisions courantes sans unanimité.</p>
+
+<h3>La détention à plusieurs associés</h3>
+
+<p>Couple, associés, frères et sœurs : quand plusieurs personnes détiennent un bien ensemble, la SCI structure la relation, clarifie les droits de chacun et prévoit les règles de sortie. C'est une protection utile, indépendamment de la question fiscale.</p>
+
+<h2>Quand la SCI est contre-productive</h2>
+
+<p>Si vous êtes <strong>propriétaire solo</strong> d'un chalet à Valmorel et que votre objectif principal est d'<strong>optimiser fiscalement vos revenus locatifs</strong> via le statut LMNP et l'amortissement comptable, la SCI est probablement le mauvais outil.</p>
+
+<p>Pourquoi ?</p>
+<ul>
+  <li>Elle vous prive du statut LMNP, donc de l'amortissement en nom propre.</li>
+  <li>Elle ajoute des coûts de gestion (comptabilité, formalités, assemblées générales).</li>
+  <li>Elle complique la fiscalité de la revente si elle bascule à l'IS.</li>
+  <li>Elle n'apporte aucun avantage patrimonial particulier si vous êtes seul associé.</li>
+</ul>
+
+<p>Dans ce cas, la détention en nom propre avec le statut LMNP au régime réel est généralement plus efficace. Pour comprendre les charges que vous pouvez déduire dans ce cadre, lisez <a href="https://valmorel.cledici.fr/blog/charges-deductibles-lmnp-reel-valmorel">notre article sur les charges déductibles en LMNP</a>. Et pour choisir entre micro-BIC et régime réel, notre article dédié fait le point.</p>
+
+<h2>Ce que dit l'administration fiscale - et pourquoi ça peut changer</h2>
+
+<p>Les règles fiscales applicables à la SCI et à la location meublée ont évolué ces dernières années, et elles continuent d'évoluer. Les seuils, les taux, les modalités d'imposition des plus-values, les conditions du statut LMNP : tout cela peut être modifié par une loi de finances.</p>
+
+<p><strong>Ce que vous lisez aujourd'hui peut être partiellement obsolète demain.</strong> C'est précisément pour cette raison qu'un expert-comptable spécialisé en location meublée est indispensable avant de prendre toute décision structurante. Un notaire est également incontournable pour les questions de transmission et de rédaction des statuts.</p>
+
+<p>On ne donne pas de conseil fiscal ici. On vous donne les bonnes questions à poser.</p>
+
+<h2>Foire aux questions</h2>
+
+<h3>Peut-on louer un chalet en Airbnb via une SCI à l'IR ?</h3>
+
+<p>Techniquement oui, mais avec un risque sérieux. Si les recettes issues de la location meublée dépassent le seuil de tolérance (généralement apprécié autour de 10 % des recettes totales de la SCI), la SCI bascule à l'IS de façon automatique et irréversible. Pour une location Airbnb active sur plusieurs semaines par an, ce seuil est souvent dépassé rapidement si la SCI ne détient pas d'autres biens loués nus.</p>
+
+<h3>Une SCI à l'IS peut-elle bénéficier du statut LMNP ?</h3>
+
+<p>Non. Le statut LMNP est réservé aux personnes physiques. Une SCI, qu'elle soit à l'IR ou à l'IS, ne peut pas en bénéficier. L'amortissement est possible en SCI à l'IS, mais dans un cadre fiscal différent, avec des conséquences distinctes notamment à la revente.</p>
+
+<h3>La SCI est-elle utile pour transmettre un chalet à ses enfants ?</h3>
+
+<p>Oui, c'est l'un de ses usages les plus pertinents. Elle permet de transmettre des parts sociales progressivement, d'organiser la gestion via un gérant et d'éviter les blocages de l'indivision. Un notaire est indispensable pour structurer cette transmission correctement.</p>
+
+<h3>Peut-on créer une SCI uniquement pour louer en courte durée à Valmorel ?</h3>
+
+<p>C'est possible, mais rarement optimal si l'objectif est fiscal. Si la location meublée est l'activité principale, la SCI sera soumise à l'IS. Dans ce cas, la détention en nom propre avec le statut LMNP offre généralement plus de souplesse et de lisibilité fiscale pour un propriétaire individuel.</p>
+
+<h3>Quand faut-il consulter un expert-comptable et un notaire ?</h3>
+
+<p>Avant toute décision : avant d'acheter, avant de créer une SCI, avant de commencer à louer en meublé, et avant de vendre. Ces deux professionnels ont des rôles complémentaires. L'expert-comptable analyse la fiscalité courante et les revenus. Le notaire sécurise la structure juridique et la transmission. Ni l'un ni l'autre ne peut être remplacé par un article de blog, aussi complet soit-il.</p>
+
+<h2>Estimez vos revenus locatifs avec Cledici</h2>
+
+<p>La structure juridique de votre bien, c'est une décision pour vos conseillers fiscaux et juridiques. <strong>La performance locative de votre chalet à Valmorel, c'est notre domaine.</strong></p>
+
+<p>Depuis 2018, on gère des locations saisonnières au Grand Domaine. On connaît les saisons, les taux d'occupation réels, les périodes creuses et les leviers pour les remplir. On optimise les revenus toute l'année - pas seulement en haute saison de ski.</p>
+
+<p>Que votre chalet soit détenu en nom propre ou via une SCI, on peut vous donner une <strong>estimation personnalisée et gratuite de vos revenus locatifs potentiels</strong> - sans engagement.</p>
+
+<ul>
+  <li>Estimation de revenus basée sur les données réelles du marché Valmorel</li>
+  <li>Analyse de votre bien et de son potentiel locatif</li>
+  <li>Devis transparent sur nos services de gestion clés en main</li>
+</ul>
+
+<p><strong>Prenez contact avec notre équipe pour obtenir votre estimation gratuite.</strong> On vous répond rapidement, sans jargon et sans engagement.</p>`,
+  },
+  {
     slug: "rendement-location-saisonniere-valmorel",
     title: "Combien peut rapporter la location de votre bien à Valmorel ? Les facteurs qui font le rendement",
     excerpt:
@@ -1352,12 +1806,12 @@ export const ARTICLES: Article[] = [
     slug: "investir-les-avanchers-valmorel-achat-locatif",
     title: "Acheter aux Avanchers-Valmorel pour louer : village à l'année vs station, spécificités et opportunités",
     excerpt:
-      "Les Avanchers-Valmorel, c'est une commune, deux ambiances et une vraie logique d'investissement locatif à comprendre avant d'acheter. Village de vallée à 1 100 m ou station à 1 400 m : le choix n'est pas anodin.",
+      "Aux Avanchers-Valmorel, deux biens identiques à 300 m d'écart ne rapportent pas la même chose. On explique pourquoi, et comment choisir avant d'acheter pour louer.",
     date: "2026-08-05",
     cover: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1300&q=80",
-    seoTitle: "Investir Les Avanchers-Valmorel : guide achat locatif",
+    seoTitle: "Investir aux Avanchers-Valmorel : achat locatif, le guide",
     seoDescription:
-      "Investir Les Avanchers-Valmorel pour louer : village de vallée vs station-altitude, profil des biens, atouts été/hiver, points de vigilance et démarches.",
+      "Village à l'année ou station d'altitude : ce qui change vraiment pour votre rendement locatif aux Avanchers-Valmorel. Chiffres, pièges, démarches.",
     contentHtml: `<p><strong>TL;DR :</strong> Les Avanchers-Valmorel est une seule commune qui regroupe 13 villages de vallée (chef-lieu à 1 100 m) et la station de Valmorel (1 400 m). Investir dans le village-bas, c'est parier sur un cadre résidentiel, des biens plus spacieux et une clientèle différente de celle de la station-altitude. L'accès aux pistes depuis Les Avanchers passe par la navette ou la voiture - c'est la contrainte principale, à intégrer dans votre argumentaire locatif. Avant de louer, trois étapes non négociables : déclaration en mairie, vérification du règlement de copropriété, choix du régime fiscal.</p>
 
 <h2>Les Avanchers-Valmorel : village de vallée ou antichambre de la station ?</h2>

@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: { params: Promise<{ ville: st
   const c = cities.find((x) => x.slug === ville);
   if (!c) return {};
   return {
-    title: `Conciergerie à ${c.name} — Airbnb & location saisonnière`,
-    description: `${c.intro} Cledici, expert de l'habitat touristique de montagne depuis 2018.`,
+    title: c.seoTitle ?? `Conciergerie à ${c.name} — Airbnb & location saisonnière`,
+    description: c.seoDescription ?? `${c.intro} Cledici, expert de l'habitat touristique de montagne depuis 2018.`,
     alternates: { canonical: `/conciergerie/${c.slug}` },
   };
 }
@@ -68,7 +68,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
         <div className="wrap inner" style={{ gridTemplateColumns: "1fr" }}>
           <div className="rv in" style={{ maxWidth: 760 }}>
             <p className="eyebrow">Conciergerie Airbnb · {c.region}</p>
-            <h1>Conciergerie à {c.name}.</h1>
+            <h1>{c.h1 ?? `Conciergerie à ${c.name}.`}</h1>
             <p className="sub">{c.intro}</p>
             <div style={{ display: "flex", gap: 14, marginTop: 34, flexWrap: "wrap" }}>
               <Link href="/#contact" className="btn btn-g">Estimer mes revenus à {c.name}</Link>

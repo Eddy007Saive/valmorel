@@ -10,9 +10,17 @@ import { CITY_CONTENT } from "./cityContent";
 const BACKEND_URL = process.env.BACKEND_URL ?? "http://localhost:3001";
 const TENANT = process.env.TENANT ?? "client_03";
 
-export type CityCfg = City & { content?: string };
+export type CityCfg = City & { content?: string; seoTitle?: string; seoDescription?: string; h1?: string };
+/** Overrides SEO par ville (title/meta/H1) quand le template générique ne suffit pas. */
+const CITY_SEO: Record<string, Pick<CityCfg, "seoTitle" | "seoDescription" | "h1">> = {
+  "les-avanchers": {
+    seoTitle: "Conciergerie Valmorel et Les Avanchers : gestion locative",
+    seoDescription: "Propriétaire à Valmorel ou aux Avanchers ? Gestion complète, tarification dynamique, revenus lissés sur l'année. Expertise locale depuis 2018.",
+    h1: "Conciergerie à Valmorel et aux Avanchers : on gère, vous encaissez.",
+  },
+};
 /** Villes locales enrichies du contenu éditorial → fallback des pages villes. */
-const LOCAL_CITIES: CityCfg[] = CITIES.map((c) => ({ ...c, content: CITY_CONTENT[c.slug] ?? "" }));
+const LOCAL_CITIES: CityCfg[] = CITIES.map((c) => ({ ...c, content: CITY_CONTENT[c.slug] ?? "", ...CITY_SEO[c.slug] }));
 
 type TT = { title: string; text: string };
 
