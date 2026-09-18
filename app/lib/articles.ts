@@ -12,6 +12,435 @@ export type Article = {
 // Contenu rédigé par ChatSEO — données réelles Valmorel / CCVA (Savoie).
 export const ARTICLES: Article[] = [
   {
+    slug: "tarifs-conciergerie-location-saisonniere",
+    title: "Tarifs conciergerie location saisonnière : ce qu'on facture (et pourquoi)",
+    excerpt: "Commission, forfait mensuel ou prestations à la carte : on démonte la structure tarifaire réelle d'une conciergerie de location saisonnière, ligne par ligne. Ce qui est inclus, ce qui ne l'est jamais, et comment comparer deux devis sans se faire piéger.",
+    date: "2026-09-17",
+    cover: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "Tarifs conciergerie location saisonnière : le décryptage",
+    seoDescription: "Commission, forfait ou prestations à la carte : on décrypte les tarifs conciergerie location saisonnière et ce qui est vraiment inclus. Estimation gratuite.",
+    contentHtml: `<p><strong>En bref :</strong> Les tarifs conciergerie location saisonnière reposent sur trois modèles : une commission de 15 % à 30 % des loyers encaissés (jusqu'à 40 % en ville), un forfait mensuel de 150 € à 350 € pour la gestion des réservations, ou des prestations à la carte (accueil, ménage, linge, photos). Aucun de ces chiffres ne dit ce qui est réellement inclus. Voici comment lire un devis, quelles lignes explosent en montagne, et pourquoi nous chiffrons toujours à la visite, bien par bien.</p>
+
+<h2>Pourquoi les tarifs d'une conciergerie restent si opaques</h2>
+
+<p>Le marché publie des fourchettes, jamais des prix. Logique : un studio de 25 m² à Valmorel et un chalet de 10 couchages au Grand Domaine ne demandent pas le même travail.</p>
+
+<p>Trois habitudes brouillent la lecture :</p>
+<ul>
+<li>Des modèles de facturation différents mélangés dans la même grille.</li>
+<li>Des prestations tantôt incluses, tantôt refacturées, rarement précisées.</li>
+<li>Des annonces qui mettent en avant un pourcentage en oubliant les frais fixes.</li>
+</ul>
+
+<p>Résultat : on compare un « 20 % tout compris » avec un « 15 % plus ménage et linge », et on ne sait toujours pas <strong>combien coûte une conciergerie</strong> sur une saison réelle. Sur le prix conciergerie, il n'existe qu'une bonne réponse : un chiffrage sur votre bien, vos charges et vos revenus attendus.</p>
+
+<h2>Les 3 modèles de facturation d'une conciergerie location saisonnière</h2>
+
+<p>Aucun modèle n'est meilleur dans l'absolu. Tout dépend de votre bien, de votre usage et de vos revenus.</p>
+
+<h3>1. La commission sur les loyers</h3>
+<p>Le principe : un pourcentage des loyers encaissés. Le marché affiche le plus souvent <strong>15 % à 30 %</strong>, jusqu'à 40 % dans les grandes villes, avec une moyenne autour de 20 % à 25 %.</p>
+<p>Ce que ça change : vous ne payez que si le logement se loue. La conciergerie a donc intérêt à remplir le calendrier.</p>
+<p>Le piège : un pourcentage ne dit rien des prestations incluses. Et il grimpe avec vos bons résultats.</p>
+
+<h3>2. Le forfait mensuel</h3>
+<p>Ici, vous payez un montant fixe, souvent <strong>150 € à 350 € par mois</strong> pour la gestion des réservations.</p>
+<p>Ce que ça change : vos charges deviennent prévisibles.</p>
+<p>Le piège : un forfait qui tourne à vide en avril coûte de l'argent réel. Sur douze mois, l'addition peut dépasser la commission d'une année moyenne.</p>
+
+<h3>3. Les prestations à la carte</h3>
+<p>C'est le modèle le plus lisible ligne par ligne, et le plus surprenant à l'arrivée. Le marché facture <strong>20 € à 90 € par jour</strong> pour l'accueil, 149 € pour un reportage photo, 7 € pour un retrait de clés, 20 € à 60 € de ménage selon la surface, et la blanchisserie à partir de 20 €.</p>
+<p>On y trouve aussi une <strong>conciergerie tarif horaire</strong> pour les demandes ponctuelles, et un <strong>tarif prestation conciergerie privée</strong> pour l'accueil personnalisé, les courses ou l'ouverture du logement hors location.</p>
+<p>Ce que ça change : vous payez ce que vous consommez. Le piège : sans volume, le coût par séjour grimpe vite.</p>
+
+<h3>Le tableau comparatif</h3>
+
+<table>
+<thead>
+<tr><th>Modèle</th><th>Comment ça marche</th><th>Avantages</th><th>Limites</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Commission sur loyers</strong></td><td>15 % à 30 % des loyers encaissés</td><td>Intérêt partagé : on gagne quand vous louez</td><td>Périmètre inclus flou, coût qui augmente avec vos revenus</td></tr>
+<tr><td><strong>Forfait mensuel</strong></td><td>150 € à 350 € par mois</td><td>Budget prévisible toute l'année</td><td>Coût fixe même sans réservation</td></tr>
+<tr><td><strong>Prestations à la carte</strong></td><td>Chaque service facturé séparément</td><td>Transparence ligne par ligne</td><td>Addition finale difficile à anticiper</td></tr>
+<tr><td><strong>Modèle mixte</strong></td><td>Commission réduite plus forfait ou extras</td><td>Équilibre et souplesse</td><td>Deux grilles à lire au lieu d'une</td></tr>
+</tbody>
+</table>
+
+<h2>Ce qui est réellement inclus dans une commission (et ce qui ne l'est jamais)</h2>
+
+<p>Dans la plupart des offres, une commission couvre :</p>
+<ul>
+<li>La création et l'optimisation des annonces</li>
+<li>La gestion des calendriers et des disponibilités</li>
+<li>La relation voyageurs, avant, pendant et après le séjour</li>
+<li>La coordination des arrivées et des départs</li>
+<li>L'ajustement des prix selon la demande</li>
+</ul>
+
+<p>Ce qu'une commission ne couvre presque jamais :</p>
+<ul>
+<li>Le ménage et le linge, refacturés à chaque séjour</li>
+<li>Les consommables : produits d'entretien, papier, bois ou pellets</li>
+<li>Le déneigement, le salage et l'accès au chemin</li>
+<li>Les interventions techniques et les réparations</li>
+<li>Les frais de plateforme et la taxe de séjour</li>
+<li>Le <strong>service de conciergerie pour particulier</strong> hors location : courses, réservations, accueil privé</li>
+</ul>
+
+<p>Ces lignes ne sont pas des cachotteries. Ce sont des coûts réels, avec des prestataires derrière. Le problème, c'est quand ils n'apparaissent pas dans l'<strong>exemple devis conciergerie</strong> que vous recevez. Un devis sérieux chiffre un séjour type, extras compris.</p>
+
+<h2>Les lignes qui font exploser la facture en montagne</h2>
+
+<h3>Le linge et la blanchisserie</h3>
+<p>Un chalet de 10 couchages, ce sont des dizaines de pièces à laver, sécher, repasser, stocker et remplacer. En altitude, les prestataires sont rares et les distances longues. Le <strong>tarif linge conciergerie</strong> se compte au kilo, à la pièce ou au kit par lit. C'est la première ligne qui surprend. Nous travaillons avec une blanchisserie locale et du linge de rechange en stock, pour ne jamais lancer une machine entre deux départs.</p>
+
+<h3>Le ménage entre deux séjours</h3>
+<p>Départ à 10 h, arrivée à 16 h : six heures pour remettre le logement à niveau. Plus la surface est grande, plus la prestation coûte. En haute saison, chaque samedi ressemble au précédent, avec quatre à six rotations d'affilée.</p>
+
+<h3>Le déneigement et l'accès</h3>
+<p>Une chute de neige la veille d'une arrivée et tout est à refaire : chemin, escalier, terrasse, parking. Le déneigement n'est presque jamais inclus dans une commission. S'il n'est pas anticipé, ni le voyageur ni vous n'êtes gagnants.</p>
+
+<h3>Les interventions d'urgence</h3>
+<p>Chaudière en panne le 24 décembre. Fuite d'eau. Voyageur qui a perdu ses clés. Ces interventions se paient en urgence, souvent hors heures ouvrées. Une équipe locale intervient en quelques minutes. Une équipe distante facture un déplacement.</p>
+
+<h3>La saisonnalité</h3>
+<p>La montagne vit sur quatre à cinq périodes fortes. Le reste de l'année, les charges fixes continuent : chauffage, abonnements, entretien, assurance. Le chauffage pèse lourd, comme le rappelle l'<a href="https://batizoom.ademe.fr/indicateurs/consommation-surfacique-des-batiments-residentiels-par-usage" rel="noopener" target="_blank">ADEME sur la consommation énergétique des bâtiments résidentiels</a>. Pour un <strong>tarif conciergerie résidence secondaire</strong>, cette réalité change tout : sans tarification dynamique ni animation des semaines creuses, la commission ne couvre pas les charges annuelles.</p>
+
+<h2>Comment comparer deux devis de conciergerie sur 5 critères</h2>
+
+<p>Deux devis se comparent sur un seul terrain : le coût total d'une saison, pas le pourcentage affiché.</p>
+
+<ul>
+<li><strong>1. Le périmètre inclus.</strong> Demandez la liste exacte : ménage, linge, déneigement, consommables, urgences. Ce qui n'est pas écrit sera facturé en plus.</li>
+<li><strong>2. Le coût d'un séjour réel.</strong> Faites chiffrer un week-end de février et une semaine de juillet, extras compris.</li>
+<li><strong>3. Les frais fixes.</strong> Forfait, abonnement, photos, état des lieux, frais de dossier. Les petits montants pèsent sur une saison.</li>
+<li><strong>4. La capacité locale.</strong> Une équipe sur place à Valmorel ne facture pas de déplacement. Elle connaît Le Grand Domaine, les accès et les prestataires.</li>
+<li><strong>5. La conformité et la sortie.</strong> Vérifiez qui gère la taxe de séjour et la <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F2045" rel="noopener" target="_blank">déclaration du meublé de tourisme</a>, puis la durée d'engagement et le préavis.</li>
+</ul>
+
+<h2>Pourquoi on ne se bat pas sur le prix le plus bas</h2>
+
+<p>Le <strong>prix conciergerie Airbnb</strong> le moins cher existe. On le voit passer : sans équipe sur place, avec des annonces sous-optimisées et des extras découverts en fin de mois.</p>
+
+<p>Nous ne jouons pas ce jeu. Pas par principe, par calcul.</p>
+
+<ul>
+<li>Un logement mal tenu se dégrade, et sa note aussi. Une note qui baisse, ce sont des réservations qui partent ailleurs.</li>
+<li>Une équipe locale coûte plus qu'un centre d'appels. Elle sait déneiger avant l'arrivée, changer un joint le dimanche, reconnaître le voyageur qui laissera un bon avis.</li>
+<li>Sur une saison, ce sont les nuits vendues qui font le revenu, pas les points de commission économisés.</li>
+</ul>
+
+<p>Ce qu'on facture à la place :</p>
+<ul>
+<li>Une <strong>commission claire</strong>, annoncée et justifiée ligne par ligne.</li>
+<li>Des <strong>prestations locales</strong> : ménage, linge, déneigement, maintenance.</li>
+<li>Une <strong>tarification dynamique</strong>, pilotée semaine par semaine, y compris sur les périodes creuses.</li>
+<li>Un <strong>chiffrage à la visite</strong>, selon le bien : surface, couchages, accès, état, équipements.</li>
+</ul>
+
+<p>Le montant exact dépend de votre logement. C'est pour ça qu'on ne publie pas de grille unique, et qu'on ne répondra jamais « environ 20 % » au téléphone.</p>
+
+<h2>Foire aux questions</h2>
+
+<h3>Quelle est la commission moyenne d'une conciergerie ?</h3>
+<p>Pour un <strong>tarif conciergerie Airbnb</strong> en France, la commission se situe le plus souvent entre 15 % et 30 % des loyers encaissés, avec une moyenne de 20 % à 25 %. En ville, certaines offres montent à 40 %. Ce pourcentage ne suffit pas : demandez toujours ce qu'il inclut. Chez nous, la <strong>commission conciergerie</strong> est annoncée avant la signature, avec la liste des prestations couvertes.</p>
+
+<h3>Quelle différence entre une commission et un forfait mensuel ?</h3>
+<p>La commission suit vos revenus : elle baisse en morte saison et augmente quand vous louez. Le forfait mensuel est fixe : prévisible, mais payé même quand le logement reste vide. Pour un bien loué quelques semaines par an, le forfait est rarement le bon choix. Un logement très fréquenté peut, à l'inverse, amortir un forfait élevé.</p>
+
+<h3>Quelles prestations sont facturées en plus de la commission ?</h3>
+<p>Le ménage, le linge, le déneigement, les consommables, les interventions techniques, les photos, la taxe de séjour et les frais de plateforme. Le <strong>service de conciergerie tarif</strong> horaire s'applique aussi aux demandes ponctuelles. Un propriétaire qui découvre ces lignes après coup a mal lu le devis, ou son prestataire l'a mal écrit.</p>
+
+<h3>Le tarif est-il le même pour un chalet et pour un studio ?</h3>
+<p>Non. Le pourcentage peut sembler identique, mais le travail ne l'est pas. Un chalet, c'est plus de linge, plus de ménage, un extérieur à entretenir, parfois plusieurs accès à déneiger. On regarde aussi le nombre de couchages et la fréquence des séjours. C'est la visite qui tranche.</p>
+
+<h3>Y a-t-il un engagement et comment résilier ?</h3>
+<p>Un contrat sérieux prévoit un préavis écrit, souvent calé sur la fin de saison, et il clarifie le sort du linge, du stock et des réservations déjà confirmées. Aucune clause de sortie cachée. Les séjours en cours restent honorés et les revenus encaissés vous sont versés. Un prestataire qui exige trois ans sans préavis n'est pas là pour vous.</p>
+
+<h2>Votre estimation de revenus gratuite, chiffrée sur place</h2>
+
+<p>Vous voulez savoir ce qui restera sur votre compte à la fin de la saison ? On chiffre votre bien. Gratuitement.</p>
+
+<ul>
+<li><strong>Estimation personnalisée</strong> de vos revenus locatifs sur les quatre à cinq périodes fortes du Grand Domaine.</li>
+<li><strong>Devis transparent</strong> : commission, prestations incluses, extras, avec le coût d'un séjour type.</li>
+<li><strong>Plan d'optimisation</strong> : tarification dynamique, annonces, remplissage des semaines creuses.</li>
+</ul>
+
+<p>Notre expertise locale sur Valmorel et Le Grand Domaine date de 2018. On gère la location complète, de l'annonce au linge propre. Pour voir le détail du fonctionnement, lisez <a href="https://valmorel.cledici.fr/blog/confier-chalet-conciergerie-valmorel">confier son chalet à une conciergerie à Valmorel</a>. Pour mesurer l'enjeu côté revenus, <a href="https://valmorel.cledici.fr/blog/rendement-location-saisonniere-valmorel">le rendement d'une location saisonnière à Valmorel</a>.</p>
+
+<p><strong>Demandez votre estimation gratuite.</strong> Un appel, une visite de votre bien, un chiffrage au séjour près. Sans engagement.</p>`,
+  },
+  {
+    slug: "etat-des-lieux-location-saisonniere",
+    title: "État des lieux location saisonnière : le guide propriétaire",
+    excerpt: "L'état des lieux n'est pas obligatoire en location saisonnière, mais il reste votre meilleure protection. Check-in, check-out, photos horodatées, inventaire mobilier et gestion de la caution : le protocole qu'on applique depuis 2018 sur le Grand Domaine.",
+    date: "2026-09-17",
+    cover: "https://images.unsplash.com/photo-1491555103944-7c647fd857e6?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "État des lieux location saisonnière : le guide propriétaire",
+    seoDescription: "L'état des lieux en location saisonnière n'est pas obligatoire, mais il protège votre bien et votre caution. Voici notre protocole à Valmorel.",
+    contentHtml: `<p><strong>En bref :</strong> l'état des lieux n'est pas obligatoire en location saisonnière, contrairement au bail meublé classique. En pratique, c'est la seule pièce qui tient debout face à une dégradation, un objet manquant ou un litige de caution. Chez Cledici, on en dresse un à chaque arrivée et à chaque départ, photos horodatées à l'appui. Un bien protégé, un dépôt de garantie géré proprement, et un propriétaire qui n'a plus à arbitrer entre deux versions.</p>
+
+<h2>État des lieux location saisonnière : ce que dit la loi, et ce qu'elle ne dit pas</h2>
+
+<p>La loi du 6 juillet 1989 encadre le bail d'habitation. Elle vise la résidence principale, vide ou meublée, y compris le bail mobilité. C'est elle qui rend l'état des lieux d'entrée obligatoire, établi de façon contradictoire et joint au bail. Service-Public le rappelle sur sa fiche dédiée à l'<a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F31270">état des lieux d'entrée dans un bail d'habitation</a>.</p>
+
+<p>Une location saisonnière n'entre pas dans ce cadre. Un séjour de quelques nuits dans un meublé de tourisme relève d'un contrat de louage d'usage, pas d'un bail d'habitation. Conséquence : <strong>aucun texte ne vous oblige à dresser un état des lieux en location saisonnière</strong>.</p>
+
+<p>Cela ne veut pas dire que le sujet est libre. La DGCCRF rappelle qu'un état descriptif des lieux est remis avec le contrat et qu'un état des lieux de fin de séjour est établi en présence du loueur et du locataire. Autre point : c'est votre contrat qui fixe les règles, la durée de restitution du dépôt de garantie, les modalités d'annulation et les frais. On l'écrit noir sur blanc dans chaque <a href="https://valmorel.cledici.fr/blog/contrat-location-saisonniere-valmorel">contrat de location saisonnière à Valmorel</a>.</p>
+
+<p>Dernière précaution : nous ne sommes pas juristes. Sur un point précis, votre assureur ou un professionnel du droit tranchera mieux que quiconque. C'est aussi pour cela que votre <a href="https://valmorel.cledici.fr/blog/assurance-location-saisonniere-valmorel">assurance location saisonnière à Valmorel</a> doit coller à votre pratique réelle, et pas à une théorie de bail classique.</p>
+
+<h2>Sans état des lieux, qui doit prouver quoi ?</h2>
+
+<p>Le vrai sujet n'est pas la légalité, c'est la preuve. Une tache sur le canapé, une télécommande envolée, un départ à 6 h du matin sans personne pour constater. Sans document daté, vous n'avez rien.</p>
+
+<p>En location saisonnière, état des lieux et dépôt de garantie vont de pair : la preuve d'abord, la retenue ensuite. Pour garder tout ou partie d'un dépôt de garantie location saisonnière, il faut pouvoir montrer que le dommage existait après le départ et qu'il n'existait pas avant l'arrivée. Photos, description écrite, inventaire signé, horodatage. Sans ces éléments, la retenue devient très difficile à défendre. Et quand le logement se loue vingt ou trente fois dans la saison, la mémoire ne suffit plus.</p>
+
+<p><strong>La montagne a ses codes. Et ses dégâts récurrents.</strong> Skis posés contre une cloison, chaussures mouillées sur le parquet, fondue savoyarde sur la table basse, draps marqués par la crème solaire d'un séjour d'été. Ces incidents sont banals, fréquents, et rarement signalés spontanément. L'état des lieux transforme une discussion d'opinions en simple constat.</p>
+
+<h2>Ce que contient un bon état des lieux</h2>
+
+<p>Un état des lieux location courte durée utile tient en deux documents, pas plus : l'état descriptif des lieux du séjour et l'inventaire du mobilier. Voici ce qu'on y met, systématiquement.</p>
+
+<h3>L'état descriptif : pièce par pièce, sans littérature</h3>
+
+<ul>
+<li>Entrée, séjour, cuisine, chambres, salle de bains, WC, balcon ou terrasse, cave et local à skis.</li>
+<li>Pour chaque pièce : sols, murs, plafonds, menuiseries, état général.</li>
+<li>Les équipements sensibles : plaques, four, lave-vaisselle, réfrigérateur, chauffage, sèche-serviettes, téléviseur, box internet.</li>
+<li>Le linge fourni et son état : draps, housses, serviettes, torchons.</li>
+<li>Les accès : local à skis, parking, cave, parties communes.</li>
+<li>Les remarques éventuelles du voyageur, notées à l'entrée.</li>
+</ul>
+
+<h3>L'inventaire location saisonnière : le poste qui coûte cher</h3>
+
+<p>La vaisselle, les verres, le petit électroménager et le linge de maison sont les premiers postes de perte. Un inventaire location saisonnière à jour, avec quantités, permet de facturer un remplacement sans négocier pendant des heures. On compte, on photographie, on signe. Une fourchette manquante reste anecdotique. Un service complet qui disparaît en pleine saison, c'est une dépense, et une preuve à avoir.</p>
+
+<h3>Compteurs, clés et moyens d'accès</h3>
+
+<p>Relevés de compteurs si les consommations ne sont pas au forfait. Nombre de clés, badges, télécommandes, code du local à skis. Chaque clé non rendue peut être facturée, à condition que le contrat le prévoie et que la remise soit prouvée.</p>
+
+<p>Un tableau simple cadrer tout le monde :</p>
+
+<table>
+<tr><th>Moment</th><th>Ce qu'on constate</th><th>Preuve produite</th></tr>
+<tr><td>Check-in</td><td>État des pièces, équipements, inventaire, clés</td><td>État des lieux signé par le voyageur, photos horodatées</td></tr>
+<tr><td>Séjour</td><td>Signalements du voyageur</td><td>Message écrit conservé</td></tr>
+<tr><td>Check-out</td><td>Comparaison avec l'arrivée, ménage, linge, objets manquants</td><td>Photos horodatées, inventaire revérifié, rapport au propriétaire</td></tr>
+</table>
+
+<h2>Le protocole Cledici, appliqué depuis 2018 sur le Grand Domaine</h2>
+
+<h3>Un check-in check-out location saisonnière systématique</h3>
+
+<p>On ne fait pas d'exception, même pour un séjour de deux nuits. Un check-in check-out location saisonnière systématique évite le pire des scénarios : le voyageur qui part avant l'heure, les clés laissées sur la table, et personne pour constater. Notre passage au départ, programmé à chaque séjour, nous permet de constater, de photographier et de lancer le ménage sans attendre.</p>
+
+<h3>Des photos horodatées, à chaque arrivée et à chaque départ</h3>
+
+<p>Horodatées, classées, rattachées au séjour. C'est ce qui distingue un constat d'une impression. Quand un voyageur conteste une retenue, deux séries de photos prises à quelques jours d'intervalle valent mieux qu'un long échange d'emails. Elles servent aussi au propriétaire, qui n'a pas à monter à la station pour vérifier une rayure.</p>
+
+<h3>Dépôt de garantie location saisonnière : une gestion cadrée</h3>
+
+<p>Le dépôt de garantie couvre un dommage réel, il ne finance pas l'entretien courant du logement. Usure normale, verre cassé par accident, trace légère : cela fait partie de la vie d'un meublé de tourisme. Ce qui se facture, c'est la dégradation anormale, et avec un justificatif : photo, facture ou devis.</p>
+
+<p>Notre règle est simple, et elle figure au contrat :</p>
+
+<ul>
+<li>Délai de restitution annoncé à l'avance, pas « dès que possible ».</li>
+<li>Retenue uniquement si elle est documentée et proportionnée.</li>
+<li>Détail écrit communiqué au voyageur en cas de retenue.</li>
+<li>Rapport clair au propriétaire, qui garde la décision finale.</li>
+</ul>
+
+<p>Sur le volet assurance et responsabilité, votre assureur reste le meilleur interlocuteur. Nous fournissons les pièces, vous gardez la main.</p>
+
+<h2>Les erreurs fréquentes des propriétaires</h2>
+
+<ul>
+<li><strong>Compter sur le ménage pour constater.</strong> La personne qui remet le logement en état entre deux séjours n'a pas vu l'état d'avant, et ce n'est pas son rôle.</li>
+<li><strong>Faire signer l'état des lieux dans la voiture.</strong> À l'arrivée, les voyageurs sont fatigués, pressés, bagages à la main. Un document signé en trente secondes ne protège personne.</li>
+<li><strong>Retenir une caution sans photo.</strong> La retenue devient indéfendable, et le litige coûte souvent plus cher que le dommage.</li>
+<li><strong>Oublier le check-out en départ matinal.</strong> C'est exactement là que les dégâts passent inaperçus jusqu'au séjour suivant.</li>
+<li><strong>Ne rien écrire dans le contrat.</strong> Sans clause, pas de délai, pas de procédure, pas d'engagement. Le contrat fait le travail avant le premier séjour.</li>
+<li><strong>Ranger les photos dans un téléphone.</strong> Un constat doit être classé par séjour et par logement, donc retrouvable en dix secondes.</li>
+</ul>
+
+<h2>Foire aux questions</h2>
+
+<h3>L'état des lieux est-il obligatoire en location saisonnière ?</h3>
+
+<p>Non, aucun texte ne l'impose pour un meublé de tourisme, contrairement à un bail meublé classique. Il reste fortement recommandé : c'est votre principal moyen de preuve en cas de dégât ou de désaccord sur la caution.</p>
+
+<h3>Que risque un propriétaire sans état des lieux ?</h3>
+
+<p>De devoir prouver autrement l'état initial du logement, ce qui est très difficile. En pratique, les retenues sur dépôt de garantie deviennent contestables, et une dégradation importante peut rester à votre charge. Pour votre situation précise, voyez un professionnel du droit ou votre assureur.</p>
+
+<h3>L'état des lieux doit-il être signé par le voyageur ?</h3>
+
+<p>Rien ne l'oblige, mais une signature change la donne. Un document daté, précis et signé par les deux parties se conteste beaucoup moins qu'un constat unilatéral. C'est la base de notre protocole à chaque arrivée.</p>
+
+<h3>Combien de temps conserver les photos et les états des lieux ?</h3>
+
+<p>Le temps de la saison ne suffit pas. Un litige peut arriver plusieurs semaines après le séjour, et votre assurance peut réclamer des pièces. On conserve donc les dossiers par séjour et par logement, pour retrouver l'historique complet d'un bien.</p>
+
+<h3>Le ménage peut-il tenir lieu de contrôle ?</h3>
+
+<p>Non. Le ménage remet le logement en état, il ne documente rien. Un inventaire incomplet ou une tache sur un matelas se remarque souvent trop tard, une fois le voyageur parti.</p>
+
+<h3>Comment gérer un départ très tôt le matin ?</h3>
+
+<p>En programmant le check-out au plus près de la fin du séjour, avant que le logement soit remis en état. Photos à l'appui, l'état des lieux est bouclé même quand le voyageur est déjà sur la route.</p>
+
+<h2>Confiez votre bien à une équipe qui vit la station toute l'année</h2>
+
+<p>Depuis 2018, on gère des locations touristiques sur le Grand Domaine. On connaît les calendriers, les arrivées du samedi, les semaines de vacances, les intersaisons creuses et les dégâts qui reviennent chaque hiver. Et on sait qu'un état des lieux bien fait, c'est moins de litiges, moins d'imprévus, et un bien qui garde sa valeur.</p>
+
+<p><strong>Ce qu'on prend en charge :</strong></p>
+
+<ul>
+<li>Check-in et check-out systématiques, avec état des lieux signé et photos horodatées.</li>
+<li>Inventaire mobilier suivi et mis à jour à chaque séjour.</li>
+<li>Gestion du dépôt de garantie et des litiges éventuels, pièces à l'appui.</li>
+<li>Ménage, linge, maintenance et interventions sur place.</li>
+<li>Tarification dynamique et remplissage, hiver comme été.</li>
+</ul>
+
+<p><strong>Vous voulez savoir ce que votre bien peut rapporter, saison par saison ?</strong> Demandez une estimation personnalisée gratuite à l'équipe Cledici. On regarde votre logement, son emplacement, sa capacité, puis on vous donne une projection claire, sans engagement. On en profite pour vous dire ce qu'il faut sécuriser côté état des lieux, contrat et assurance. Appelez-nous ou demandez votre estimation : c'est le point de départ le plus utile avant de décider.</p>
+
+<p>Sources utiles : Service-Public, <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F31270">État des lieux d'entrée dans un bail d'habitation</a> ; Legifrance, <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069108/">loi n° 89-462 du 6 juillet 1989</a> ; DGCCRF, <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/location-saisonniere-les-regles-connaitre">location saisonnière : les règles à connaître</a>.</p>`,
+  },
+  {
+    slug: "dpe-location-saisonniere-obligation",
+    title: "DPE et location saisonnière : êtes-vous concerné ? Ce qui change en 2025-2026",
+    excerpt: "Le DPE n'entre pas dans la location saisonnière par la même porte que dans la location longue durée : il passe par l'autorisation de changement d'usage depuis la loi du 19 novembre 2024. Voici ce qui s'applique réellement à un chalet ou un appartement loué en meublé de tourisme à Valmorel, le calendrier des seuils et la bonne manière d'anticiper les travaux.",
+    date: "2026-09-17",
+    cover: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1300&q=80",
+    seoTitle: "DPE location saisonnière : ce qui change pour vous en 2026",
+    seoDescription: "DPE location saisonnière : êtes-vous concerné ? Échéances 2025-2026, calendrier par étiquette et plan d'action pour votre chalet à Valmorel.",
+    contentHtml: `<p><strong>En bref :</strong> DPE location saisonnière, la réponse tient en quelques lignes, mais les détails changent tout. Le DPE n'est pas devenu obligatoire « pour tous les meublés » d'un coup : il entre dans le dossier par la porte de l'<strong>autorisation de changement d'usage</strong>, depuis la loi du 19 novembre 2024. Le calendrier de durcissement est progressif, et un logement déjà exploité n'est pas traité comme un logement nouvellement mis en marché. À Valmorel, le vrai sujet n'est pas le diagnostic : c'est le moment où vous déclenchez les travaux pour ne pas sacrifier une saison.</p>
+
+<h2>DPE et location saisonnière : deux régimes à ne pas confondre</h2>
+
+<p>La confusion vient de là. On mélange deux textes et deux types de location qui n'ont presque rien en commun.</p>
+
+<h3>Location longue durée : le calendrier qui ne s'applique pas ici</h3>
+
+<p>Pour un bail d'habitation, location nue ou meublée à l'année, c'est la loi Climat et Résilience qui donne le rythme. Les logements classés <strong>G</strong> ne peuvent plus être mis en location depuis le 1<sup>er</sup> janvier 2025, les <strong>F</strong> le seront à partir du 1<sup>er</sup> janvier 2028, et les <strong>E</strong> à partir du 1<sup>er</sup> janvier 2034. S'y ajoute le gel des loyers pour les passoires thermiques, détaillé dans la <a href="https://www.service-public.gouv.fr/particuliers/actualites/A17975" rel="nofollow noopener" target="_blank">fiche Service-Public sur les passoires thermiques</a>.</p>
+
+<p>Si votre bien est en location saisonnière, ce calendrier n'est pas votre calendrier. Il le deviendra seulement si vous basculez à l'année.</p>
+
+<h3>Meublé de tourisme : le DPE entre par le changement d'usage</h3>
+
+<p>Un meublé de tourisme, c'est une location à la journée, à la semaine ou au mois, sans bail d'habitation. Pendant longtemps, le DPE n'était donc pas un critère de mise en location saisonnière. C'est exactement cette faille que la <strong>loi du 19 novembre 2024 visant à renforcer les outils de régulation des meublés de tourisme</strong> a refermée, en rattachant le DPE à l'autorisation d'urbanisme plutôt qu'au bail. Le texte est consultable sur <a href="https://www.legifrance.gouv.fr/eli/loi/2024/11/19/TECX2330139L/jo/texte" rel="nofollow noopener" target="_blank">Legifrance (loi n° 2024-1039)</a>.</p>
+
+<h2>Ce que change la loi du 19 novembre 2024 pour votre autorisation</h2>
+
+<p>Le principe est simple : pas d'autorisation, pas de location. Et le DPE est devenu une pièce du dossier.</p>
+
+<ul>
+<li><strong>DPE obligatoire</strong> pour tout logement nouvellement proposé à la location en meublé de tourisme et soumis à autorisation de changement d'usage.</li>
+<li><strong>Calendrier progressif</strong> : les logements classés G ne sont plus autorisés à la location depuis le 1<sup>er</sup> janvier 2025, les F à compter du 1<sup>er</sup> janvier 2028, et seules les étiquettes A à D resteront autorisées à partir du 1<sup>er</sup> janvier 2034.</li>
+<li><strong>Biens déjà exploités</strong> : pas de contrôle immédiat, mais l'échéance 2034 (A à D) concerne tout le monde, y compris les meublés en activité depuis des années.</li>
+<li><strong>Contrôle du maire</strong> : à partir de 2034, la mairie pourra demander le DPE valide du meublé. L'absence de transmission est passible d'une astreinte administrative, et louer en violation des règles DPE expose à une amende administrative. Les montants exacts figurent dans la <a href="https://www.service-public.gouv.fr/particuliers/actualites/A17883" rel="nofollow noopener" target="_blank">synthèse officielle de la loi du 19 novembre 2024</a>.</li>
+</ul>
+
+<p>Le reste du paquet concerne aussi votre exploitation, même s'il n'a rien à voir avec l'énergie : l'enregistrement des meublés via le téléservice national, dont l'échéance légale était fixée au 20 mai 2026 (voir notre article sur le <a href="https://valmorel.cledici.fr/blog/numero-enregistrement-location-saisonniere">numéro d'enregistrement et la déclaration de meublé</a>), le nouveau régime d'abattement fiscal à 50 % pour les biens classés et 30 % pour les non classés, et la possibilité pour les communes d'abaisser à 90 jours par an la location des résidences principales. Autant de raisons de ne pas dissocier le DPE du reste de votre dossier administratif.</p>
+
+<h2>Le calendrier des seuils en un coup d'œil</h2>
+
+<table>
+<thead>
+<tr><th>Échéance</th><th>Location longue durée (bail)</th><th>Meublé de tourisme (changement d'usage)</th></tr>
+</thead>
+<tbody>
+<tr><td>Depuis le 1<sup>er</sup> janvier 2025</td><td>Logements G interdits</td><td>Logements G non autorisés</td></tr>
+<tr><td>1<sup>er</sup> janvier 2028</td><td>Logements F interdits</td><td>Logements F non autorisés</td></tr>
+<tr><td>1<sup>er</sup> janvier 2034</td><td>Logements E interdits</td><td>Seules les étiquettes A à D autorisées</td></tr>
+</tbody>
+</table>
+
+<p>Deux précautions de lecture. D'abord, ces échéances sont des rendez-vous réglementaires, pas des dates de mise en conformité automatique : le périmètre dépend du <strong>règlement de changement d'usage</strong> appliqué dans votre commune et de la date à laquelle votre logement a été mis en location touristique. Ensuite, ces seuils sont régulièrement discutés et peuvent évoluer. Deux interlocuteurs tranchent votre cas : un <strong>diagnostiqueur certifié</strong> pour l'étiquette et l'opposabilité du DPE, et le <strong>service urbanisme de votre mairie</strong> pour l'autorisation.</p>
+
+<h2>« Mon DPE date de 2019 » : le piège du diagnostic périmé</h2>
+
+<p>Beaucoup de propriétaires pensent être en règle parce qu'ils ont « un DPE quelque part ». C'est une erreur fréquente, et coûteuse en temps.</p>
+
+<p>La méthode de calcul a changé au 1<sup>er</sup> juillet 2021. Résultat : les DPE établis entre le 1<sup>er</sup> janvier 2018 et le 30 juin 2021 ne sont plus opposables depuis le 1<sup>er</sup> janvier 2025. Un DPE réalisé après cette réforme reste valable 10 ans. Autrement dit, si votre diagnostic date d'avant mi-2021, vous ne connaissez probablement pas votre classe réelle, ni avec la méthode actuelle.</p>
+
+<p>Et sans étiquette fiable, impossible de décider quoi que ce soit : ni un budget, ni un calendrier de travaux, ni une stratégie de revenus. Le DPE est un point de départ, pas une formalité.</p>
+
+<h2>Chalets anciens et altitude : ce qui se passe vraiment à Valmorel</h2>
+
+<h3>L'altitude ne vous fait pas de cadeau</h3>
+
+<p>Le DPE intègre des corrections de zone climatique et d'altitude : à la montagne, les besoins de chauffage ne sont pas ceux d'une ville de plaine. Un chalet des années 70 ou 80 avec simple vitrage, convecteurs électriques d'origine et combles peu isolés part avec un handicap réel. Ce n'est pas une fatalité, c'est un point de départ à mesurer avant d'arbitrer.</p>
+
+<h3>Le coût des travaux en altitude n'est pas celui de la plaine</h3>
+
+<p>Chantier accessible seulement une partie de l'année, artisans disponibles au printemps et à l'automne, logistique compliquée, copropriété à convaincre quand le bien est en immeuble : chaque intervention se planifie plus tôt et se paie plus cher. Nous ne donnons pas de chiffres génériques, parce qu'un chiffre inventé ne vous sert à rien. La seule estimation qui vaut est celle faite sur votre bien, avec vos menuiseries, votre chauffage et votre copropriété.</p>
+
+<h3>Anticiper sans bloquer les revenus</h3>
+
+<p>La bonne séquence n'est jamais « on ferme et on rénove ». C'est : on diagnostique, on priorise, on étale sur les inter-saisons. Un chauffage remplacé et une porte d'entrée étanche font souvent plus pour l'étiquette que des travaux lourds et tardifs. Et chaque semaine fermée en pleine saison coûte plus cher que l'échelonnement d'un chantier bien planifié.</p>
+
+<h2>Votre plan d'action, étape par étape</h2>
+
+<ul>
+<li><strong>Étape 1 :</strong> vérifiez en mairie si votre bien relève d'une autorisation de changement d'usage. C'est la question qui commande tout le reste.</li>
+<li><strong>Étape 2 :</strong> faites le point sur votre DPE. Objectif : une étiquette récente et opposable, pas un document de 2019.</li>
+<li><strong>Étape 3 :</strong> simulez deux scénarios, statu quo contre rénovation, en tenant compte des semaines de fermeture nécessaires.</li>
+<li><strong>Étape 4 :</strong> priorisez les postes à effet rapide sur l'étiquette, avant les travaux longs.</li>
+<li><strong>Étape 5 :</strong> planifiez en inter-saison, mai-juin ou septembre-novembre, pour ne pas perdre de nuitées.</li>
+<li><strong>Étape 6 :</strong> mettez à jour votre dossier : enregistrement, <a href="https://valmorel.cledici.fr/blog/meuble-classe-non-classe-valmorel-impact-revenus">meublé classé ou non classé</a>, et visibilité de vos annonces.</li>
+</ul>
+
+<p>Pour chiffrer ce que chaque semaine de fermeture vous coûte réellement, jetez un œil à notre analyse du <a href="https://valmorel.cledici.fr/blog/rendement-location-saisonniere-valmorel">rendement d'une location saisonnière à Valmorel</a>. Les ordres de grandeur changent tout dans la décision travaux.</p>
+
+<h2>Sources utiles</h2>
+
+<ul>
+<li><a href="https://www.service-public.gouv.fr/particuliers/actualites/A17883" rel="nofollow noopener" target="_blank">Service-Public : locations touristiques, les nouvelles règles</a></li>
+<li><a href="https://www.legifrance.gouv.fr/eli/loi/2024/11/19/TECX2330139L/jo/texte" rel="nofollow noopener" target="_blank">Legifrance : loi n° 2024-1039 du 19 novembre 2024</a></li>
+<li><a href="https://www.service-public.gouv.fr/particuliers/actualites/A17975" rel="nofollow noopener" target="_blank">Service-Public : les passoires thermiques et la mise en location</a></li>
+<li><a href="https://www.ecologie.gouv.fr/politiques-publiques/diagnostic-performance-energetique-dpe" rel="nofollow noopener" target="_blank">Ministère de la Transition écologique : le DPE</a></li>
+<li><a href="https://www.anil.org/aj-renforcer-outils-regulation-meubles-tourisme/" rel="nofollow noopener" target="_blank">ANIL : renforcer les outils de régulation des meublés de tourisme</a></li>
+</ul>
+
+<h2>Foire aux questions</h2>
+
+<h3>Le DPE est-il obligatoire pour louer en meublé de tourisme ?</h3>
+<p>Pas dans tous les cas. Il est obligatoire pour un logement nouvellement proposé à la location en meublé de tourisme et soumis à autorisation de changement d'usage. Si votre bien est déjà exploité et hors de ce périmètre, l'obligation ne vous rattrape pas tout de suite, mais l'échéance A à D de 2034 reste devant vous. Faites confirmer votre situation par la mairie.</p>
+
+<h3>Je loue mon chalet depuis 2019, dois-je tout rénover maintenant ?</h3>
+<p>Non. Un meublé de tourisme déjà en activité n'a pas d'obligation immédiate de travaux. Ce qui change, c'est l'horizon : en 2034, seules les étiquettes A à D seront autorisées. Vous avez donc du temps, à condition de connaître votre étiquette et de planifier les bons postes avant que tout le monde cherche un artisan en même temps.</p>
+
+<h3>Un DPE F m'empêche-t-il de louer cet hiver ?</h3>
+<p>Pour un logement déjà en activité, non, pas à court terme. Le DPE F devient un obstacle en 2028, et surtout en 2034. Le risque immédiat est ailleurs : visibilité dégradée sur certaines plateformes, clientèle plus regardante, et un dossier fragile le jour où vous voudrez vendre ou changer de régime.</p>
+
+<h3>Le DPE doit-il apparaître dans mon annonce ?</h3>
+<p>Les exigences d'affichage dépendent du type de location et du canal de diffusion, et elles évoluent. Vérifiez ce que votre plateforme exige et ce que la réglementation impose dans votre cas. Un point est certain : une étiquette assumée accompagnée d'un plan de travaux inspire davantage confiance qu'une annonce silencieuse sur l'énergie.</p>
+
+<h3>Puis-je passer en location longue durée pour échapper au sujet ?</h3>
+<p>Mauvais calcul. Le calendrier de la location longue durée est plus contraignant, pas moins : les logements G y sont déjà interdits depuis 2025, les F le seront en 2028 et les E en 2034. Vous changeriez de régime sans régler le problème énergétique de votre bien.</p>
+
+<h2>Votre bien est-il concerné ? Faites le point avec Cledici</h2>
+
+<p>La montagne a ses codes. Nous les maîtrisons depuis 2018, sur Valmorel et Le Grand Domaine.</p>
+
+<p>On connaît les chalets anciens de la station, les copropriétés, les périodes où un chantier peut se faire sans casser une saison, et les arbitrages qui rapportent vraiment. Nous ne vous vendons pas de travaux : nous vous aidons à décider au bon moment.</p>
+
+<ul>
+<li><strong>Estimation personnalisée gratuite</strong> des revenus locatifs de votre bien, DPE et contraintes locales inclus.</li>
+<li><strong>Devis clair</strong> pour la gestion complète de votre location saisonnière, du calendrier de travaux à l'optimisation des revenus toute l'année, y compris en période creuse.</li>
+<li><strong>Un seul interlocuteur local</strong> pour le suivi, les artisans et les démarches administratives.</li>
+</ul>
+
+<p>Vous voulez savoir si votre DPE vous expose, et ce que cela change pour vos revenus ? <strong>Demandez votre estimation gratuite</strong> et faites le point avec notre équipe. C'est sans engagement, et ça vous donnera enfin des chiffres sur lesquels décider.</p>`,
+  },
+  {
     slug: "amortissement-lmnp-location-saisonniere",
     title: "Amortissement LMNP : comment ça marche concrètement (et ce que ça change pour votre chalet)",
     excerpt: "L'amortissement LMNP est le levier fiscal le plus puissant du régime réel - et le plus souvent mal exploité par les propriétaires de chalets. On vous explique le mécanisme sans jargon.",
