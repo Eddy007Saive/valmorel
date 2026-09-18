@@ -23,6 +23,8 @@ export const ARTICLES: Article[] = [
 
 <p>La plupart des propriétaires LMNP ne comprennent pas vraiment l'amortissement. Ils en ont entendu parler, ils savent vaguement que "c'est bien", mais ils ne voient pas concrètement comment ça s'applique à leur chalet de montagne. Résultat : ils restent au micro-BIC par défaut, ils ne décomposent pas correctement leur bien, ils oublient d'amortir le mobilier. Et ils laissent de l'argent sur la table, année après année. Cet article est là pour corriger ça - clairement, sans chiffres inventés, et sans vous vendre un produit financier.</p>
 
+<p>L'amortissement, c'est l'étape fiscale. En amont, il y a l'étape administrative, tout aussi obligatoire : la <a href="https://valmorel.cledici.fr/blog/declaration-location-meublee-avanchers-valmorel">déclaration de votre meublé de tourisme en mairie</a>, à faire avant la première mise en location.</p>
+
 <h2>LMNP et amortissement : de quoi parle-t-on ?</h2>
 
 <p>L'<strong>amortissement comptable</strong> repose sur un principe simple : un bien perd de la valeur avec le temps. Un chalet s'use, le mobilier vieillit, les équipements se déprécient. La comptabilité LMNP au régime réel traduit cette usure en <strong>charge annuelle déductible</strong> - même si vous ne dépensez rien cette année-là.</p>
@@ -282,6 +284,8 @@ export const ARTICLES: Article[] = [
 <p>Beaucoup de propriétaires de chalet au Grand Domaine ont acquis leur bien via une SCI familiale. C'est logique : la SCI facilite la détention à plusieurs, simplifie la gestion et prépare la transmission. Mais quand vient l'idée de louer le chalet en courte durée pour en tirer des revenus, la situation se complique.</p>
 
 <p><strong>La SCI et la location meublée obéissent à des logiques fiscales différentes.</strong> Les confondre peut coûter cher. On vous explique pourquoi.</p>
+
+<p>Quelle que soit la structure choisie, un préalable ne change pas : la <a href="https://valmorel.cledici.fr/blog/declaration-location-meublee-avanchers-valmorel">déclaration de votre meublé de tourisme en mairie</a> reste obligatoire avant de louer.</p>
 
 <h2>Le principe de base : une SCI est une structure civile</h2>
 
@@ -1476,6 +1480,8 @@ export const ARTICLES: Article[] = [
     seoDescription:
       "Quelles charges déduire en LMNP au régime réel ? Guide pratique pour propriétaires à Valmorel : travaux, conciergerie, amortissements, pièges à éviter.",
     contentHtml: `<p><strong>TL;DR :</strong> au régime réel, vous déduisez les charges réelles et justifiées liées à l'exploitation du bien - pas un forfait. Certaines dépenses sont déductibles immédiatement (frais de gestion, assurances, intérêts d'emprunt) ; d'autres passent en amortissement (travaux d'amélioration, mobilier, équipements). L'amortissement ne peut pas créer de déficit - il est plafonné par les loyers diminués des autres charges (art. 39 C du CGI). Et aucune déduction n'existe sans justificatif comptable : facture, relevé, contrat.</p>
+
+<p>Avant même de parler déductions, un préalable : votre logement doit être déclaré. On détaille la marche à suivre dans notre guide sur la <a href="https://valmorel.cledici.fr/blog/declaration-location-meublee-avanchers-valmorel">déclaration de votre meublé de tourisme en mairie</a>.</p>
 
 <h2>Régime réel LMNP : le principe de la déduction</h2>
 <p>Le loueur en meublé non professionnel (LMNP) au régime réel est imposé dans la catégorie des <strong>bénéfices industriels et commerciaux (BIC)</strong>. Ce n'est pas un régime spécifique à l'immobilier - c'est le droit commun des entreprises, appliqué à votre appartement de montagne.</p>
