@@ -168,7 +168,7 @@ export const ARTICLES: Article[] = [
 <li><strong>Plan d'optimisation</strong> : tarification dynamique, annonces, remplissage des semaines creuses.</li>
 </ul>
 
-<p>Notre expertise locale sur Valmorel et Le Grand Domaine date de 2018. On gère la location complète, de l'annonce au linge propre. Pour voir le détail du fonctionnement, lisez <a href="https://valmorel.cledici.fr/blog/confier-chalet-conciergerie-valmorel">confier son chalet à une conciergerie à Valmorel</a>. Pour mesurer l'enjeu côté revenus, <a href="https://valmorel.cledici.fr/blog/rendement-location-saisonniere-valmorel">le rendement d'une location saisonnière à Valmorel</a>.</p>
+<p>Notre <a href="https://valmorel.cledici.fr/conciergerie/valmorel">expertise locale sur Valmorel et Le Grand Domaine</a> date de 2018. On gère la location complète, de l'annonce au linge propre. Pour voir le détail du fonctionnement, lisez <a href="https://valmorel.cledici.fr/blog/confier-chalet-conciergerie-valmorel">confier son chalet à une conciergerie à Valmorel</a>. Pour mesurer l'enjeu côté revenus, <a href="https://valmorel.cledici.fr/blog/rendement-location-saisonniere-valmorel">le rendement d'une location saisonnière à Valmorel</a>.</p>
 
 <p><strong>Demandez votre estimation gratuite.</strong> Un appel, une visite de votre bien, un chiffrage au séjour près. Sans engagement.</p>`,
   },
@@ -318,8 +318,8 @@ export const ARTICLES: Article[] = [
     excerpt: "Le DPE n'entre pas dans la location saisonnière par la même porte que dans la location longue durée : il passe par l'autorisation de changement d'usage depuis la loi du 19 novembre 2024. Voici ce qui s'applique réellement à un chalet ou un appartement loué en meublé de tourisme à Valmorel, le calendrier des seuils et la bonne manière d'anticiper les travaux.",
     date: "2026-09-17",
     cover: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1300&q=80",
-    seoTitle: "DPE location saisonnière : ce qui change pour vous en 2026",
-    seoDescription: "DPE location saisonnière : êtes-vous concerné ? Échéances 2025-2026, calendrier par étiquette et plan d'action pour votre chalet à Valmorel.",
+    seoTitle: "DPE location saisonnière 2026 : êtes-vous concerné ?",
+    seoDescription: "DPE location saisonnière 2026 : quelle étiquette interdit la location, à quelle date, et ce que ça change pour votre chalet à Valmorel.",
     contentHtml: `<p><strong>En bref :</strong> DPE location saisonnière, la réponse tient en quelques lignes, mais les détails changent tout. Le DPE n'est pas devenu obligatoire « pour tous les meublés » d'un coup : il entre dans le dossier par la porte de l'<strong>autorisation de changement d'usage</strong>, depuis la loi du 19 novembre 2024. Le calendrier de durcissement est progressif, et un logement déjà exploité n'est pas traité comme un logement nouvellement mis en marché. À Valmorel, le vrai sujet n'est pas le diagnostic : c'est le moment où vous déclenchez les travaux pour ne pas sacrifier une saison.</p>
 
 <h2>DPE et location saisonnière : deux régimes à ne pas confondre</h2>
@@ -452,7 +452,7 @@ export const ARTICLES: Article[] = [
 
 <p>La plupart des propriétaires LMNP ne comprennent pas vraiment l'amortissement. Ils en ont entendu parler, ils savent vaguement que "c'est bien", mais ils ne voient pas concrètement comment ça s'applique à leur chalet de montagne. Résultat : ils restent au micro-BIC par défaut, ils ne décomposent pas correctement leur bien, ils oublient d'amortir le mobilier. Et ils laissent de l'argent sur la table, année après année. Cet article est là pour corriger ça - clairement, sans chiffres inventés, et sans vous vendre un produit financier.</p>
 
-<p>L'amortissement, c'est l'étape fiscale. En amont, il y a l'étape administrative, tout aussi obligatoire : la <a href="https://valmorel.cledici.fr/blog/declaration-location-meublee-avanchers-valmorel">déclaration de votre meublé de tourisme en mairie</a>, à faire avant la première mise en location.</p>
+<p>L'amortissement, c'est l'étape fiscale. En amont, il y a l'étape administrative, tout aussi obligatoire : la <a href="https://valmorel.cledici.fr/blog/declaration-location-meublee-avanchers-valmorel">déclaration de votre meublé de tourisme en mairie</a>, à faire avant la première mise en location. Autre point réglementaire à ne pas négliger selon votre situation : le <a href="https://valmorel.cledici.fr/blog/dpe-location-saisonniere-obligation">DPE et son calendrier d'obligations pour la location saisonnière</a>.</p>
 
 <h2>LMNP et amortissement : de quoi parle-t-on ?</h2>
 
@@ -886,7 +886,7 @@ export const ARTICLES: Article[] = [
 
 <p>La structure juridique de votre bien, c'est une décision pour vos conseillers fiscaux et juridiques. <strong>La performance locative de votre chalet à Valmorel, c'est notre domaine.</strong></p>
 
-<p>Depuis 2018, on gère des locations saisonnières au Grand Domaine. On connaît les saisons, les taux d'occupation réels, les périodes creuses et les leviers pour les remplir. On optimise les revenus toute l'année - pas seulement en haute saison de ski.</p>
+<p>Depuis 2018, on gère des <a href="https://valmorel.cledici.fr/conciergerie/valmorel">locations saisonnières au Grand Domaine</a>. On connaît les saisons, les taux d'occupation réels, les périodes creuses et les leviers pour les remplir. On optimise les revenus toute l'année - pas seulement en haute saison de ski.</p>
 
 <p>Que votre chalet soit détenu en nom propre ou via une SCI, on peut vous donner une <strong>estimation personnalisée et gratuite de vos revenus locatifs potentiels</strong> - sans engagement.</p>
 
@@ -1980,7 +1980,7 @@ export const ARTICLES: Article[] = [
 <p>Les travaux qui <strong>augmentent la valeur du bien</strong>, modifient sa consistance ou prolongent significativement sa durée de vie ne sont pas déductibles immédiatement. Ils sont inscrits à l'actif du bilan et <strong>amortis sur leur durée d'utilisation</strong>.</p>
 <p>Exemples typiques pour un appartement à Valmorel :</p>
 <ul>
-<li><strong>Isolation thermique</strong> des murs ou du toit : amélioration énergétique durable, à amortir - généralement sur 10 à 20 ans selon la nature des travaux.</li>
+<li><strong>Isolation thermique</strong> des murs ou du toit : amélioration énergétique durable, à amortir - généralement sur 10 à 20 ans selon la nature des travaux. Ce type de travaux peut aussi avoir un impact direct sur votre <a href="https://valmorel.cledici.fr/blog/dpe-location-saisonniere-obligation">DPE et les obligations qui en découlent pour la location saisonnière</a>.</li>
 <li><strong>Remplacement complet d'une chaudière</strong> par un équipement neuf : c'est un équipement nouveau, pas une réparation. Il s'amortit sur sa durée de vie estimée.</li>
 <li>Création ou rénovation complète d'une cuisine équipée.</li>
 <li>Aménagement d'une salle de bain.</li>
