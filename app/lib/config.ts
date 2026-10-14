@@ -14,9 +14,9 @@ export type CityCfg = City & { content?: string; seoTitle?: string; seoDescripti
 /** Overrides SEO par ville (title/meta/H1) quand le template générique ne suffit pas. */
 const CITY_SEO: Record<string, Pick<CityCfg, "seoTitle" | "seoDescription" | "h1">> = {
   "les-avanchers": {
-    seoTitle: "Conciergerie Valmorel et Les Avanchers : gestion locative",
-    seoDescription: "Propriétaire à Valmorel ou aux Avanchers ? Gestion complète, tarification dynamique, revenus lissés sur l'année. Expertise locale depuis 2018.",
-    h1: "Conciergerie à Valmorel et aux Avanchers : on gère, vous encaissez.",
+    seoTitle: "Conciergerie aux Avanchers-Valmorel : gestion locative",
+    seoDescription: "Propriétaire aux Avanchers-Valmorel ? Gestion complète de votre location saisonnière, tarification dynamique, revenus lissés sur l'année. Expertise locale depuis 2018.",
+    h1: "Conciergerie aux Avanchers-Valmorel : on gère, vous encaissez.",
   },
 };
 /** Villes locales enrichies du contenu éditorial → fallback des pages villes. */
