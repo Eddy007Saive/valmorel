@@ -2,10 +2,9 @@
 
 import { useEffect, useState } from "react";
 import LeadForm from "./LeadForm";
+import { resolveImageUrl } from "../lib/images";
 
 const KEY = "cledici_popup";
-const IMG_DEFAULT =
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG/1280px-Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG";
 
 type PopupCfg = {
   enabled?: boolean | string;
@@ -33,7 +32,8 @@ export default function LeadPopup({ popup }: { popup?: PopupCfg }) {
   const eyebrow = popup?.eyebrow || "Offre propriétaires";
   const title = popup?.title || "Estimez gratuitement vos revenus à Valmorel";
   const hint = popup?.hint || "Gratuit et sans engagement, un expert local vous recontacte sous 24 h.";
-  const image = popup?.image || IMG_DEFAULT;
+  // Jeu local (WebP 960, ex-Wikimedia) si vide ou URL Wikimedia connue, sinon l'URL saisie en admin.
+  const image = resolveImageUrl(popup?.image);
   const isMagnet = popup?.mode === "magnet" && !!popup?.magnetUrl;
 
   const [open, setOpen] = useState(false);

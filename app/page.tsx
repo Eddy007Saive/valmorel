@@ -1,8 +1,11 @@
 import Link from "next/link";
+import { preload } from "react-dom";
 import Header from "./components/Header";
+import Picture from "./components/Picture";
 import Footer from "./components/Footer";
 import LeadForm from "./components/LeadForm";
 import { getConfig, FALLBACK } from "./lib/config";
+import { HERO_IMAGE, ZONE_IMAGE, CREDIT_DEFAULT, resolveImage, srcSetOf } from "./lib/images";
 
 const PARTNERS = ["Airbnb", "Booking.com", "Le Collectionist", "Marriott", "Plumguide", "HomeToGo", "Abritel", "Beds24", "Stripe", "HostProtect", "GoodTime BNB"];
 const OCC = [
@@ -50,12 +53,13 @@ function Bg({ id, alt, src, priority }: { id: string; alt: string; src?: string;
 }
 
 // Images par défaut de la home (fallback si non éditées dans l'admin).
+// Hero et zone : jeux AVIF/WebP locaux (app/lib/images.ts, ex-Wikimedia Commons, crédit CC BY-SA 4.0
+// Florian Pépellin obligatoire). Une URL Wikimedia saisie en admin est aussi redirigée vers le jeu local.
 const IMG = {
-  hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG/1280px-Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG",
   services: "https://res.cloudinary.com/dxhtjrnvt/image/upload/f_auto,q_auto,w_1000/v1782299030/cledici/equipe-montagne.jpg",
-  zone: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Station_de_Valmorel_enneig%C3%A9e_vue_des_pistes_%28janvier_2022%29.JPG/1280px-Station_de_Valmorel_enneig%C3%A9e_vue_des_pistes_%28janvier_2022%29.JPG",
 };
-const CREDIT_DEFAULT = "© Florian Pépellin · CC BY-SA 4.0";
+const HERO_SIZES = "100vw";
+const ZONE_SIZES = "(max-width: 980px) 100vw, 480px";
 
 export const dynamic = "force-dynamic";
 
@@ -63,6 +67,20 @@ export default async function Home() {
   const cfg = await getConfig();
   const h = cfg.hero ?? {};
   const H = cfg.home ?? FALLBACK.home;
+  const hero = resolveImage(h.image, HERO_IMAGE);
+  const zone = resolveImage(H.zone.image, ZONE_IMAGE);
+  // Préchargement de l'image LCP, émis dans le HTML initial (composant serveur). Le <picture> AVIF
+  // n'est pas préchargé automatiquement par React, d'où l'appel explicite ; les navigateurs sans AVIF
+  // ignorent ce preload (attribut type) et chargent le WebP du <picture>.
+  if (hero.set) {
+    preload(hero.set.avif[hero.set.avif.length - 1].src, {
+      as: "image",
+      type: "image/avif",
+      fetchPriority: "high",
+      imageSrcSet: srcSetOf(hero.set.avif),
+      imageSizes: HERO_SIZES,
+    });
+  }
   return (
     <>
       <Header />
@@ -70,11 +88,11 @@ export default async function Home() {
       {/* HERO */}
       <section className="hero">
         <div className="bg">
-          <img
-            src={h.image || IMG.hero}
-            alt="Le domaine skiable de Valmorel et le massif de la Lauzière en hiver"
-            fetchPriority="high"
-          />
+          {hero.set ? (
+            <Picture set={hero.set} alt="Le domaine skiable de Valmorel et le massif de la Lauzière en hiver" sizes={HERO_SIZES} priority />
+          ) : (
+            <img src={hero.src} alt="Le domaine skiable de Valmorel et le massif de la Lauzière en hiver" fetchPriority="high" />
+          )}
         </div>
         {(h.credit ?? CREDIT_DEFAULT) && <span className="hero-credit">{h.credit ?? CREDIT_DEFAULT}</span>}
         <div className="wrap inner">
@@ -261,11 +279,11 @@ export default async function Home() {
               </div>
             </div>
             <div className="map rv">
-              <img
-                src={H.zone.image || IMG.zone}
-                alt="La station de Valmorel enneigée vue des pistes"
-                loading="lazy"
-              />
+              {zone.set ? (
+                <Picture set={zone.set} alt="La station de Valmorel enneigée vue des pistes" sizes={ZONE_SIZES} />
+              ) : (
+                <img src={zone.src} alt="La station de Valmorel enneigée vue des pistes" loading="lazy" />
+              )}
               {(H.zone.credit ?? CREDIT_DEFAULT) && <span className="credit">{H.zone.credit ?? CREDIT_DEFAULT}</span>}
             </div>
           </div>

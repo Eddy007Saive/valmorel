@@ -6,6 +6,7 @@
  */
 import { CITIES, type City } from "./cities";
 import { CITY_CONTENT } from "./cityContent";
+import { HERO_IMAGE } from "./images";
 
 const BACKEND_URL = process.env.BACKEND_URL ?? "http://localhost:3001";
 const TENANT = process.env.TENANT ?? "client_03";
@@ -61,7 +62,7 @@ export const FALLBACK: Required<Pick<SiteCfg, "brand" | "hero" | "home" | "inter
     eyebrow: "Offre propriétaires",
     title: "Estimez gratuitement vos revenus à Valmorel",
     hint: "Gratuit et sans engagement, un expert local vous recontacte sous 24 h.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG/1280px-Domaine_de_Valmorel_et_Lauzi%C3%A8re_en_hiver_%28janvier_2022%29.JPG",
+    image: HERO_IMAGE.webp[1].src, // WebP 960 local (ex-Wikimedia, crédit Florian Pépellin CC BY-SA 4.0)
     delaySeconds: 6,
     frequencyDays: 7,
   },
