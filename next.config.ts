@@ -30,6 +30,19 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "res.cloudinary.com" },
     ],
   },
+  // 2026-10-15 : Google avait indexé /blog/hivernage-chalet-valmorel (404 depuis
+  // le renommage du slug), signalé par ChatSEO (GSC) — aucun lien interne ne
+  // pointe vers l'ancienne URL, donc probablement une diffusion externe ou un
+  // ancien sitemap. Même article sous le bon slug.
+  async redirects() {
+    return [
+      {
+        source: "/blog/hivernage-chalet-valmorel",
+        destination: "/blog/hivernage-chalet-valmorel-guide-anticipation",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
