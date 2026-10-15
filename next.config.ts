@@ -1,15 +1,29 @@
 import type { NextConfig } from "next";
+import path from "node:path";
 
 const nextConfig: NextConfig = {
   // Inline le CSS dans le <head> : supprime la requête CSS render-blocking (LCP/FCP).
   experimental: {
     inlineCss: true,
   },
-  // Polyfills Next.js (audit Lighthouse "Ancien JavaScript", non note) : la regle
-  // Turbopack avec loader local qui les retirait fait planter le build sur
-  // Hostinger ("evaluate_webpack_loader failed - creating new process",
-  // 15/10/2026). Retiree ; a reprendre avec `next build --webpack` +
-  // NormalModuleReplacementPlugin si on y tient (voir guide Lighthouse).
+  // Build en webpack (package.json : `next build --webpack`) : sur Hostinger,
+  // Turbopack echoue a lancer ses processus Node annexes (PostCSS, loaders :
+  // "creating new process / node process exited before we could connect",
+  // 15/10/2026), y compris sans aucune regle personnalisee. webpack traite
+  // PostCSS en interne. Meme choix que sur les autres sites du client.
+  webpack: (config, { webpack }) => {
+    // Audit Lighthouse "Ancien JavaScript" : Next.js embarque d'office
+    // polyfill-module (Array.prototype.at/flat/flatMap, Object.fromEntries/hasOwn,
+    // trimStart/trimEnd...), tous Baseline depuis Safari 15.4. Remplace par un
+    // module vide. A retirer si un support iOS < 15.4 devient necessaire.
+    config.plugins.push(
+      new webpack.NormalModuleReplacementPlugin(
+        /[\/]polyfills[\/]polyfill-module$/,
+        path.join(process.cwd(), "lib", "empty-module.js")
+      )
+    );
+    return config;
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
