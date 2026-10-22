@@ -97,17 +97,17 @@ export default async function Home() {
         {(h.credit ?? CREDIT_DEFAULT) && <span className="hero-credit">{h.credit ?? CREDIT_DEFAULT}</span>}
         <div className="wrap inner">
           <div className="rv in">
-            <p className="eyebrow">{h.eyebrow}</p>
-            <h1>{h.title}</h1>
-            <p className="sub">{h.subtitle}</p>
+            <p className="eyebrow" data-edit="hero.eyebrow">{h.eyebrow}</p>
+            <h1 data-edit="hero.title">{h.title}</h1>
+            <p className="sub" data-edit="hero.subtitle">{h.subtitle}</p>
             <div className="plats">
               <div className="lab">Diffusé sur</div>
               <div className="row"><span>Airbnb</span><span>Booking.com</span><span>Abritel</span><span>Leboncoin</span><span>HomeToGo</span><span>Expedia</span></div>
             </div>
             {/* CTA mobile (le formulaire inline est masqué sur mobile) */}
             <div className="hero-cta">
-              <a href={h.ctaPrimary?.href ?? "#estimer"} className="btn btn-g">{h.ctaPrimary?.label ?? "Estimer mes revenus"}</a>
-              <a href={h.ctaSecondary?.href ?? "#services"} className="btn btn-o" style={{ color: "#fff" }}>{h.ctaSecondary?.label ?? "Découvrir nos services"}</a>
+              <a href={h.ctaPrimary?.href ?? "#estimer"} className="btn btn-g"><span data-edit="hero.ctaPrimary.label">{h.ctaPrimary?.label ?? "Estimer mes revenus"}</span></a>
+              <a href={h.ctaSecondary?.href ?? "#services"} className="btn btn-o" style={{ color: "#fff" }}><span data-edit="hero.ctaSecondary.label">{h.ctaSecondary?.label ?? "Découvrir nos services"}</span></a>
             </div>
             <div className="trust-mini"><span className="st">★★★★★</span><b style={{ color: "#fff" }}>4,9 / 5</b><span>· propriétaires accompagnés depuis 2018</span></div>
           </div>

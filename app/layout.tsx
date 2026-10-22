@@ -1,3 +1,4 @@
+import InlineEditor from "./components/InlineEditor";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
@@ -36,6 +37,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
         <RevealInit />
         {children}
         <LeadPopup popup={cfg.popup ?? FALLBACK.popup} />
+        <InlineEditor />
       </body>
     </html>
   );

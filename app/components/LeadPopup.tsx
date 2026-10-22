@@ -6,6 +6,13 @@ import { resolveImageUrl } from "../lib/images";
 
 const KEY = "cledici_popup";
 
+// Dans l'éditeur direct de l'admin (iframe + ?edit=1), on n'affiche pas les surcouches
+// (popup, cookies) : elles masqueraient le contenu à éditer.
+const inEditor = () =>
+  typeof window !== "undefined" &&
+  window.self !== window.top &&
+  new URLSearchParams(window.location.search).get("edit") === "1";
+
 type PopupCfg = {
   enabled?: boolean | string;
   mode?: "capture" | "magnet";
@@ -39,7 +46,7 @@ export default function LeadPopup({ popup }: { popup?: PopupCfg }) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    if (!enabled) return;
+    if (!enabled || inEditor()) return;
     try {
       const seen = localStorage.getItem(KEY);
       if (seen && Date.now() - Number(seen) < days * 864e5) return;
