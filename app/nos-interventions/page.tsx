@@ -8,7 +8,7 @@ import { getConfig, FALLBACK } from "../lib/config";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Gestion locative montagne — Valmorel & Le Grand Domaine",
+  title: "Gestion locative montagne : Valmorel et Le Grand Domaine",
   description: "Gestion locative montagne : confiez votre résidence secondaire à Valmorel, Doucy, Saint-François-Longchamp ou Les Avanchers. Revenus toute l'année, bien assuré, expertise locale depuis 2018.",
   alternates: { canonical: "/nos-interventions" },
 };

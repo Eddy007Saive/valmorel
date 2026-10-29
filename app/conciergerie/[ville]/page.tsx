@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ ville: st
   const c = cities.find((x) => x.slug === ville);
   if (!c) return {};
   return {
-    title: c.seoTitle ?? `Conciergerie à ${c.name} — Airbnb & location saisonnière`,
+    title: c.seoTitle ?? `Conciergerie à ${c.name} : Airbnb et location saisonnière`,
     description: c.seoDescription ?? `${c.intro} Cledici, expert de l'habitat touristique de montagne depuis 2018.`,
     alternates: { canonical: `/conciergerie/${c.slug}` },
   };
@@ -31,7 +31,7 @@ export default async function VillePage({ params }: { params: Promise<{ ville: s
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      name: `Cledici Conciergerie — ${c.name}`,
+      name: `Cledici Conciergerie à ${c.name}`,
       description: c.intro,
       image: c.image,
       priceRange: "€€€",
